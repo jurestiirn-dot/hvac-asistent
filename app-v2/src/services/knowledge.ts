@@ -3,7 +3,8 @@ export type GlobalAnswer = {
   citations: { title: string; url: string }[]
 }
 
-const BASE = import.meta.env.VITE_KNOWLEDGE_API_BASE || 'http://localhost:3001'
+// Use relative path if no env override; Vite proxies /api -> localhost:3001 in dev
+const BASE = import.meta.env.VITE_KNOWLEDGE_API_BASE || ''
 
 export async function askGlobalKnowledge(query: string, k = 5): Promise<GlobalAnswer> {
   const endpoint = `${BASE}/api/knowledge/ask`

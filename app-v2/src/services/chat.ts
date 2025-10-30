@@ -1,5 +1,6 @@
 // Chat service for Gemini Flash conversational mode
-const BASE = import.meta.env.VITE_KNOWLEDGE_API_BASE || 'http://localhost:3001'
+// Use relative path if no env override; Vite proxies /api -> localhost:3001 in dev
+const BASE = import.meta.env.VITE_KNOWLEDGE_API_BASE || ''
 
 export interface ChatMessage {
   role: 'user' | 'assistant'

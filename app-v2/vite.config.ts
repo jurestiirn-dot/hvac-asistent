@@ -3,7 +3,19 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  server: { port: 5173 },
+  server: {
+    port: 5173,
+    // Allow external tunnels (ngrok, etc.). For dev only.
+    allowedHosts: true,
+    proxy: {
+      // Proxy API calls to the local knowledge/chat server on 3001
+      '/api': {
+        target: 'http://localhost:3001',
+        changeOrigin: true,
+        secure: false,
+      },
+    },
+  },
   build: {
     // Raise warning threshold; this only affects warnings, not output size
     chunkSizeWarningLimit: 1500,

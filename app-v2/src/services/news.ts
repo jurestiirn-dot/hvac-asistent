@@ -108,11 +108,8 @@ export function markCategoryRead(category: 'annex1' | 'fda' | 'gxp') {
 // Fetch news from backend proxy and merge with local storage
 export async function refreshFromRemote(sources: string[] = []): Promise<NewsItem[]> {
   try {
-    const backendUrl = (
-      (import.meta as any)?.env?.VITE_API_BASE_URL ||
-      // If deployed behind the same origin with rewrites, allow relative /api
-      (typeof window !== 'undefined' ? window.location.origin : 'http://localhost:3001')
-    ).replace(/\/$/, '')
+    // Use relative path in dev (Vite proxy); or env override in prod
+    const backendUrl = ((import.meta as any)?.env?.VITE_API_BASE_URL || '').replace(/\/$/, '')
     
     // Fetch each category separately to get 10 items per category
     const categories = sources.length > 0 ? sources : ['annex1', 'fda', 'gxp']

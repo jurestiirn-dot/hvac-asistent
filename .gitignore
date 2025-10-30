@@ -38,7 +38,10 @@ blob-report/
 .netlify/
 
 # Strapi / uploads / temp
-backend/
+# Backend (Strapi)
+# Include the root backend project in this repo so GitHub imports have full dependencies
+# If you prefer a separate repo or submodule, remove this block and add submodule instead.
+# backend/
 backend-strapi/.tmp/
 backend-strapi/.cache/
 backend-strapi/node_modules/

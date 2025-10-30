@@ -4,28 +4,44 @@ This is a fresh Vite + React + TypeScript scaffold for the HVAC Asistent rewrite
 
 Quick start:
 
-1. cd app-v2
-2. npm install
-3. npm run dev
+1. Install frontend: `cd app-v2 && npm install`
+2. Install & start backend: `cd ../backend && npm install && npm run proxy`
+3. Start frontend (in another terminal): `cd app-v2 && npm run dev`
+4. Access at: http://localhost:5173
 
 Notes:
 - The scaffold is minimal. We'll port lesson content (Annex1) from the old `src` into `app-v2/src/content` as JSON/MDX.
 - For production builds run `npm run build`.
 
-Strapi integration (optional)
------------------------------
-This frontend supports a Strapi backend. To connect:
+Backend proxy for AI chat and external feeds
+--------------------------------------------
+This application requires the Node.js backend to provide:
+- AI chat via Google Gemini (in `backend/proxy.js`)
+- RSS feed aggregation and news endpoints
+- Azure Cosmos DB vector search for regulatory documents
 
-1. Provision Strapi (local quickstart):
-	npx create-strapi-app@latest backend --quickstart
-2. Copy the files in `backend-strapi/src/api` into your Strapi project's `src/api` to create the Lesson/Quiz/Question/QuizAttempt content types, or inspect `backend-strapi` for schema files.
-3. Start Strapi and create an admin user via http://localhost:1337/admin.
-4. Set environment variable in `app-v2/.env` (create it):
-	VITE_STRAPI_URL=http://localhost:1337
+**Local development:**
+1. Backend expects API keys in `.env`:
+   - GOOGLE_GEMINI_API_KEY (free at https://aistudio.google.com/app/apikey)
+   - Optional: Azure Cosmos DB credentials for vector search
+2. Start backend: `cd backend && npm install && npm run proxy`
+3. Backend runs on http://localhost:3001; frontend proxy forwards `/api` calls in dev
 
-5. Restart the frontend (`npm run dev`). The app will use the Strapi API for lessons and quiz attempts. If `VITE_STRAPI_URL` is not set, the frontend runs with mock data and stores attempts in localStorage.
+**Ngrok/public tunnels:**
+- Vite dev server now allows external hosts (`allowedHosts: 'any'`) so ngrok URLs work.
+- All AI API calls are server-side; no client keys exposed.
+- Run ngrok: `ngrok http 5173`
+- Access the frontend at the ngrok URL; backend remains on localhost:3001 (proxied).
 
-Security note: Do NOT commit admin passwords or secrets into this repository. Create the Strapi admin user in the admin UI and keep credentials private.
+Strapi (optional, for content management)
+------------------------------------------
+Strapi backend (under `backend/`) can optionally manage lesson content and quiz attempts. By default, the app runs with mock JSON data and localStorage. To enable Strapi:
+
+1. Set `VITE_STRAPI_URL=http://localhost:1337` in `app-v2/.env`
+2. Start Strapi: `cd backend && npm run dev`
+3. Create admin user at http://localhost:1337/admin
+
+Security note: Do NOT commit API keys or credentials to this repository.
 
 Quick steps to create teacher/student accounts (Strapi Admin UI):
 
