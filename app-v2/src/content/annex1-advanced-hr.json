@@ -1,0 +1,1332 @@
+[
+  {
+    "id": 112,
+    "title": "Ispitivanje punjenja medija - simulacija aseptičkog procesa",
+    "slug": "media-fill-test",
+    "annexReference": "DPP Dodatak 1, Poglavlje 8, ISO 13408-1",
+    "category": "Validacija",
+    "developmentAndExplanation": "**TEST PUNJENJA MEDIJA - ZLATNI STANDARD VALIDACIJE ASEPTIČNE PROIZVODNJE**\n\n**ŠTO JE MEDIA FILL TEST?**\n\nTest punjenja medija najkritičniji je postupak validacije u aseptičnoj proizvodnji. Umjesto pravim lijekom, ampule ili bočice pune se sterilnom mikrobiološkom podlogom za kulturu (obično TSB – Tryptic Soy Broth) koja omogućuje rast mikroorganizama.\n\n**BITNO OD TESTA:**\n\nAko dođe do BILO KAKVE kontaminacije tijekom aseptičkog procesa, mikroorganizam u mediju kulture će se umnožiti i medij kulture će se promijeniti iz bistrog u mutni (zamućenost). To omogućuje vizualno otkrivanje najmanjeg onečišćenja.\n\n**REGULATORNI ZAHTJEVI:**\n\n→ **Prihvatljiva razina kontaminacije**: Manje od 0,1% (1 na 1000 jedinica)\n→ **Minimalni broj jedinica**: 3.000 jedinica za početnu validaciju, 5.000-10.000 za velike serije\n→ **Učestalost**: Dva puta godišnje za svaku aseptičnu liniju i smjenski tim\n→ **Trajanje**: Simulacija mora trajati jednako dugo ili dulje od najduže proizvodne serije\n\n**NAČELA PROVEDBE:**\n\n**1. SIMULACIJA U NAJGOREM SLUČAJU**\n\nTest mora uključivati ​​sve kritične korake:\n• Predpriprema komponenti (pranje, sterilizacija)\n• Prijenos materijala u aseptičnu zonu\n• Postavljanje i priprema opreme\n• Punjenje (uključujući prekide ako do njih dođe)\n• Zatvaranje i stezanje\n• Prijenos iz aseptične zone\n• Vizualni pregled\n\n**2. INKUBACIJA MEDIJA**\n\n→ Sve napunjene jedinice se inkubiraju na 20-25°C 7 dana, zatim 30-35°C dodatnih 7 dana\n→ To omogućuje rast i mezofilnih i termofilnih mikroorganizama\n→ Dnevni vizualni pregled svih jedinica\n\n**3. INTERVENCIJE I POREMEĆAJI**\n\nTest mora simulirati:\n• Početak i kraj proizvodne smjene\n• Zamjena komponenti\n• Aseptični priključak cijevi\n• Dodavanje materijala tijekom procesa\n• Ulazak osoblja u kritičnu zonu (po potrebi)\n• Manje smetnje opreme\n\n**TUMAČENJE REZULTATA:**\n\n**0 kontaminiranih jedinica** = IZVRSAN rezultat → Proces pod kontrolom\n**1 kontaminirana jedinica (0,03%)** = PRIHVATLJIVO → Istraživanje uzroka, korektivna radnja\n**2+ kontaminirane jedinice** = NEPRIHVATLJIVO → Ponovno testiranje, temeljita istraga, provjera nije uspjela\n\n**VAŽNO**: Čak i 1 kontaminirana jedinica zahtijeva potpunu mikrobiološku identifikaciju i ispitivanje mogućeg izvora.\n\n**ČESTI UZROCI KVAROVA:**\n\n• **Greške osoblja**: Nepravilna tehnika, dodirivanje kritičnih površina, kršenje aseptičkih pravila\n• **Kvarovi opreme**: Propuštanje brtvila, smetnje laminarnog protoka\n• **Neadekvatno čišćenje**: Ostaci iz prethodnih serija\n• **Okoliš**: Smetnje u HVAC sustavu, prekomjerna vlažnost\n• **Kultura**: prethodna kontaminacija medija kulture (pozitivan kontrolni test je stoga obavezan)\n\n**STRATEGIJA USPJEHA:**\n\n✓ **Intenzivna obuka** osoblja posebno za medije\n✓ **Lažna trčanja** (vježbe) prije stvarnog testa\n✓ **Video snimanje** cijelog testa za kasniju analizu\n✓ **Promatrač** (osiguranje kvalitete) prisutan cijelo vrijeme\n✓ **Mikrobiološko praćenje** okoliša tijekom testa (povećana učestalost)\n✓ **Dokumentacija** svake intervencije s točnim vremenom\n\n**KAKO RADI JASLICE?**\n\nTSB (Tryptic Soy Broth) sadrži:\n• Pepton – izvor dušika\n• Soja – izvor ugljika\n• NaCl - osmotska stabilnost\n• pH 7,3 ± 0,2\n\nJedan mikroorganizam (CFU - Colony Forming Unit) može proizvesti milijune potomaka u 24-48 sati, uzrokujući vidljivo zamućenje. Ovo je iznimno osjetljiva metoda detekcije.",
+    "practicalChallenges": "**IZAZOVI PRILIKOM IZVOĐENJA TESTOVA ISPUNJAVANJA MEDIJA:**\n\n**1. PSIHOLOŠKI PRITISAK NA OSOBLJE**\n\n• Osoblje je pod velikim stresom - \"sve su oči uprte u njih\"\n• Paradoks: ponašanje tijekom testa često je BOLJE nego tijekom redovne proizvodnje\n• Stoga je važno simulirati normalne uvjete i stres\n• Rješenje: Prijavite test kao \"vježbu\", napravite nenajavljeni pravi test\n\n**2. TROŠKOVNI ASPEKT**\n\n• Jedan test ispune medija košta 10.000-50.000 EUR (medij za kulturu, rad, oprema, analiza)\n• U slučaju kvara: dodatni trošak ponovnog testiranja, obustava proizvodnje\n• Vremenska obveza: 2-4 tjedna (priprema → implementacija → inkubacija → analiza)\n\n**3. LAŽNO POZITIVNI REZULTATI**\n\n**Problem**: Do kontaminacije NIJE došlo tijekom procesa, ali:\n• Tijekom inkubacije (loše zatvorene jedinice)\n• U mediju kulture prije punjenja (pogreška proizvođača)\n• Tijekom vizualnog pregleda (otvor za dodatni pregled)\n\n**Otopina**:\n• Testovi kontrole sterilnosti medija kulture\n• Test integriteta zatvaranja spremnika (CCIT)\n• Inkubacija u kontroliranim uvjetima\n\n**4. SIMULACIJA REALNIH UVJETA**\n\n• Medij kulture ima drugačija fizikalna svojstva od pravog proizvoda (viskoznost, pjenjenje)\n• Teško je simulirati sve smetnje koje se događaju u stvarnosti\n• Operateri su svjesni da rade test, a ne stvarnu proizvodnju\n\n**5. STATISTIČKA RELEVANTNOST**\n\n• Čak i s 3000 jedinica, možemo \"promašiti\" rijetke događaje kontaminacije\n• Teoretski: 99,9% uspjeha u testu ne jamči 99,9% u proizvodnji\n• Interval pouzdanosti je širok za mali broj jedinica\n\n**6. IZDRŽLJIVOST I UMOR**\n\n• Punjenje medija može trajati 8-16 sati neprekidno\n• Fizički i psihički zamor osoblja u potpunoj aseptičkoj opremi\n• Rizik od pogrešaka raste s vremenom\n• Rješenje: planirane pauze, rotacija osoblja (ako je to dio procesa)\n\n**7. TUMAČENJE NENORMALNIH REZULTATA**\n\n• Što ako je kontaminirana jedinica na početku serije? (postavka opreme)\n• Što ako je kontaminirana jedinica u sredini šarže? (Slučajna pogreška)\n• Što ako su kontaminirane samo posljednje jedinice? (Umor, pogoršanje stanja)\n\n**8. RUKOVANJE NEUSPEŠNIM TESTOVIMA**\n\n• Pritisak uprave za \"brzo ponovno testiranje\"\n• Potrebna je temeljita RCA (analiza uzroka).\n• Mogu proći tjedni ili mjeseci da se utvrdi pravi uzrok\n• U međuvremenu proizvodnja prestaje → financijski gubici\n\n**9. TEHNIČKI PROBLEMI S KULTUROM**\n\n• Medij kulture može spontano promijeniti boju (bez bakterija) zbog:\n  - Oksidacije\n  - Izlaganje svjetlu\n  - Ekstremne temperature\n• Razlikovanje između rasta bakterija i kemijske promjene može biti teško\n\n**10. REGULATORNA OČEKIVANJA**\n\n• FDA, EMA, WHO imaju malo drugačije smjernice\n• Inspektori različito tumače rezultate\n• Trend: Sve stroži zahtjevi (neki zahtijevaju 0 kontaminacije)",
+    "improvementIdeas": "**SUVREMENE INOVACIJE I BUDUĆNOST TESTIRANJA MEDIJSKE ISPUNJENOSTI:**\n\n→ **Automatizirani vizualni pregled s umjetnom inteligencijom**: kamere s algoritmima strojnog učenja za detekciju zamućenosti\n→ **Robotsko izvođenje testova**: Uklanjanje ljudskog faktora - robot svaki put izvodi test na identičan način\n→ **Kontinuirano popunjavanje medija**: Manji testovi češće umjesto velikih polugodišnjih\n→ **Fluorescentna detekcija**: Medij kulture s fluorescentnim indikatorima za bržu detekciju\n→ **Praćenje u stvarnom vremenu**: Senzori zamućenosti već tijekom inkubacije\n→ **Trening virtualne stvarnosti**: VR simulacija medija ispunjava za bolju pripremu\n→ **Brze mikrobiološke metode (RMM)**: ATP bioluminiscencija, protočna citometrija za brže rezultate\n→ **Prediktivna analitika**: Analiza povijesnih podataka za predviđanje vjerojatnosti uspjeha\n→ **Tehnologija izolacije**: Potpuna izolacija smanjuje rizik od kontaminacije",
+    "visualComponent": "MediaFillSimulation",
+    "quizQuestions": [
+      {
+        "question": "Koja je MAKSIMALNA prihvatljiva razina kontaminacije u testu punjenja medija?",
+        "options": [
+          "0% - nijedna jedinica ne smije biti kontaminirana",
+          "Manje od 0,1% (1 na 1000 jedinica)",
+          "Manje od 1% (10 na 1000 jedinica)",
+          "Manje od 5%"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Prema DPP dodatku 1 smjernicama, prihvatljiva razina kontaminacije je manja od 0,1%, što znači manje od 1 kontaminirane jedinice na 1000 napunjenih jedinica. Ovo je iznimno strog kriterij, jer aseptična proizvodnja mora biti praktički bez grešaka.",
+        "hint": "💡 Razmislite: ako bi 1% bio prihvatljiv, to bi značilo 10 kontaminiranih jedinica na 1000 - to je neprihvatljivo visoko za aseptičnu proizvodnju!"
+      },
+      {
+        "question": "Koja je GLAVNA svrha testa ispunjavanja medija?",
+        "options": [
+          "Ispitivanje kvalitete medija kulture",
+          "Validacija aseptičkog procesa i sposobnosti osoblja za sprječavanje mikrobiološke kontaminacije",
+          "Obuka novih kadrova",
+          "Ispitivanje opreme za punjenje"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Test punjenja medija zlatni je standard za provjeru cjelokupnog aseptičnog procesa. Pokazuje da kombinacija osoblja, opreme, objekata i postupaka osigurava sterilni proizvod. Test simulira stvarnu proizvodnju i otkriva svaku slabu točku u procesu.",
+        "hint": "🔍 Razmislite: Zašto biste punili medij kulture umjesto pravog lijeka? Budući da medij kulture omogućuje RAST mikroorganizama i time vizualnu detekciju kontaminacije."
+      },
+      {
+        "question": "Koliko dugo se jedinice za punjenje medija inkubiraju?",
+        "options": [
+          "24 sata na 37°C",
+          "7 dana na 20-25°C, zatim 7 dana na 30-35°C (ukupno 14 dana)",
+          "3 dana na sobnoj temperaturi",
+          "10 dana samo na 37°C"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Dvostruka inkubacija omogućuje rast različitih vrsta mikroorganizama: prvo mezofilnih (20-25°C) zatim termofilnih (30-35°C). Ukupno 14 dana daje dovoljno vremena za rast čak i spororastućih mikroorganizama. Ovo je regulatorni zahtjev.",
+        "hint": "🌡️ Savjet: Različiti mikroorganizmi najbolje rastu na različitim temperaturama - test mora obuhvatiti SVE moguće kontaminante."
+      },
+      {
+        "question": "Što znači pristup u 'najgorem slučaju' u testu ispunjavanja medija?",
+        "options": [
+          "Ispitivanje se provodi u noćnoj smjeni",
+          "Simulacija najgorih mogućih uvjeta i svih kritičnih intervencija koje se mogu dogoditi tijekom proizvodnje",
+          "Ispitivanje se izvodi s najstarijom opremom",
+          "Ispitivanje se provodi zimi"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Najgori slučaj znači da test uključuje SVE kritične korake i intervencije koje povećavaju rizik: početak/kraj smjene, promjena komponenti, ulazak osoblja, maksimalno trajanje. Ako test prođe najgore uvjete, proći će i normalne.",
+        "hint": "💭 Logika: Ako proces funkcionira u NAJGORIM uvjetima, onda sigurno funkcionira u normalnim uvjetima."
+      },
+      {
+        "question": "Koliko često treba provoditi test punjenja medija za svaku aseptičnu liniju?",
+        "options": [
+          "Jednom godišnje",
+          "Dva puta godišnje (svakih 6 mjeseci) za svaku liniju i smjenu",
+          "Jednom u 5 godina",
+          "Samo pri početnoj provjeri valjanosti"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Regulatorne smjernice zahtijevaju periodičnu revalidaciju s testovima punjenja medija najmanje dva puta godišnje. To osigurava da proces ostaje pod kontrolom unatoč promjenama u osoblju, sezoni, opremi. Svaka smjena i linija moraju se testirati zasebno.",
+        "hint": "📅 Razmislite: mijenja se osoblje, oprema se troši, sezona utječe na okoliš - zašto bi jedan test bio dovoljan na početku?"
+      },
+      {
+        "question": "Što je TSB i zašto se koristi u testovima ispunjavanja medija?",
+        "options": [
+          "Toxic Substance Barrier - zaštita od otrova",
+          "Triptična sojina juha - univerzalni mikrobiološki medij za kulturu koji omogućuje rast širokog spektra mikroorganizama",
+          "Tehnički sigurnosni odbor - sigurnosni protokol",
+          "Temperature Sensing Buffer - temperaturni međuspremnik"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "TSB (Tryptic Soy Broth) je bogata hranjiva podloga koja podržava rast gotovo svih klinički relevantnih bakterija i gljivica. Proziran je, pa je zamućenje uzrokovano rastom bakterija lako uočiti vizualno. Ima široku prihvaćenost u farmaceutskoj industriji.",
+        "hint": "🧫 Razmislite: trebamo medij kulture koji će omogućiti rast BILO KAKVIH mikroorganizama, a ne samo određenih."
+      },
+      {
+        "question": "Ako je 1 jedinica od 5000 kontaminirana u testu punjenja medija, koji je rezultat?",
+        "options": [
+          "Test nije uspio - potrebno je ponovno testiranje",
+          "Test je prihvatljiv (0,02%), ali je potrebno temeljito ispitivanje uzroka",
+          "Test je odličan - ništa nije potrebno",
+          "Test je nevažeći"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "1/5000 = 0,02% što je MANJE od 0,1% (prihvatljiva granica). Test je formalno PRIHVAĆEN, ali SVAKA kontaminacija zahtijeva: mikrobiološku identifikaciju, RCA (analizu uzroka), korektivne radnje i dokumentaciju. Cilj je 0 kontaminacija.",
+        "hint": "⚖️ Razmislite: ako je granica 0,1% (1/1000), koliko je 1/5000? Manji ili veći?"
+      },
+      {
+        "question": "Što treba sadržavati dokumentacija testa ispunjavanja medija?",
+        "options": [
+          "Samo konačni rezultat (broj kontaminiranih jedinica)",
+          "Svaki korak, intervencija, vrijeme, uključeno osoblje, parametri okoliša, odstupanja, opažanja",
+          "Samo popis osoblja",
+          "Samo fotografije"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Test ispunjavanja medija kritičan je GMP dokument. Dokumentacija mora biti sveobuhvatna i omogućiti rekonstrukciju cijelog testa. Treba sadržavati: zapis serije, vrijeme svakog koraka, imena operatera, parametre (temperatura, tlak, protok zraka), sve smetnje, opažanja osiguranja kvalitete, rezultate inkubacije. To je osnova za regulatorne inspekcije.",
+        "hint": "📋 Razmislite: ako je inspektor želio znati što se točno dogodilo u 10:37 na dan testiranja - možete li odgovoriti?"
+      },
+      {
+        "question": "Zašto je video snimanje testa ispunjavanja medija korisno?",
+        "options": [
+          "U marketinške svrhe",
+          "Za naknadnu analizu tehnika, identifikaciju grešaka, obuku i dokaz ispravne implementacije",
+          "Nije korisno – samo stvara dodatne troškove",
+          "Samo za zabavu osoblja"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Video dokumentacija omogućuje: detaljnu analizu kretanja osoblja i tehnika, identifikaciju neoptimalnih praksi, dokaz ispravne implementacije za regulatore, materijal za obuku novih operatera, mogućnost revizije ako dođe do kontaminacije. Sve više tvrtki koristi snimanje s više kamera.",
+        "hint": "🎥 Razmislite: da je test pao, kako biste inače saznali ŠTO se točno dogodilo u to određeno vrijeme?"
+      },
+      {
+        "question": "Što je 'test poticanja rasta' i zašto je važan?",
+        "options": [
+          "Test rasta biljaka",
+          "Test koji potvrđuje da medij kulture omogućuje rast mikroorganizama - pozitivna kontrola valjanosti testa punjenja medija",
+          "Novi test za napredovanje zaposlenika",
+          "Test brzine punjenja"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Test poticanja rasta je POZITIVNA KONTROLA: mi namjerno inokuliramo medij kulture s poznatim mikroorganizmima (npr. Bacillus subtilis, Candida albicans) i provjeravamo da oni stvarno rastu. Ovo dokazuje da ako NIJE bilo rasta u punjenju medija, to je bilo zato što NIJE bilo kontaminacije, a ne zato što medij nije bio u stanju podržati rast. Bez ovog testa ispunjavanja medija rezultati nisu valjani.",
+        "hint": "🔬 Logika: Kako možete vjerovati negativnom rezultatu (bez rasta) ako ne provjerite bi li medij kulture uopće dopuštao rast?"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "title": "Ponašanje osoblja i aseptična tehnika",
+    "slug": "osebje-asepticna-tehnika",
+    "annexReference": "DPP Dodatak 1, Poglavlje 7",
+    "category": "Higiena",
+    "developmentAndExplanation": "**LJUDSKI FAKTOR - 80% SVIH ZAGAĐENJA**\n\nOsoblje je najveći izvor kontaminacije u aseptičnoj proizvodnji. Ljudsko tijelo kontinuirano oslobađa:\n• **1 milijun čestica/minuti** u mirovanju\n• **5-10 milijuna čestica/minuti** pri hodu\n• **100.000-1.000.000 CFU/dan** (bakterije i gljivice)\n\n**KLJUČNA ASEPTIČNA PRAVILA:**\n\n✓ **Nikad ne radite iznad kritične zone** - čestice padaju\n✓ **Minimalno kretanje** - svaki pokret podiže čestice\n✓ **Nemojte govoriti čak ni u aseptičnom području** - kapi iz usta\n✓ **Spori, kontrolirani pokreti** - sprječavanje turbulencije\n✓ **Nikad ne dirajte sterilne površine** - čak ni rukama u rukavicama\n✓ **Ispravan položaj ruke** - uvijek ispod razine kritične zone\n✓ **Ne okrećite leđa kritičnoj zoni** - odijelo oslobađa čestice\n✓ **Planirajte pokrete unaprijed** - smanjite broj manipulacija\n\n**PSIHOLOGIJA ASEPTIČNOG RADA:**\n\n• **Fokus i koncentracija**: minimalna distrakcija, meditativna koncentracija\n• **Disciplina**: Slijepo poštivanje SOP-a, a ne improvizacija\n• **Strah od pogrešaka**: Konstruktivan stres, a ne paralizirajući\n• **Ponos na poslu**: Svijest o važnosti sigurnosti pacijenata",
+    "practicalChallenges": "**GLAVNI IZAZOVI:**\n\n• **Rutina**: Nakon 100 puta iste procedure može doći do \"autopilota\" i pogrešaka\n• **Umor**: 8-satne smjene u punoj zaštitnoj opremi\n• **Vrućina**: Zaštitna oprema uzrokuje pregrijavanje\n• **Ograničena vidljivost**: Vizir/maska ​​ograničava periferni vid\n• **Vremenski pritisak**: Proizvodnja ima rokove, što dovodi do žurbe\n• **Neudobnost**: rukavice za višekratnu upotrebu, nesavitljiva odjeća",
+    "improvementIdeas": "→ **Nosivi senzori**: Senzori pokreta za povratne informacije u stvarnom vremenu o ispravnosti tehnika\n→ **AR upute**: Prikaži korake u stvarnom vremenu putem pametnih naočala\n→ **Biofeedback**: Mjerenje stresa i prilagodba uvjeta rada\n→ **Igrifikacija treninga**: Igrifikacija učenja aseptičkih tehnika\n→ **Egzoskelet**: Podrška za smanjenje fizičkog napora\n→ **Ergonomski dizajn**: Bolja zaštitna oprema za udobnost",
+    "visualComponent": "PersonnelBehavior",
+    "quizQuestions": [
+      {
+        "question": "Koliko otprilike čestica čovjek otpusti u minuti dok miruje?",
+        "options": [
+          "10.000",
+          "100.000",
+          "1 milijun",
+          "10 milijuna"
+        ],
+        "correctAnswerIndex": 2,
+        "explanation": "U mirovanju, osoba oslobađa oko 1 milijun čestica u minuti. Pri kretanju se taj broj povećava na 5-10 milijuna čestica u minuti, stoga je važno minimizirati kretanje u kritičnim zonama.",
+        "hint": "💡 Razmislite: čak i u potpunom mirovanju, mi smo 'tvornica dijelova' - zašto? Stanice kože se neprestano ljušte!"
+      },
+      {
+        "question": "Zašto NE smijete raditi iznad kritične zone (iznad izloženog proizvoda)?",
+        "options": [
+          "Jer ne vidiš dovoljno dobro",
+          "Budući da gravitacija uzrokuje da čestice padaju izravno na proizvod",
+          "Jer je neugodno",
+          "Jer tako piše u SOP-u"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Gravitacija uzrokuje da čestice i mikroorganizmi padaju prema dolje. Ako radite iznad kritične zone, sve čestice s vaše odjeće, ruku, tijela padaju direktno na sterilni proizvod. Stoga uvijek radite sa strane ili odozdo.",
+        "hint": "🍎 Gravitacija: Što pada? Sve! Čak i bakterije na česticama vaše odjeće."
+      },
+      {
+        "question": "Koja je ISPRAVNA tehnika kretanja u aseptičnoj zoni?",
+        "options": [
+          "Brzi, učinkoviti pokreti za uštedu vremena",
+          "Polagani, kontrolirani, planirani pokreti s minimalnim turbulencijama",
+          "Normalno kretanje kao vani",
+          "Pokreti nisu bitni"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Polagani, kontrolirani pokreti ključni su za sprječavanje da turbulencija ometa laminarni protok zraka. Svaki pokret treba planirati unaprijed kako bi se smanjio broj manipulacija i pokreta. Brzi pokreti stvaraju vrtloge koji podižu čestice.",
+        "hint": "🌊 Zamislite da se krećete pod vodom - polako i kontrolirano, bez vrtloga."
+      },
+      {
+        "question": "Zašto je govor u aseptičnom prostoru opasan?",
+        "options": [
+          "Jer smetate drugima",
+          "Jer iz usta dolaze kapljice s bakterijama koje mogu kontaminirati proizvod",
+          "Zato što trošite kisik",
+          "Nije opasno"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Kada govorite, iz usta vam izlaze mikrokapljice (aerosoli) ispunjene bakterijama iz usne šupljine. Čak i s maskom, te kapljice mogu prodrijeti ili zaobići masku. Stoga je komunikacija u kritičnim zonama ograničena na ono što je prijeko potrebno.",
+        "hint": "🗣️ Kada govorite, 'pljujete' mikroskopske kapljice - čak i ako ih ne možete vidjeti ili osjetiti!"
+      },
+      {
+        "question": "Koji je GLAVNI razlog za dvostruke rukavice?",
+        "options": [
+          "Toplina za ruke",
+          "Drugi sloj zaštite ako se prvi probije + mogućnost vanjske dezinfekcije",
+          "Bolje prianjanje",
+          "Moda"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Dvostruke rukavice omogućuju: (1) dodatni sloj zaštite ako je vanjska rukavica probušena, (2) mogućnost dezinfekcije vanjske rukavice bez kontaminacije unutarnje, (3) vizualnu potvrdu (različite boje) ako dođe do proboda. Mijenjanje vanjske rukavice je brže od ponovnog oblačenja.",
+        "hint": "🧤 Što ako se rukavica probuši? Drugi sloj vas spašava! Osim toga, izvana možete dezinficirati bez rizika."
+      },
+      {
+        "question": "Zašto je važno planirati pokrete UNAPRIJED u aseptičnoj zoni?",
+        "options": [
+          "Da uštedimo vrijeme",
+          "Kako bi se smanjio broj manipulacija, pokreta, a time i rizik od kontaminacije",
+          "Da izgleda profesionalno",
+          "Nema veze"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Svaki pokret, svaka manipulacija, svaki doseg povećava rizik: (1) više čestica se oslobađa, (2) više mogućnosti za pogrešku, (3) više turbulencije u protoku zraka. Planiranje unaprijed omogućuje optimalan slijed radnji uz minimalno kretanje.",
+        "hint": "🎯 Šahovski princip: Planirajte 3 poteza unaprijed. Svaki dodatni pokret = dodatni rizik."
+      },
+      {
+        "question": "Što je 'Princip prvog zraka'?",
+        "options": [
+          "Tko prvi dođe prvi poslužen",
+          "Kritična zona mora biti prva izložena filtriranom zraku ispred svih prepreka",
+          "Prvi udah je važan",
+          "Zračni filter je prvi element"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Načelo prvog zraka znači da sterilni proizvod mora primiti PRVI, nefiltrirani zrak izravno iz HEPA filtra PRIJE nego zrak dođe u kontakt s bilo kojom preprekom (osoblje, oprema). Time se osigurava najviša kvaliteta zraka iznad kritične zone.",
+        "hint": "🌬️ Najbolji zrak je PRVI zrak iz filtera - čim izađe, bez dodirivanja bilo čega."
+      },
+      {
+        "question": "Zašto SAMO određeni broj ljudi može ući u aseptičnu zonu u isto vrijeme?",
+        "options": [
+          "Zbog prostora",
+          "Jer svaka dodatna osoba povećava djelomično opterećenje, toplinu, CO2 i rizik od kontaminacije",
+          "Zbog regulatora",
+          "Nema ograničenja"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Svaka dodatna osoba u zoni: (1) Otpušta 1+ milijun čestica/min, (2) Povećava temperaturu (toplina tijela), (3) Proizvodi CO2, (4) Stvara turbulencije, (5) Povećava vjerojatnost pogrešaka i sudara. HVAC sustav ima ograničen kapacitet.",
+        "hint": "➕ Više ljudi = Više čestica + Više topline + Više kretanja = PUNO veći rizik!"
+      },
+      {
+        "question": "Što je 'puzanje nosača' i zašto je opasno?",
+        "options": [
+          "Vrsta bakterije",
+          "Postupno popuštanje discipline i aseptičkih standarda tijekom vremena",
+          "Propuštanje zraka",
+          "Kretanje opreme"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "'Puzanje u zagradama' (također 'normalizacija odstupanja') opasna je pojava u kojoj se osoblje postupno udaljava od strogih standarda: mala kršenja postaju 'normalna' dok ne dođe do ozbiljne kontaminacije. Rješenje: redovite revizije, obuka za osvježenje znanja, nulta tolerancija.",
+        "hint": "🎯 Kao klinac, počinješ sa 100% standardima, ali postupno: 'Ah, danas možeš malo...'. Godinama kasnije: kaos!"
+      },
+      {
+        "question": "Zašto je samokritičnost i prijavljivanje vlastitih pogrešaka KLJUČNO u aseptičnoj proizvodnji?",
+        "options": [
+          "Da dobiješ kaznu",
+          "Zato što omogućuje učenje, sprječava recidiv i pomaže u zaštiti pacijenata",
+          "Da izgleda dobro",
+          "Nema veze"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Kultura otvorenosti i samokritičnosti temelj je sigurne proizvodnje. Ako osoblje skriva pogreške zbog straha od posljedica, pogreške se ponavljaju i mogu doći do pacijenta. 'Kultura pravednosti' potiče izvještavanje radi učenja, a ne kažnjavanja.",
+        "hint": "🛡️ Bolje SADA priznati grešku i popraviti je nego je skrivati ​​i riskirati kontaminaciju serije!"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "title": "Izolatorska tehnologija i RABS",
+    "slug": "izolatorji-rabs",
+    "annexReference": "DPP Dodatak 1, Poglavlje 4.18-4.23",
+    "category": "HEPA Sistemi",
+    "developmentAndExplanation": "**IZOLATORI - SLJEDEĆA GENERACIJA ASEPTIKA**\n\nIzolatori predstavljaju fizičku barijeru između operatera i sterilnog procesa, što DRASTIČNO smanjuje rizik od kontaminacije.\n\n**PREDNOSTI IZOLATA:**\n• Odvajanje osoblja od kritične zone = 10-100x manji rizik\n• Mogućnost korištenja Grade D okruženja za Grade A izolator\n• Niži troškovi HVAC sustava\n• H2O2 dekontaminacija postiže smanjenje od 6 log\n• Veća fleksibilnost izgleda\n\n**RABS (Restricted Access Barrier System):**\nDjelomična izolacija - otvori za ruke, ali ograničen pristup. Srednje rješenje između konvencionalne asepse i potpune izolacije.\n\n**H2O2 DEKONTAMINACIJA:**\nVodikov peroksid (H2O2) u svojoj plinovitoj fazi uništava sve mikroorganizme, uključujući i spore. Ciklus traje 2-4 sata, postižući smanjenje od 6 log (učinkovitost 99,9999%).",
+    "practicalChallenges": "• **Ergonomija**: Rad s rukavicama je naporan\n• **Vidljivost**: Plastika se može zamagliti ili izgrebati\n• **Poteškoće s prijenosom materijala**: Sve mora proći kroz bravu za prijenos\n• **Troškovi**: Izolatori su skupi (100.000-500.000 EUR)\n• **H2O2 Validacija**: Zahtijevanje dokaza učinkovitosti\n• **Održavanje**: Promjena HEPA filtera, rukavica, brtvi",
+    "improvementIdeas": "→ **Robotska manipulacija**: Potpuna automatizacija bez ljudskih ruku\n→ **AI kontrola integriteta**: otkrivanje curenja u stvarnom vremenu\n→ **Modularna konstrukcija**: Brzo širenje i modifikacija\n→ **Virtualna stvarnost**: Trening na virtualnom izolatoru\n→ **Samočisteće površine**: Antimikrobni materijali\n→ **Bioetektori**: Trenutno otkrivanje kontaminacije",
+    "visualComponent": "IsolatorCrossSection",
+    "quizQuestions": [
+      {
+        "question": "Koja je GLAVNA prednost izolatora u odnosu na konvencionalnu aseptičnu proizvodnju?",
+        "options": [
+          "Jeftinije je",
+          "Fizičko odvajanje osoblja od kritične zone drastično smanjuje rizik od kontaminacije",
+          "Brže je",
+          "Nema prednosti"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Izolator stvara potpunu fizičku barijeru između operatera i sterilnog procesa. Time se rizik od kontaminacije smanjuje za faktor 10-100x jer osoblje (najveći izvor kontaminacije) ne dolazi u izravan kontakt s kritičnom zonom.",
+        "hint": "🛡️ Zamislite potpunu odvojenost: operater je VANI, sterilni proces je IZNUTRA - nema kontakta!"
+      },
+      {
+        "question": "Što je dekontaminacija izolatora H2O2?",
+        "options": [
+          "Čišćenje kiselinom",
+          "Upotreba vodikovog peroksida za uništavanje svih mikroorganizama uključujući spore",
+          "Potrošnja vode",
+          "Upotreba alkohola"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "H2O2 (hidrogen peroksid) u svojoj plinovitoj fazi prodire u sve pukotine i uništava SVE mikroorganizme uključujući i bakterijske spore. Postiže smanjenje od 6 log (99,9999% učinkovitosti). Ciklus traje 2-4 sata i vrlo je učinkovit.",
+        "hint": "💨 Plin koji ide SVUDA i ubija SVE - čak i spore koje prežive sve ostalo!"
+      },
+      {
+        "question": "Koja je razlika između izolatora i RABS-a?",
+        "options": [
+          "Nema razlike",
+          "Izolator je potpuno zatvoren, RABS ima ograničene otvore za ruke operatera",
+          "RABS je veći",
+          "Izolator je jeftiniji"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Izolator je POTPUNO zatvoren sustav - manipulacija u rukavicama. RABS (Restricted Access Barrier System) je DJELOMIČNO zatvoren - ima otvore za ruke, ali s ograničenim pristupom. RABS je srednje rješenje između klasične asepse i izolatora.",
+        "hint": "🔒 Izolator = Fort Knox (potpuno zapečaćen). RABS = Ograda (možete posegnuti unutra, ali ograničeno)"
+      },
+      {
+        "question": "U kakvom okruženju (razred) može stajati izolator razreda A?",
+        "options": [
+          "Samo u B razredu",
+          "U stupnju D (blaži okoliš) jer je fizički odvojen",
+          "Samo u A razredu",
+          "U razredu C"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Ovo je OGROMNA prednost izolatora! Budući da je kritična zona razreda A FIZIČKI odvojena barijerom, izolator može stajati u manje teškom okruženju razreda D. Ovo drastično smanjuje troškove HVAC sustava i izgradnje prostora. Klasična asepsa zahtijeva okruženje razreda B.",
+        "hint": "💰 Manje strogi prostor = Niži troškovi izgradnje i rada. Izolator = ušteda!"
+      },
+      {
+        "question": "Koliko log redukcije mikroorganizama postiže dekontaminacija H2O2?",
+        "options": [
+          "3-log (99,9%)",
+          "6-log (99,9999%)",
+          "1-log (90%)",
+          "12-log"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Dekontaminacija H2O2 postiže smanjenje od 6 log, što znači učinkovitost od 99,9999%. Ovo je IZUZETNO visoka razina sterilnosti - statistički samo 1 od 1 milijuna bakterija preživi. To je usporedivo s autoklaviranjem.",
+        "hint": "🧮 6-log = 10^6 = 1.000.000x smanjenje. Ostaje 1 od milijun!"
+      },
+      {
+        "question": "Zašto je rad s izolacijskim rukavicama naporan?",
+        "options": [
+          "Jer su teški",
+          "Zbog ograničene pokretljivosti, ograničenog dometa i potrebe za većom snagom za manipulaciju",
+          "Jer su vruće",
+          "Nije zamorno"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Rukavice su debele (da izdrže pritisak), pokretljivost prstiju je ograničena, dohvat ograničen na dužinu rukavica, potrebna je veća sila za manipulaciju zbog otpornosti materijala. Nakon 2-3 sata, ruke i ramena su jako umorni. Ergonomija je veliki izazov.",
+        "hint": "🥊 Kao da radite u debelim boksačkim rukavicama - sve ide teže i sporije."
+      },
+      {
+        "question": "Što je 'prijenosna brava' u izolatoru?",
+        "options": [
+          "brava",
+          "Dvostruka vrata/komora za prijenos materijala u/iz izolatora bez kontaminacije",
+          "Sigurnosni sustav",
+          "Računalni program"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Prijenosna brava (također 'zračna komora za materijal') su dvostruka vrata ili komora za siguran prijenos materijala u/iz izolatora. U njega se stavlja materijal, zatvara, dekontaminira (H2O2), otvara s druge strane. Time se sprječava kontaminacija tijekom prijenosa.",
+        "hint": "🚪🚪 Dvostruka vrata: umetnite materijal s jedne strane → dezinficirajte → otvorite s druge strane. Kontaminacija ne može proći!"
+      },
+      {
+        "question": "Zašto je izolatorska tehnologija idealna za visoko aktivne lijekove (HPAPI - citotoksični)?",
+        "options": [
+          "Jer je jeftinije",
+          "Zato što štiti OPERATERA od izlaganja opasnim tvarima I štiti proizvod od kontaminacije",
+          "Jer je brži",
+          "Nije idealno"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Izolator radi DVOSMJERNO: (1) Štiti proizvod od kontaminacije okoliša, (2) Štiti osoblje od toksičnog lijeka. Kod citotoksičnih lijekova to je kritično – operater ne smije udisati lijek. Izolator rješava oba problema u isto vrijeme.",
+        "hint": "↔️ Dvosmjerna zaštita: Lijek je toksičan za operatera, operater je opasan za lijek. Izolator = win-win!"
+      },
+      {
+        "question": "Kako se ispituje cjelovitost (nepropusnost) izolatora?",
+        "options": [
+          "Vizualno",
+          "Pressure decay test - mjerenje pada tlaka u zatvorenoj komori",
+          "S dimom",
+          "Nije testirano"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Test opadanja tlaka: izolator se zatvori pod tlakom, zatim se mjeri koliko brzo tlak pada. Brzi pad = curenje. Test je potrebno provoditi redovito (svakodnevno/tjedno) i nakon svake intervencije. Također se koristi ispitivanje brzine curenja.",
+        "hint": "🎈 Kao balon: napušeš ga, zatvoriš, čekaš - ako se brzo skupi = negdje curi!"
+      },
+      {
+        "question": "Zašto je H2O2 bolji od alkohola za dekontaminaciju izolatora?",
+        "options": [
+          "Jer je jeftinije",
+          "Budući da prodire u pukotine, ubija spore i razgrađuje se na vodu i kisik (bez ostataka)",
+          "Jer je brži",
+          "Nije bolje"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "H2O2 u plinovitoj fazi: (1) Prodire SVUDA (čak i u teško dostupne pukotine), (2) Ubija SPORE (alkohol ne), (3) Razgrađuje se na H2O + O2 (bez otrovnih ostataka), (4) Postiže smanjenje od 6 log. Alkohol: samo površinsko nanošenje, ne ubija spore.",
+        "hint": "☁️ Plin ide tamo gdje tekućina ne može. Plus ubija spore. Plus nema ostataka. = Savršeno rješenje!"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "title": "Kritične kontrolne točke (CCP) i upravljanje rizikom",
+    "slug": "ccp-obvladovanje-tveganj",
+    "annexReference": "ICH Q9, ISO 14971",
+    "category": "Validacija",
+    "developmentAndExplanation": "**PRISTUP TEMELJEN NA RIZICIMA - TEMELJ SUVREMENE GMP**\n\n**CCP (Kritična kontrolna točka)** je korak u procesu u kojem je kontrola NUŽNA kako bi se spriječio ili uklonio sigurnosni rizik.\n\n**NAČELA HACCP-a U FARMACIJI:**\n1. **Analiza opasnosti** - identifikacija svih potencijalnih rizika\n2. **Određivanje CCP-a** - koji su koraci kritični\n3. **Definicija kritičnih graničnih vrijednosti** - koji su parametri prihvatljivi\n4. **Uspostava nadzora** - kako pratimo CCP\n5. **Korektivne mjere** - što činimo ako dođe do odstupanja\n6. **Provjera** - kako provjeravamo učinkovitost\n7. **Dokumentacija** - evidencija svih podataka\n\n**FMEA (Failure Mode and Effects Analysis):**\nSustavna metoda za prepoznavanje mogućih grešaka i njihovih posljedica. Svaki mogući način kvara procjenjuje se prema:\n• **Severity** (težina) - koliko su teške posljedice\n• **Pojava** (vjerojatnost) - koliko često se događa\n• **Detekcija** (otkrivanje) - koliko je teško otkriti\nRPN (Broj prioriteta rizika) = S × O × D\n\n**MATRICA RIZIKA:**\nVizualizacija rizika na 2D matrici: Vjerojatnost nasuprot ozbiljnosti",
+    "practicalChallenges": "• **Subjektivnost**: Različiti ljudi različito procjenjuju rizike\n• **Analysis Paralysis**: Previše vremena za analizu, premalo vremena za djelovanje\n• **Dokumentacijski teret**: FMEA može postati opsežan\n• **Dinamika**: Rizici se mijenjaju, dokumenti zastarijevaju\n• **Lažan osjećaj sigurnosti**: \"Imamo procjenu rizika\" ≠ \"Sigurno je\"",
+    "improvementIdeas": "→ **Predviđanje rizika pomoću umjetne inteligencije**: Strojno učenje predviđa rizike\n→ **Nadzorne ploče rizika u stvarnom vremenu**: Vizualizacija trenutnih rizika uživo\n→ **Automatizirani CCP nadzor**: Senzori i automatski alarmi\n→ **Crowdsourced baze podataka rizika**: Učenje iz iskustva u industriji\n→ **Dinamička ponovna procjena rizika**: Automatsko ažuriranje nakon promjena",
+    "visualComponent": "RiskMatrix",
+    "quizQuestions": [
+      {
+        "question": "Što je CCP (kritična kontrolna točka)?",
+        "options": [
+          "Centralna upravljačka ploča",
+          "Korak u procesu gdje je kontrola neophodna za sprječavanje sigurnosnog rizika",
+          "Kritična točka proizvodnje",
+          "Kontrolni sustav"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "CCP je poseban korak u procesu u kojem MORAMO imati kontrolu kako bismo spriječili, eliminirali ili smanjili sigurnosni rizik na prihvatljivu razinu. Ako izgubimo kontrolu nad CCP-om, proizvod je potencijalno opasan.",
+        "hint": "🎯 Poput kočnica na automobilu - kritično za sigurnost. Ako otkažu, katastrofa!"
+      },
+      {
+        "question": "Što RPN znači u FMEA analizi?",
+        "options": [
+          "Broj obrnutog procesa",
+          "Broj prioriteta rizika - umnožak ozbiljnosti, vjerojatnosti i mogućnosti otkrivanja",
+          "Ponovi proizvodni broj",
+          "Broj plana rotacije"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "RPN (Broj prioriteta rizika) = ozbiljnost × pojava × otkrivanje. Viši RPN = veći rizik = veći prioritet za djelovanje. Tipično, RPN > 100 zahtijeva trenutnu korektivnu radnju.",
+        "hint": "🔢 Množenje tri broja: Koliko loše? × Koliko često? × Koliko ga je teško otkriti? = Prioritet!"
+      },
+      {
+        "question": "Što je od sljedećeg CCP u aseptičkom punjenju?",
+        "options": [
+          "Boja pakiranja",
+          "HEPA filtracija zraka u kritičnoj zoni",
+          "Veličina pohrane",
+          "Vrsta svjetla"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "HEPA filtracija je CCP jer izravno utječe na mikrobiološku sigurnost proizvoda. Ako HEPA filteri zakažu, dolazi do kontaminacije. Ovo je kritična kontrolna točka koja zahtijeva kontinuirano praćenje i provjeru valjanosti.",
+        "hint": "💨 Što ako ovo ne uspije → proizvod je kontaminiran → pacijent u opasnosti = CCP!"
+      },
+      {
+        "question": "U matrici rizika, gdje su najKRITIČNIJI rizici?",
+        "options": [
+          "Dolje lijevo (mala vjerojatnost, niska ozbiljnost)",
+          "Gore desno (visoka vjerojatnost, visoka ozbiljnost)",
+          "Y negdje između",
+          "Nema veze"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Matrica rizika: Y-os = ozbiljnost, X-os = vjerojatnost. Gore desno = velika vjerojatnost i visoka ozbiljnost = KRITIČAN rizik. Ovo područje je obično crveno i zahtijeva ODMAH djelovanje.",
+        "hint": "🔴 Zamislite semafor: Crveno = STOP = Maksimalni rizik = Gore desno!"
+      },
+      {
+        "question": "Koji je PRVI korak u HACCP pristupu?",
+        "options": [
+          "Određivanje CCP",
+          "Analiza opasnosti - identifikacija svih potencijalnih rizika",
+          "Dokumentacija",
+          "Praćenje"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "HACCP počinje analizom opasnosti. Prvo morate identificirati SVE moguće rizike (biološke, kemijske, fizičke), tek onda možete odrediti koji su kritični (CCP). Logika: Ne možete kontrolirati ako ne znate što kontrolirati.",
+        "hint": "🔍 Logika: Prvo PRONAĐI sve opasnosti, a zatim odluči koje su kritične. Ne možete to popraviti ako ne znate što!"
+      },
+      {
+        "question": "Što je 'Ozbiljnost' u kontekstu FMEA?",
+        "options": [
+          "Koliko se često pojavljuje greška",
+          "Koliko su TEŠKE posljedice pogreške za pacijenta/proizvod",
+          "Kako je teško otkriti grešku",
+          "Cijena greške"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Ozbiljnost procjenjuje POSLJEDICE pogreške. Ocjena 1 = minimalan utjecaj, ocjena 10 = katastrofalne posljedice (npr. smrt pacijenta). Ovo ne ovisi o vjerojatnosti - čak i vrlo rijetka pogreška može biti vrlo ozbiljna.",
+        "hint": "💀 Ako se dogodi ono najgore - ŠTO se može dogoditi? Smrt pacijenata = 10. Minimalni učinak = 1."
+      },
+      {
+        "question": "Zašto je 'otkrivanje' važna komponenta rizika?",
+        "options": [
+          "Nema veze",
+          "Jer teže uočljive pogreške povećavaju rizik – mogu doći do pacijenta",
+          "Jer treba znati tko je kriv",
+          "Zbog dokumentacije"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Stope otkrivanja: Koliko je TEŠKO otkriti pogrešku? Ocjena 1 = Vrlo lako (automatsko otkrivanje), Ocjena 10 = Gotovo nemoguće otkriti. Ako ne možete otkriti grešku, sve može ići na ruku pacijenta = VISOKI rizik.",
+        "hint": "👁️ Možete popraviti grešku koju VIDITE. Pogreška koja je NEVIDLJIVa može doći do pacijenta = opasno!"
+      },
+      {
+        "question": "Koliko često je potrebno ažurirati procjenu rizika?",
+        "options": [
+          "Samo jednom na početku",
+          "Povremeno i sa svakom značajnijom promjenom procesa, opreme, materijala",
+          "Samo ako inspektor traži",
+          "Nikada"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Procjena rizika je ŽIVI dokument. Mora se ažurirati: (1) Povremeno (npr. godišnje), (2) Nakon promjena (nova oprema, novi materijali, novi postupci), (3) Nakon incidenata/odstupanja, (4) Na temelju novih podataka. Rizici se mijenjaju!",
+        "hint": "📅 Svijet se mijenja → Nova oprema, novi ljudi, novi problemi → Procjena rizika se MORA ažurirati!"
+      },
+      {
+        "question": "Što je 'Strategija kontrole' u kontekstu CCP-a?",
+        "options": [
+          "Plan zapošljavanja",
+          "Planirani skup kontrolnih mjera kako bi se osiguralo da proces ostane unutar prihvatljivih granica",
+          "Financijska strategija",
+          "IT strategija"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Strategija kontrole je opsežan plan koji definira: (1) koje parametre kontroliramo, (2) kako ih kontroliramo (PAT, testiranje), (3) kritične granične vrijednosti, (4) što činimo ako dođe do odstupanja. Ovo je srž kvalitete prema dizajnu (QbD).",
+        "hint": "🎮 Kao strategija igre: znamo ŠTO kontrolirati, KAKO kontrolirati, ŠTO učiniti ako krene krivo."
+      },
+      {
+        "question": "Zašto je dokumentacija svih procjena rizika ključna za usklađenost s GMP?",
+        "options": [
+          "Da imamo više papira",
+          "Jer to dokazuje regulatorima da smo sustavno identificirali rizike i njima upravljali",
+          "Zaposliti ljude",
+          "Nije kritično"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Dokumentirana procjena rizika pokazuje: (1) Sustavan pristup sigurnosti, (2) Razumijevanje procesa i rizika, (3) Opravdanost odluka, (4) Sljedivost mjera. Inspektori UVIJEK preispituju procjene rizika. 'Ako nije dokumentirano, nije se dogodilo.'",
+        "hint": "📝 Regulatori žele vidjeti DOKAZ da ste razmotrili rizike. Nema dokumentacije = nema dokaza!"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "title": "Integritet dokumentacije i podataka (ALCOA+)",
+    "slug": "dokumentacija-data-integrity",
+    "annexReference": "DPP Dodatak 11, MHRA Smjernice za integritet podataka",
+    "category": "Validacija",
+    "developmentAndExplanation": "**INTEGRITET PODATAKA - TEMELJ POVJERENJA**\n\n**ALCOA+ NAČELA:**\n• **Attributable** (pripisiv) - Tko je to učinio?\n• **Čitljivo** (čitko) - Može li se pročitati?\n• **Contemporaneous** (suvremeni) - Snimljeno u vrijeme nastanka?\n• **Original** (original) - Prva ploča?\n• **Točno** - Točni podaci?\n\n**+Plus dodaci:**\n• **Dovršeno** - Svi podaci?\n• **Dosljedno** (dosljedno) - Nema proturječja?\n• **Trajan** (trajan) - Sačuvan?\n• **Dostupan** (dostupan) - Kada vam treba?\n\n**KRITIČNI DOKUMENTI U ASEPTIKU:**\n1. **Zapisi o serijama** - Zapis svih proizvodnih koraka\n2. **Podaci monitoringa okoliša** - Čestice, mikrobiologija\n3. **Dnevnici opreme** - Održavanje, kalibracija\n4. **Evidencija o obuci** - Obuka osoblja\n5. **Odstupanje/CAPA** - Odstupanja i korektivne mjere\n6. **Kontrola promjena** - Kontrola promjena\n\n**ELEKTRONIČKI ZAPISI (21 CFR Dio 11):**\n• Revizijski trag (sljedivost promjena)\n• Elektronički potpisi\n• Kontrola pristupa\n• Sigurnosno kopiranje i arhiviranje",
+    "practicalChallenges": "• **Greške u ručnom snimanju**: Zaboravljene bilješke, pogrešna vremena\n• **Manipulacija podacima**: Mijenjanje podataka u skladu sa specifikacijama\n• **Gubitak podataka**: Nedovoljno arhiviranje\n• **Nedostupnost**: Podaci pohranjeni, ali nedostupni kada su vam potrebni\n• **Nedostaci u revizijskom tragu**: Promjene bez mogućnosti praćenja",
+    "improvementIdeas": "→ **Blockchain tehnologija**: nepromjenjivi zapisi\n→ **AI otkrivanje anomalija**: Automatsko otkrivanje sumnjivih podataka\n→ **Elektroničko snimanje u stvarnom vremenu**: Bez papira, izravno u sustav\n→ **Biometrijska autentifikacija**: Otisak prsta umjesto potpisa\n→ **Automatske provjere integriteta**: Sustav sam provjerava ALCOA+",
+    "visualComponent": "DocumentFlow",
+    "quizQuestions": [
+      {
+        "question": "Što znači 'A' u načelu ALCOA-e?",
+        "options": [
+          "na raspolaganju",
+          "Pripisivi - informacije se moraju pripisati autoru",
+          "Automatski",
+          "Odobreno"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Mogućnost pripisivanja znači da bi UVIJEK trebalo biti jasno TKO je napravio zapis/radnju. To se postiže potpisom (ručno) ili korisničkim računom (elektronički). Anonimne prijave se ne prihvaćaju.",
+        "hint": "✍️ TKO je to napravio? Mora biti jasno - ime, potpis ili korisnički račun!"
+      },
+      {
+        "question": "Zašto je 'Contemporaneous' kritički princip?",
+        "options": [
+          "Nije kritičan",
+          "Budući da su podaci zabilježeni ODMAH po stvaranju pouzdaniji i sprječavaju zaborav ili manipulaciju",
+          "Da uštedimo vrijeme",
+          "Zbog inspekcije"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Istodobno znači da se podaci zapisuju ČIM su stvoreni, a ne kasnije po sjećanju. Time se sprječava: (1) Zaborav, (2) Dezinformacije, (3) Namjerna manipulacija, (4) Rekonstrukcija onoga 'što su morali biti'. U stvarnom vremenu = autentično.",
+        "hint": "⏰ Snimi SADA (u ovom trenutku) = Točno. Pisati sutra 'na pamet' = Nevjerojatno!"
+      },
+      {
+        "question": "Što je 'revizijski trag' u kontekstu elektroničkih zapisa?",
+        "options": [
+          "Popis revizija",
+          "Elektronička sljedivost SVIH promjena (tko, što, kada, zašto)",
+          "Način snimanja",
+          "Sigurnosna kopija"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Revizijski trag je automatsko bilježenje SVAKE promjene u elektroničkom sustavu: (1) TKO je promijenio, (2) ŠTO je promijenio (stara/nova vrijednost), (3) KADA (vremenska oznaka), (4) ZAŠTO (razlog). Ovo je ključno za integritet podataka - nijedna promjena ne smije biti nevidljiva.",
+        "hint": "🕵️ Kao detektiv: Svaka promjena ostavlja trag - tko, što, kada, zašto. Nemoguće je sakriti!"
+      },
+      {
+        "question": "Zašto su 'izvorni' podaci važni?",
+        "options": [
+          "Nema veze",
+          "Jer kopiranje i kopiranje povećava rizik od pogrešaka i gubitka informacija",
+          "Za uštedu papira",
+          "Za estetiku"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Izvorni podatak je PRVI zapis. Svako kopiranje/prepisivanje povećava rizik od pogrešaka (pogreška pri upisu, pogrešno čitanje). Plus: izvorni zapis pokazuje KADA je kreiran. Kopije ne mogu zamijeniti original u svrhu GMP-a.",
+        "hint": "📄 Fotokopija fotokopije... = Uvijek gore. Original = Najbolji, bez grešaka u prijepisu!"
+      },
+      {
+        "question": "Koliko dugo treba čuvati GMP dokumentaciju?",
+        "options": [
+          "1 godina",
+          "Najmanje 1 godinu nakon isteka roka valjanosti proizvoda (obično 5+ godina)",
+          "Samo dok je proizvod na akciji",
+          "Nema pravila"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "GMP zahtijeva čuvanje dokumentacije najmanje 1 godinu NAKON isteka roka valjanosti. Ako je rok trajanja 3 godine, čuvamo ga 4+ godine. Često više (7-10 godina) za biološke proizvode. To omogućuje ispitivanje pritužbi ili nuspojava.",
+        "hint": "📅 Proizvod + 1 godina. Ako istekne za 3 godine, čuvajte ga 1 godinu nakon toga = ukupno 4 godine!"
+      },
+      {
+        "question": "Što je 'Dovršeno' u kontekstu ALCOA+?",
+        "options": [
+          "Dokument je napisan do kraja",
+          "SVI podaci moraju biti zabilježeni - čak i negativni/neželjeni rezultati",
+          "Dokument ima potpis",
+          "Nema veze"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Potpuno znači da su SVI podaci zabilježeni, uključujući: (1) neuspjele testove (ne samo položene), (2) odstupanja, (3) ponovljene testove, (4) podatke koji ne podržavaju željeni rezultat. Podaci o branju trešanja krše integritet podataka.",
+        "hint": "🍒 NE trešnja! Čak i loši rezultati idu u dokumentaciju. Sve ili ništa!"
+      },
+      {
+        "question": "Zašto je elektronički potpis jednak ručnom?",
+        "options": [
+          "Nije ekvivalentno",
+          "Ako je u skladu s 21 CFR dio 11 - jedinstveno, neprenosivo, zaštićeno lozinkom, sljedivo",
+          "Jer je brži",
+          "Jer je ljepši"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "21 CFR Dio 11 definira uvjete za elektroničke potpise: (1) vezani za pojedinca (korisničko ime), (2) zaštićeni lozinkom (provjera autentičnosti u dva faktora), (3) revizijski trag (kada se koristi), (4) neprenosivi. Ako ovo zadovoljava = jednako ručnom potpisu.",
+        "hint": "🔐 E-potpis = Korisničko ime + Lozinka + Kontrolni trag = Isto kao i fizički potpis!"
+      },
+      {
+        "question": "Što je 'povreda integriteta podataka' koja NAJVIŠE brine regulatore?",
+        "options": [
+          "Nedostaje potpis",
+          "Namjerno brisanje ili izmjena podataka radi ispunjavanja specifikacija (falsificiranje)",
+          "Čitljivost",
+          "Hranjenje"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Namjerno krivotvorenje podataka je NAJGORI prekršaj - to je OBMANA. Primjeri: brisanje OOS rezultata, promjena vremena, krivotvorenje potpisa. To može dovesti do kaznenih mjera, zatvaranja pogona, oduzimanja licenci. Nulta tolerancija.",
+        "hint": "⚠️ Namjerno laganje (promjena, brisanje) = PREVARA = Kazneni progon!"
+      },
+      {
+        "question": "Zašto je 'Trajnost' važan aspekt integriteta podataka?",
+        "options": [
+          "Nema veze",
+          "Budući da podaci moraju biti čitljivi i dostupni tijekom CIJELOG potrebnog razdoblja čuvanja",
+          "Za ekološku održivost",
+          "Zbog skupoće"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Trajnost znači da podaci prežive vrijeme: (1) Tinte ne blijede, (2) Magnetski mediji ne kvare, (3) Formati ostaju čitljivi, (4) Sigurnosni sustavi rade. Nakon 7 godina još uvijek možete čitati sve zapise.",
+        "hint": "⏳ Za 7 godina: Znaš li još čitati? Je li papir izblijedio, CD oštećen, format zastario? = Mora biti u redu!"
+      },
+      {
+        "question": "Zašto je \"Dostupno\" kritično za reviziju GMP-a?",
+        "options": [
+          "Nije kritično",
+          "Budući da podaci moraju biti dostupni za pregled u razumnom vremenskom roku - ako ih ne možete pronaći, kao da ne postoje",
+          "To kontroliraju regulatori",
+          "Zbog arhive"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Dostupno znači da možete pronaći i prikazati podatke u razumnom vremenu (npr. 24 sata). Ako su podaci 'negdje u arhivi', ali se ne mogu pronaći, to je problem s integritetom podataka. 'Ako nije dostupno, nema ga.'",
+        "hint": "🔍 Inspektor: 'Prikaži zapis serije od 3.1.2019.' Vi: 'Ne mogu pronaći...' = Problem!"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "title": "Dezinfekcija, dezinfekcijsko i sporicidno djelovanje",
+    "slug": "dezinfekcija-razkuževanje",
+    "annexReference": "DPP Dodatak 1, Poglavlje 5",
+    "category": "Higiena",
+    "developmentAndExplanation": "**HIJERARHIJA ČIŠĆENJA:**\n1. **Čišćenje** - uklanjanje prljavštine (deterdžent)\n2. **Dezinfekcija** - smanjenje mikrobiološkog opterećenja\n3. **Sterilizacija** - uništavanje SVIH mikroorganizama\n\n**RASPON RADA:**\n• **Baktericidno** - ubija bakterije\n• **Fungicidno** - ubija gljivice\n• **Viricidno** - ubija viruse\n• **Sporicidan** - ubija spore (najteže!)\n\n**ROTACIJA SREDSTAVA ZA DEZINFEKCIJU:**\nKljučno je koristiti nekoliko različitih dezinficijensa naizmjenično kako bi se spriječio razvoj rezistencije. Tipično:\n• **Tjedan 1-2**: Alkohol (70% IPA/etanol)\n• **Tjedan 3**: Kvartarni amonijevi spojevi (QAC)\n• **4. tjedan**: Peroksidni spojevi\n• **5. tjedan**: peroctena kiselina\n\n**SPORICIDNO DJELOVANJE:**\nSpore su IZUZETNO otporne - preživljavaju alkohol, vrućinu (do 120°C), sušu, UV zračenje. Uništavaju ih samo sporicidni agensi:\n• H2O2 (vodikov peroksid)\n• Peroctena kiselina\n• Spojevi klora (hipoklorit)\n\n**VRIJEME KONTAKTA:**\nDezinficijens mora biti dovoljno dugo u VLAŽNOM kontaktu s površinom (vrijeme mokrog kontakta). Ako se površina prebrzo suši, nema učinka!",
+    "practicalChallenges": "• **Razvoj otpornosti**: Bakterije se prilagođavaju dezinficijensima\n• **Biofilm**: Zaštita sluznice od bakterija - otežan prodor\n• **Organsko opterećenje**: Prljavština deaktivira dezinfekcijsko sredstvo\n• **Vrijeme kontakta**: Osoblje često ne čeka dovoljno dugo\n• **Kompatibilnost**: Neki dezinficijensi oštećuju materijale",
+    "improvementIdeas": "→ **UV-C dezinfekcija**: Bez kemikalija, trenutno\n→ **Antimikrobne površine**: Samodezinfekcija (bakar, srebro)\n→ **Tehnologija zamagljivanja**: Automatska potpuna dezinfekcija prostorije\n→ **Praćenje ATP-a u stvarnom vremenu**: trenutna provjera čistoće\n→ **Enzimatski čistači**: Biološka razgradnja organskih ostataka",
+    "visualComponent": "DisinfectionCycle",
+    "quizQuestions": [
+      {
+        "question": "Zašto je 70% alkohol (IPA/etanol) učinkovitiji od 100% alkohola?",
+        "options": [
+          "Jer je jeftinije",
+          "Budući da voda omogućuje denaturaciju proteina i prodiranje u stanicu - 100% prebrzo ispari",
+          "Jer je sigurnije",
+          "Nije istina"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "70% alkohola je optimalno jer: (1) Voda omogućuje denaturaciju proteina, (2) Ne isparava prebrzo - vrijeme kontakta je duže, (3) Bolje prodire kroz staničnu stijenku. 100% alkohol prebrzo koagulira površinske proteine, stvara 'koru' i ne prodire unutra.",
+        "hint": "💧 Voda pomaže! 100% = Prebrzo se suši, ne prodire. 70% = Taman, vrijeme je za djelovanje!"
+      },
+      {
+        "question": "Što su bakterijske SPORE i zašto su problematične?",
+        "options": [
+          "Vrsta bakterije",
+          "Uspavani (uspavani) oblik bakterije s izuzetnom otpornošću na toplinu, sušu, kemikalije",
+          "Male bakterije",
+          "Bakterijski proizvodi"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Spore su 'način preživljavanja' bakterija (uglavnom Bacillus, Clostridium): izuzetno otporne strukture koje preživljavaju: (1) toplinu do 120°C, (2) sušu, (3) zračenje, (4) većinu dezinficijensa. Kada uvjeti postanu povoljni, bakterije se 'bude' i postaju aktivne. Ubijaju ih samo sporicidni agensi.",
+        "hint": "😴 Kao medvjed u zimskom snu - izuzetno otporan. Probudi se kad je toplo. Teško ga je ubiti!"
+      },
+      {
+        "question": "Zašto je ROTACIJA sredstava za dezinfekciju kritična?",
+        "options": [
+          "Zbog skupoće",
+          "Za sprječavanje razvoja rezistencije bakterija i uništavanje raznih vrsta mikroorganizama",
+          "Zbog zakona",
+          "Nije kritično"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Izmjena dezinficijensa: (1) Sprječava razvoj rezistencije (bakterije se prilagođavaju jednom sredstvu), (2) Različita sredstva ubijaju različite mikroorganizme (alkohol ≠ sporicid), (3) Pokrivaju širi spektar. Preporuka: najmanje 2 različita mehanizma djelovanja u rotaciji.",
+        "hint": "🔄 Kao antibiotici: Samo jedan = otpornost. Rotacija = bakterije se nemaju vremena prilagoditi!"
+      },
+      {
+        "question": "Što je \"vrijeme mokrog kontakta\" i zašto je kritično?",
+        "options": [
+          "Vrijeme čišćenja",
+          "Vrijeme koje sredstvo za dezinfekciju mora ostati MOKRO na površini da bi djelovalo - ako se prebrzo osuši, nema učinka",
+          "Vrijeme korištenja",
+          "Temperatura dezinfekcijskog sredstva"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Vrijeme mokrog kontakta minimalno je vrijeme u kojem površina mora biti mokra dezinficijensom. Obično: 1-10 minuta ovisno o agentu. Ako ispari prebrzo (premalo, brzo isparavanje), mikroorganizmi ne stradaju. MORAMO ČEKATI!",
+        "hint": "⏱️ Mokro = radi. Suho = Više ne radi. Mora biti mokar DOVOLJNO DUGO!"
+      },
+      {
+        "question": "Koji je dezinficijens SPORICIDEN (ubija spore)?",
+        "options": [
+          "70% alkohola (NIJE sporicidno!)",
+          "Vodikov peroksid (H2O2) ili peroctena kiselina",
+          "Sapun",
+          "Voda"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Sporicidna sredstva: (1) H2O2 (vodikov peroksid), (2) peroctena kiselina, (3) hipoklorit (klor). Alkohol, QAC, bigvanidi NISU sporicidni - oni ubijaju vegetativne bakterije, ali ne i spore. To je razlog za rotaciju - potrebno vam je povremeno sporicidno sredstvo.",
+        "hint": "💀 Spore su super otporne! Ubijaju ih samo najjača sredstva (peroksidi, klor)."
+      },
+      {
+        "question": "Što je BIOFILM i zašto je problematičan?",
+        "options": [
+          "Film o bakterijama",
+          "U matricu sluzi koju bakterije proizvode za zaštitu - dezinficijensi teško prodiru",
+          "Boja bakterija",
+          "Vrsta bakterije"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Biofilm je organizirana zajednica bakterija okružena vlastitom polimernom matricom (sluz). Ova 'sluz': (1) štiti bakterije od dezinficijensa (do 1000 puta veća otpornost!), (2) teško se uklanja, (3) česta je u cijevima, odvodima, uglovima. Potrebno MEHANIČKO uklanjanje + dezinfekcija.",
+        "hint": "🛡️ Kao tvrđava oko bakterija - štiti ih od napada. Teško proći, treba rušiti!"
+      },
+      {
+        "question": "Zašto je potrebno PRVO očistiti, TEK dezinficirati?",
+        "options": [
+          "Reda radi",
+          "Zato što organska prljavština (masti, bjelančevine) deaktivira dezinfekcijsko sredstvo i štiti mikroorganizme",
+          "Za spremanje",
+          "Nije potrebno"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Organska prljavština (masti, bjelančevine, ostaci proizvoda): (1) Inaktivira dezinficijens (kemijski reagira s njim), (2) Fizički štiti bakterije (kao štit), (3) Dezinficijens se koristi na prljavštini, a ne na bakterijama. Zap oprema: PRVO čišćenje (uklanjanje prljavštine), ONDA dezinfekcija (ubijanje bakterija).",
+        "hint": "🧼 Dezinfekcija bez čišćenja = Nema učinka! To je kao dezinfekcija blata – ne ide!"
+      },
+      {
+        "question": "Koja je MINIMALNA koncentracija IPA (izopropilnog alkohola) za baktericidno djelovanje?",
+        "options": [
+          "10%",
+          "60-70% (optimalno 70%)",
+          "100%",
+          "30%"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Koncentracija alkohola od 60-70% djeluje baktericidno. Ispod 60% učinak je minimalan. 70% je optimalno - dobro prodiranje, odgovarajuće vrijeme kontakta, dobra denaturacija proteina. Većina GMP standarda koristi 70% IPA ili 70% etanol.",
+        "hint": "🎯 Sweet spot: 70%. Ne premalo (ne djeluje), ne previše (suši se prebrzo)."
+      },
+      {
+        "question": "Zašto je potrebno validirati čišćenje i dezinfekciju?",
+        "options": [
+          "Nije potrebno",
+          "Pokazati da proces STVARNO uklanja mikroorganizme na prihvatljivu razinu",
+          "Zbog dokumentacije",
+          "Zbog skupoće"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Validacija čišćenja/dezinfekcije pokazuje: (1) proces učinkovito uklanja mikroorganizme, (2) nema zaostalog dezinficijensa, (3) nema unakrsne kontaminacije. Metode: ATP bris, mikrobiološki otisci, vizualni pregled, kemijska analiza rezidua. Nema provjere = nema dokaza da radi.",
+        "hint": "🔬 'Radi' ≠ 'Dokazano djeluje'. Validacija = DOKAZ da dezinfekcija stvarno ubija bakterije!"
+      },
+      {
+        "question": "Što je 'D-vrijednost' u kontekstu dezinfekcije/sterilizacije?",
+        "options": [
+          "Cijena sredstva za dezinfekciju",
+          "Vrijeme potrebno za 90% (1-log) redukciju mikroorganizama na danoj temperaturi/sredstvu",
+          "Dubina dezinfekcije",
+          "Doza sredstva"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "D-vrijednost (decimalno vrijeme redukcije) je vrijeme potrebno za smanjenje populacije mikroorganizama za 90% (1-log = faktor 10). Primjer: ako je D-vrijednost 10 minuta, nakon 10 minuta ostaje 10% bakterija, nakon 20 minuta 1%, nakon 30 minuta 0,1%. To je osnova za određivanje vremena kontakta.",
+        "hint": "📉 Svaka D-vrijednost = 90% manje bakterija. 3× D-vrijednost = 99,9% smanjenja!"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "title": "Komunalije: voda, para, komprimirani zrak",
+    "slug": "utilities-voda-para-zrak",
+    "annexReference": "DPP Dodatak 1, Europska farmakopeja",
+    "category": "HEPA Sistemi",
+    "developmentAndExplanation": "**KOMUNALNI PROGRAMI SU KRITIČNI ZA GMP PROIZVODNJU**\n\n**VODA:**\n• **Pitka voda** (Pitka voda) - ulazna točka\n• **Pročišćena voda** (Purified Water, PW) - za nesterilne proizvode\n• **Voda za injekcije** (Water for Injection, WFI) - za parenteralne proizvode\n\n**WFI ZAHTJEVI:**\n• Bakterije < 10 CFU/100ml\n• Endotoksini < 0,25 EU/ml\n• Proizvedeno destilacijom ili reverznom osmozom + ultrafiltracija\n• Čuvati na > 80°C ILI cirkulirati na > 65°C (sprječavanje rasta bakterija)\n\n**ČISTA PARA:**\n• Izrađeno od WFI\n• Bez aditiva (amini, antipjenilo)\n• Koristi se za sterilizaciju opreme\n• Plinovi koji se ne mogu kondenzirati < 3,5%\n\n**KOMPRIMIRANI ZRAK:**\n• Izravni kontakt s proizvodom = STERILNO filtrirano (0,2 µm)\n• Bez ulja, vode, čestica\n• Rosište: < -40°C\n• Mikrobiološko praćenje",
+    "practicalChallenges": "• **Biofilm u cijevima**: WFI sustavi osjetljivi na rast bakterija\n• **Korozija**: Visoke temperature i kemikalije oštećuju cijevi\n• **Zagađenje**: Mrtve zone, ventili, T-komadi\n• **Rasipanje energije**: Održavanje 80°C+ zahtijeva puno energije\n• **Validacija**: Složeni dokaz da je sustav prikladan",
+    "improvementIdeas": "→ **UV-C dezinfekcija**: Kontaminacija u WFI sustavima\n→ **Praćenje TOC-a**: Detekcija organske kontaminacije u stvarnom vremenu\n→ **Bežični senzori**: Nadzor temperature, tlaka, protoka\n→ **AI predviđanje održavanja**: Predviđanje kvara prije nego što se dogodi\n→ **Dezinfekcija ozonom**: Alternativa dezinfekciji toplinom",
+    "visualComponent": "UtilityMonitoring",
+    "quizQuestions": [
+      {
+        "question": "Koja je KLJUČNA razlika između pročišćene vode (PW) i vode za injekcije (WFI)?",
+        "options": [
+          "Boja",
+          "WFI ima STROŽE zahtjeve za endotoksine (< 0,25 EU/ml) i mora se proizvoditi destilacijom/RO+UF",
+          "Temperatura",
+          "Nema razlike"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "WFI je visoko pročišćena voda za parenteralne (injekcione) proizvode. Zahtjevi: (1) Endotoksini < 0,25 EU/ml (PW: nema zahtjeva), (2) Proizvedeno destilacijom ILI RO+ultrafiltracijom, (3) Bakterije < 10 CFU/100 ml. WFI > PW > Pitka voda.",
+        "hint": "💉 WFI ide direktno u venu! Mora biti ULTRA čist, bez endotoksina (bakterijskih otrova)."
+      },
+      {
+        "question": "Zašto se WFI skladišti i distribuira na > 80°C?",
+        "options": [
+          "Da je vruće za korištenje",
+          "Za sprječavanje rasta bakterija - bakterije ne preživljavaju > 80°C",
+          "Zbog kemije",
+          "Nije potrebno"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Temperatura > 80°C (ili cirkulacija > 65°C) sprječava rast bakterija i stvaranje biofilma. Većina bakterija ne preživi dugotrajnu izloženost > 65°C, praktički nijedna ne preživi > 80°C. Alternativa: Hladni WFI s kontinuiranom cirkulacijom + periodična dezinfekcija.",
+        "hint": "🔥 Vruće = bakterije umiru. Hladnoća = Bakterije rastu → Biofilm → Kontaminacija!"
+      },
+      {
+        "question": "Što su ENDOTOKSINI i zašto su problematični u WFI?",
+        "options": [
+          "Bakterije",
+          "Otrovi iz bakterijskih staničnih stijenki (lipopolisaharidi) koji uzrokuju pirogenost (groznicu) kod bolesnika",
+          "Virusi",
+          "Kemikalije"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Endotoksini su lipopolisaharidi (LPS) iz stanične stijenke Gram-negativnih bakterija. Problematično jer: (1) je termostabilno (ne raspada se tijekom sterilizacije!), (2) uzrokuje pirogenost (groznica, šok), (3) male količine su opasne (< 5 EU/kg pacijenta). Filtri ne uklanjaju endotoksine - potrebna je destilacija/UF.",
+        "hint": "☠️ Bakterija umire, ali njen otrov (iz stanične stijenke) ostaje → Izaziva temperaturu kod bolesnika!"
+      },
+      {
+        "question": "Što je 'Clean Steam' i gdje se koristi?",
+        "options": [
+          "Obična para",
+          "Para proizvedena od WFI, bez aditiva, koristi se za sterilizaciju opreme u kontaktu s proizvodom",
+          "Para za grijanje",
+          "Vlažna para"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Clean Steam je 'farmaceutska para' - proizvedena od WFI, bez amina, sredstva protiv pjenjenja ili drugih aditiva. Koristi se za: (1) SIP (Sterilization-In-Place) cjevovoda, (2) sterilizaciju u autoklavu, (3) sterilizaciju opreme u kontaktu s proizvodom. Mora biti u skladu s Europskom farmakopejom.",
+        "hint": "☁️ Ne obična para (iz slavine)! Para iz WFI, ultra čista, za sterilizaciju opreme."
+      },
+      {
+        "question": "Zašto komprimirani zrak u kontaktu s proizvodom mora biti STERILNO filtriran?",
+        "options": [
+          "Nije potrebno",
+          "Budući da nefiltrirani komprimirani zrak sadrži bakterije, spore, čestice, vlagu koja zagađuje proizvod",
+          "Zbog boje",
+          "Zbog skupoće"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Komprimirani zrak iz kompresora sadrži: (1) Bakterije i spore iz okoline, (2) Čestice (prašina, hrđa), (3) Ulje iz kompresora, (4) Vodenu paru. HEPA filter (0,2 µm) sterilno filtrira zrak prije upotrebe. Bez filtracije = izravna kontaminacija proizvoda.",
+        "hint": "💨 Komprimirani zrak = Ambijentalni zrak = Pun bakterija! Mora proći kroz HEPA filter!"
+      },
+      {
+        "question": "Što je 'rosište' i zašto je važno za komprimirani zrak?",
+        "options": [
+          "Rosište - temperatura na kojoj dolazi do kondenzacije vlage; niska točka rosišta = suhi zrak (< -40°C)",
+          "Točka pritiska",
+          "Plamište",
+          "Talište"
+        ],
+        "correctAnswerIndex": 0,
+        "explanation": "Rosište je temperatura na kojoj se vlaga iz zraka kondenzira u vodu. Niska točka rosišta (npr. -40°C) znači vrlo suh zrak - vlaga se kondenzira samo na -40°C. Ovo je kritično jer: (1) vlaga podržava rast bakterija, (2) uzrokuje koroziju, (3) kontaminira proizvod.",
+        "hint": "🌡️ Niska točka rosišta = Suhi zrak = Dobro! Visoka točka rosišta = Vlažan zrak = Loše (bakterije, korozija)."
+      },
+      {
+        "question": "Što su mrtve noge u WFI sustavima?",
+        "options": [
+          "Neupotrebljivi dijelovi",
+          "Mrtve cijevi bez protoka gdje voda prestaje → idealno za rast bakterija i biofilm",
+          "Zatvoreni ventili",
+          "Stare cijevi"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Mrtvi krakovi su dijelovi cjevovoda bez protoka (mrtvi ogranci, T-komadi, zatvoreni ventili). Voda se tu ne kreće → (1) Hlađenje (ispod kritične temperature), (2) Rast bakterija, (3) Biofilm. GMP zahtijeva smanjenje mrtvih krakova (< 3× promjer cijevi).",
+        "hint": "🚫 Voda stagnira → Hladi → Bakterije rastu → Biofilm. Svaki slijepi kut = Moguća kontaminacija!"
+      },
+      {
+        "question": "Kako se testira mikrobiološka kvaliteta WFI?",
+        "options": [
+          "Vizualno",
+          "Membranska filtracija - filtracija velikog volumena (100-1000 ml) kroz membranu od 0,45 µm, inkubacija, CFU brojanje",
+          "S očima",
+          "Nije testirano"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Metoda membranske filtracije: (1) Filtrirajte 100-1000 ml WFI kroz membranu od 0,45 µm, (2) Bakterije ostaju na membrani, (3) Stavite membranu na medij kulture, (4) Inkubirajte 5-7 dana, (5) Prebrojite kolonije (CFU). Zahtjev: < 10 CFU/100 ml. Ovo je osjetljivija metoda od izravnog nanošenja.",
+        "hint": "🔬 Filtracija → Bakterije zarobljene na membrani → Medij kulture → Inkubacija → Brojanje kolonija."
+      },
+      {
+        "question": "Što je TOC (ukupni organski ugljik) i zašto se mjeri u WFI?",
+        "options": [
+          "Temperatura",
+          "Ukupni organski ugljik - mjera organske kontaminacije (bakterije, endotoksini, rezidue); < 500 ppb za WFI",
+          "Testni ugljik",
+          "Vrućina"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "TOC mjeri ukupnu količinu organskog ugljika u vodi. Izvor: bakterije, endotoksini, biofilm, kemijski ostaci. WFI zahtjeva: < 500 µg/L (ppb). TOC test je brz (5-10 min) online test praćenja - dobra alternativa dugoj mikrobiološkoj analizi. Visok TOC = znak kontaminacije.",
+        "hint": "🧪 Organske tvari u vodi = loše (bakterije, endotoksini). TOC mjerač = Trenutno otkrivanje problema!"
+      },
+      {
+        "question": "Zašto je potrebno povremeno 'sanirati' WFI sustav?",
+        "options": [
+          "Nije potrebno",
+          "Za uništavanje biofilma i bakterija koje se mogu nakupiti unatoč visokim temperaturama",
+          "Da ga očistim",
+          "Zbog boje"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Unatoč > 80°C, bakterije i biofilm mogu se akumulirati u mrtvim zonama, ventilima, zglobovima. Periodična dezinfekcija (npr. mjesečno): (1) Cirkulacija > 90°C 1+ sat, ILI (2) Kemijska dezinfekcija (ozon, H2O2), ILI (3) Para. Time se uništavaju nakupljene bakterije i uklanja biofilm.",
+        "hint": "🧽 Kao čišćenje kod kuće: Unatoč svakodnevnom održavanju, s vremena na vrijeme potrebno vam je temeljito čišćenje!"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Preventivno održavanje i kalibracija",
+    "slug": "preventivno-vzdrzevanje",
+    "annexReference": "DPP Dodatak 15",
+    "category": "Validacija",
+    "developmentAndExplanation": "**PREVENTIVNO ODRŽAVANJE (PM) - OSNOVA POUZDANOSTI**\n\n**ZAŠTO JE PM KRITIČAN?**\n• Sprječava nenajavljene kvarove tijekom proizvodnje\n• Osigurava rad opreme unutar kvalificiranih parametara\n• Produžuje vijek trajanja opreme\n• Osigurava usklađenost s GMP (kvalificirani status)\n\n**GLAVNE VRSTE ODRŽAVANJA:**\n1. **Preventivni** (PM) - redovito planiran prema rasporedu\n2. **Korektivni** - popravak nakon kvara\n3. **Predvidljivo** - na temelju praćenja stanja (vibracije, temperatura)\n4. **Na temelju stanja** - kada mjerenja pokažu potrebu\n\n**KRITIČNA PM OPREMA:**\n• HEPA filteri (mijenjajte jednom godišnje ili nakon testa integriteta)\n• Laminar boxy (certifikacija 6-12 mjeseci)\n• Autoklavi (kalibracija temperaturnih sondi, brtvi vrata)\n• Izolatori (promjena rukavica, HEPA filteri, test integriteta)\n• HVAC sustavi (promjena filtera, provjera diferencijalnog tlaka)\n• WFI sustavi (sanitarizacija, TOC senzori)\n\n**KALIBRIRANJE:**\nPeriodična provjera da mjerni instrumenti ispravno mjere:\n• Termometri, manometri, anemometri\n• Brojači čestica, mikrobni uzorkivači\n• TOC metri, pH metri\n• Vage, pipete\n\n**STATUS KVALIFIKACIJE:**\nOprema mora imati status: Kvalificirana / U održavanju / Nekvalificirana",
+    "practicalChallenges": "• **Vrijeme prekida**: PM zaustavlja proizvodnju\n• **Cijena**: Dijelovi, rad, kalibracija su skupi\n• **Složenost**: Moderna oprema zahtijeva specijalizirane tehnike\n• **Dokumentacija**: Svaki PM zahtijeva zapise, potpise, ovjere\n• **Lažni PM**: 'Označen' bez stvarnog posla",
+    "improvementIdeas": "→ **IoT senzori**: Praćenje statusa opreme u stvarnom vremenu\n→ **Predictive AI**: Predvidite neuspjeh 2-4 tjedna unaprijed\n→ **AR upute**: tehničari vide upute kroz AR naočale\n→ **Digitalni blizanci**: Virtualni model simulacijske opreme\n→ **Blockchain PM zapisi**: Nepromjenjivi dokazi o održavanju\n→ **Automatska kalibracija**: Oprema se kalibrira automatski",
+    "visualComponent": "MaintenanceSchedule",
+    "quizQuestions": [
+      {
+        "question": "Koja je GLAVNA razlika između preventivnog i korektivnog održavanja?",
+        "options": [
+          "Troškovi",
+          "Preventivna je PLANIRANA i redovita, korektivna je REAKTIVNA nakon kvara",
+          "Vrijeme trajanja",
+          "Nema razlike"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Preventivno održavanje (PM) je proaktivno - provodi se prema unaprijed utvrđenom rasporedu (npr. mjesečno, godišnje) kako bi se spriječili kvarovi. Korektivno održavanje je reaktivno - popravljamo ga tek kada se nešto pokvari. PM je kratkoročno skuplji, ali dugoročno jeftiniji (manje nenajavljenih kvarova).",
+        "hint": "🛠️ PM = Servis automobila PRIJE NEGO SE POKvari. Korektiv = Popravak NAKON što se pokvari. Što je bolje?"
+      },
+      {
+        "question": "Koliko često je potrebno mijenjati HEPA filtere u laminar kutijama?",
+        "options": [
+          "Samo ako se slome",
+          "Godišnje ILI kada test integriteta pokaže curenje (DOP test)",
+          "Svakih 5 godina",
+          "Nikada"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "HEPA filtri se mijenjaju: (1) nakon testa integriteta (DOP, PAO, rasipanje svjetlosti) ako propuštaju, (2) nakon 1-2 godine korištenja (zamor materijala), (3) ako diferencijalni tlak na filtru premaši specifikaciju (začepljenje). Test integriteta najmanje jednom godišnje ili nakon svakog preseljenja/održavanja.",
+        "hint": "🔍 Godišnji test: Ako curi ili je začepljen → Zamjena. Ako je OK → Zadrži do sljedeće godine."
+      },
+      {
+        "question": "Što je KALIBRACIJA mjernog instrumenta?",
+        "options": [
+          "Čišćenje",
+          "Usporedba s referentnim standardom radi provjere točnosti i prilagođavanja ako je potrebno",
+          "Popravak",
+          "Razmjena"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Kalibracija je postupak usporedbe mjerenja instrumenta s poznatim referentnim standardom (koji se može pratiti do nacionalnog/međunarodnog standarda). Ako je odstupanje > dopuštene tolerancije, instrument se podešava ili povlači iz uporabe. Dokumentirano je: datum, rezultati, tko je saznao.",
+        "hint": "📏 Mjeri li vaša vaga još uvijek ispravno? Stavite uteg od 100 g na njega (referenca) → Ako pokazuje 100 g = OK. Ako nije = kalibracija!"
+      },
+      {
+        "question": "Zašto je 'kvalificirani' status opreme kritičan za GMP?",
+        "options": [
+          "Nije kritičan",
+          "Jer samo kvalificirana oprema može se koristiti za proizvodnju - to dokazuje da radi ispravno",
+          "Zbog inspekcije",
+          "Zbog osiguranja"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "'Kvalificirani' status znači da je oprema: (1) ispravno instalirana (IQ), (2) radi ispravno (OQ), (3) proizvodi kvalificirane proizvode (PQ), (4) održava se u skladu s PM. Samo kvalificirana oprema smije proizvoditi GMP proizvode. Oznaka a na opremi: 'Kvalificiran - Sljedeći PM: [datum]'.",
+        "hint": "✅ Kvalificirana oprema = Dokazano radi ispravno = Može proizvesti. Nekvalificirano = Nije dopušteno!"
+      },
+      {
+        "question": "Što je 'održavanje temeljeno na stanju'?",
+        "options": [
+          "Održavanje uvijek",
+          "Održavanje na temelju STVARNOG stanja opreme (vibracije, temperatura, istrošenost), a ne prema fiksnom rasporedu",
+          "Nasumično održavanje",
+          "Održavanje u slučaju kvarova"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Održavanje temeljeno na stanju koristi praćenje u stvarnom vremenu (vibracije, temperatura, ultrazvuk) za procjenu STVARNOG stanja opreme. Održavanje se provodi kada mjerenja pokažu potrebu, a ne 'na slijepo' prema utvrđenom rasporedu. Ovo je učinkovitije od krutog PM-a - održavate kada stvarno trebate.",
+        "hint": "📊 Senzori nadziru opremu 24/7. Kada vibracije/temperatura pokazuju istrošenost → PM. Umjesto 'uvijek svaki mjesec'."
+      },
+      {
+        "question": "Zašto je potrebno dokumentirati SVE PM aktivnosti?",
+        "options": [
+          "Nije potrebno",
+          "Kako bi se regulatorima dokazalo da se oprema održava i kvalificira - 'Ako nije u evidenciji, nije se dogodilo'",
+          "Da imamo posla",
+          "Zbog arhive"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Svaki PM zahtijeva zapis o: (1) ŠTO je učinjeno, (2) TKO je to učinio, (3) KADA, (4) REZULTATI provjera, (5) Korišteni dijelovi, (6) Datum sljedećeg PM-a. To dokazuje da je oprema u kvalificiranom stanju. Inspektori pregledavaju evidenciju PM-a. Nema dokumentacije = nekvalificirana oprema.",
+        "hint": "📝 Inspektor: 'Prikaži PM zapise za ovaj autoklav.' Vi: 'Mi radimo PM, ali nije zapisano' = Nekvalificirano!"
+      },
+      {
+        "question": "Što je 'test integriteta' HEPA filtera?",
+        "options": [
+          "Test boja",
+          "Ispitivanje curenja - provjera da filtar filtrira > 99,97% čestica 0,3 µm (DOP, PAO test)",
+          "Test veličine",
+          "Test težine"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Test integriteta potvrđuje da HEPA filter NIJE oštećen i još uvijek filtrira > 99,97% čestica. Metode: (1) DOP test (raspršene čestice ulja), (2) PAO test (PolyAlphaOlefin aerosol), (3) Raspršenje svjetlosti. Test otkriva pukotine, rupe, loše brtvljenje. Provodi se godišnje i nakon svake razmjene/preseljenja.",
+        "hint": "🔍 Puhnite dim (aerosol) u filtar → Izlaz skeniranja → Ako pronađete čestice = curi = promijenite!"
+      },
+      {
+        "question": "Koliko često je potrebno certificirati laminar box?",
+        "options": [
+          "Samo jednom",
+          "6-12 mjeseci (ovisno o lokalnom zakonodavstvu) + nakon svakog preseljenja/održavanja",
+          "Svakih 5 godina",
+          "Nikada"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Certifikacija laminarne kutije uključuje: (1) Test integriteta HEPA filtra, (2) Test brzine protoka zraka (0,36-0,54 m/s), (3) Test uzorka dima (vizualizacija protoka zraka), (4) Broj čestica. Izvodi se: 6-12 mjeseci (ovisno o zemlji), nakon promjene HEPA, nakon preseljenja, nakon velikog održavanja.",
+        "hint": "📅 Godišnje (ili polugodišnje) + UVIJEK nakon promjene filtera ili premještanja kutije. Dokaz da još uvijek radi OK!"
+      },
+      {
+        "question": "Zašto je potrebno kalibrirati brojač čestica?",
+        "options": [
+          "Nije potrebno",
+          "Kako bi se osiguralo da još uvijek ispravno broji čestice - kritično za validaciju čistih prostorija",
+          "Da to popravim",
+          "Da ga očistim"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Brojač čestica se mijenja tijekom vremena (laserska dioda slabi, optika se troši). Kalibracija s referentnim aerosolom (poznata koncentracija čestica) provjerava točnost. Ako je odstupanje > ±10%, potreban servis. Kalibracija godišnje. Kritično jer se validacija čiste sobe temelji na podacima o broju čestica.",
+        "hint": "🔬 Ako se broji pogrešno → Validacija je pogrešna → Možda proizvodimo u 'pogrešnom' razredu! Mora biti točan!"
+      },
+      {
+        "question": "Što je \"rok za kalibraciju\" i zašto je kritičan?",
+        "options": [
+          "Datum kupnje",
+          "Datum do kojeg je kalibracija važeća - nakon ovog datuma instrument se NE SMIJE koristiti dok se ponovno ne kalibrira",
+          "Datum popravka",
+          "Datum proizvodnje"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Rok za kalibraciju je datum kada istječe trenutna kalibracija. Nakon ovog datuma: (1) Instrument postaje 'izvan kalibracije', (2) NE SMIJE se koristiti za GMP aktivnosti, (3) Mora se ponovno kalibrirati. Oznaka na instrumentu: 'Kalibriran: 1/1/2024, Rok: 1/1/2025'. Upotreba nakon isteka roka = kršenje GMP-a.",
+        "hint": "🚫 Kao valjanost vozačke dozvole: Istekla = Ne smijete voziti. Do roka dospijeća = Ne smijete mjeriti!"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "title": "Praćenje okoliša",
+    "slug": "monitoriranje-okolja",
+    "annexReference": "DPP Dodatak 1, ISO 14644",
+    "category": "Higiena",
+    "developmentAndExplanation": "**MONITORING OKOLIŠA (EM) - OČI ASEPTIKA**\n\n**ZAŠTO EM?**\n• Sustav ranog upozorenja - otkrivamo trendove PRIJE nego što dođe do kontaminacije\n• Provjera učinkovitosti čišćenja/dezinfekcije\n• Potvrda kvalificiranog statusa\n• GMP zahtjev\n\n**PARAMETRI PRAĆENJA:**\n\n**1. NEŽIVE ČESTICE (Praćenje čestica):**\n• At-rest (na mirovanju) - mjesto bez aktivnosti\n• U pogonu (tijekom rada) - stvarno stanje\n• Učestalost: Kontinuirano (Razred A/B) ili periodično (Razred C/D)\n\n**2. MIKROBIOLOŠKI MONITORING:**\n• **Aktivno uzorkovanje zraka**: Brojač čestica za bakterije\n• **Pasivno uzorkovanje zraka**: taložne ploče (ploče na zraku 4 sata)\n• **Praćenje površine**: Kontaktne pločice, brisevi\n• **Praćenje osoblja**: Ploče s prstima, otisci haljina\n\n**GRANICE RADNJE/UPOZORENJA:**\n• **Ograničenje upozorenja**: Znak ranog upozorenja - zahtijeva istragu\n• **Akcijska granica**: Kritična razina - zahtijeva hitne korektivne mjere\n\n**PRIMJER Razred A:**\n• Čestice (0,5 µm): Upozorenje 1, Radnja 5\n• CFU (aktivni zrak): Upozorenje 0, Radnja 1\n• CFU (ploča za taloženje): Upozorenje 0, Radnja 1\n• CFU (kontaktna ploča): Upozorenje 0, Radnja 1\n• CFU (rukavice): Upozorenje 0, Djelovanje 1\n\n**ANALIZA TRENDOVA:**\nMjesečni/tromjesečni pregled podataka za otkrivanje trendova povećanja kontaminacije",
+    "practicalChallenges": "• **Lažno pozitivno**: Kontaminacija uzorka tijekom uzorkovanja\n• **Lažno negativni rezultati**: Propušteni problemi zbog uzorkovanja na pogrešnim lokacijama\n• **Preopterećenost podacima**: Previše podataka, teško pronaći uzorke\n• **Teret usklađivanja**: Izuzetno radno intenzivan\n• **Neponovljivost**: Mikrobiološki rezultati variraju",
+    "improvementIdeas": "→ **AI otkrivanje trenda**: Automatsko otkrivanje anomalija\n→ **Bežični brojači čestica**: Praćenje u stvarnom vremenu bez kablova\n→ **Brze mikrobiološke metode**: Rezultati za 24 sata umjesto za 5-7 dana\n→ **Automatizirano uzorkovanje**: robotsko uzorkovanje\n→ **Digitalne nadzorne ploče**: Vizualizacija EM podataka uživo\n→ **Genomska identifikacija**: Točna identifikacija izvora kontaminacije",
+    "visualComponent": "EnvironmentalTrend",
+    "quizQuestions": [
+      {
+        "question": "Koja je razlika između broja čestica 'u mirovanju' i 'u radu'?",
+        "options": [
+          "Nema razlike",
+          "U mirovanju = prazan prostor bez aktivnosti; U radu = tijekom proizvodnje s osobljem i opremom",
+          "U mirovanju je veća",
+          "U radu je niža"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "U mirovanju je mjerenje u praznom, neaktivnom prostoru (kvalifikacija prostora). U radu je mjerenje između STVARNE proizvodnje s osobljem, opremom, kretanjem - stvarnog stanja. Granice tijekom rada su veće jer osoblje stvara čestice. I jedno i drugo potrebno je za potpunu sliku.",
+        "hint": "🏠 U mirovanju = prazan prostor (idealno). U radu = Tijekom rada (stvarno s ljudima). Drugo je teže!"
+      },
+      {
+        "question": "Što je taložna ploča i kako se koristi?",
+        "options": [
+          "Daska za sjedenje",
+          "Ploča s kulturom je izložena zraku 1-4 sata kako bi bakterije 'pale' na nju zbog gravitacije",
+          "Testna ploča",
+          "Mikroskop"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Pločica za taloženje je otvorena Petrijeva zdjelica s medijem kulture izloženom zraku (obično 4 sata). Bakterije i spore padaju na njega zbog gravitacije. Nakon inkubacije (5-7 dana) broje se kolonije (CFU). Ovo je pasivna metoda - jednostavna, ali manje osjetljiva od aktivnog uzorkovanja zraka.",
+        "hint": "🍽️ Otvorena ploča 'hvata' bakterije koje padaju iz zraka. Zatvorite nakon 4 sata → Inkubirajte → Prebrojite kolonije."
+      },
+      {
+        "question": "Zašto je test 'tapkanje prstima' kritičan za aseptično osoblje?",
+        "options": [
+          "Nije kritičan",
+          "Zato što provjerava jesu li rukavice STVARNO čiste nakon rada - detektira kontaminaciju rukavica",
+          "Jer je zabavno",
+          "Zato što je to obavezno"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Test dodirom prsta: operater pritišće prste (u rukavicama) na ploču s kulturom PRI IZLAZKU iz aseptične zone. Time se provjerava: (1) jesu li rukavice kontaminirane, (2) je li aseptična tehnika dobra, (3) jesu li rukavice probušene. Zahtjev stupnja A/B: 0 CFU (Ograničenje djelovanja: 1 CFU).",
+        "hint": "✋ Pritisnite prstima tanjur na kraju rada → Ako bakterije rastu = Rukavice su kontaminirane = Problem!"
+      },
+      {
+        "question": "Što 'Granica upozorenja' znači u EM-u?",
+        "options": [
+          "Protupožarni alarm",
+          "Razina koja ukazuje na potencijalno odstupanje od normalnih uvjeta - zahtijeva ISTRAŽIVANJE, ali ne i zaustavljanje proizvodnje",
+          "Maksimalna dopuštena razina",
+          "Najniža razina"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Granica upozorenja je rani signal upozorenja - rezultat je viši od normalnog, ali nije kritičan. Zahtijeva: (1) Dokumentirano istraživanje, (2) Analizu trenda, (3) Preventivne mjere. Proizvodnja NE staje. Nalazi se između 'normalno' i 'Action limit'. Obično Upozorenje = 50-70% Ograničenje akcije.",
+        "hint": "⚠️ Žuto svjetlo: 'Oprez, nešto nije u redu!' Pretražite, provjerite trend. Još nije crveno (kritično)!"
+      },
+      {
+        "question": "Što 'Action Limit' znači u EM-u?",
+        "options": [
+          "Radna granica",
+          "Kritična razina koja zahtijeva ODMAH korektivnu radnju i moguće zaustavljanje/odbijanje serije",
+          "Ciljana vrijednost",
+          "Prosječna vrijednost"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Granica djelovanja je KRITIČNA razina - pokazatelj ozbiljne kontaminacije. Zahtijeva: (1) TRENUTNU korektivnu radnju (čišćenje, dezinfekcija), (2) Istragu uzroka, (3) CAPA, (4) Moguće odbacivanje serije, (5) Moguće gašenje proizvodnje. Ovo je 'crvena linija'.",
+        "hint": "🚨 Crveno svjetlo: STOP! Kritično! Hitna akcija, moguće odbacivanje serije!"
+      },
+      {
+        "question": "Zašto je mikrobni EM sporiji od broja čestica?",
+        "options": [
+          "Jer je skupo",
+          "Jer bakterijama treba 5-7 dana INKUBACIJE da izrastu u vidljive kolonije",
+          "Jer je komplicirano",
+          "Nije sporije"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Za mikrobiološke rezultate potrebno je vrijeme: (1) 5-7 dana inkubacije na 30-35°C (mezofilne bakterije), (2) Dodatnih 5-7 dana na 20-25°C (kvasci, plijesni), (3) Identifikacija dodatnih nekoliko dana. Ukupno: 7-14 dana od uzorkovanja do rezultata. Brojanje čestica je trenutno. Ovo je izazov - kontaminacija je već stara kada dobijete rezultat.",
+        "hint": "⏳ Bakterije su male. Treba im vremena da izrastu u kolonije koje vidite (5-7 dana). Možete odmah vidjeti čestice!"
+      },
+      {
+        "question": "Gdje su NAJkritičnija mjesta za EM uzorkovanje?",
+        "options": [
+          "Nasumične lokacije",
+          "Najbliže kritičnoj zoni (točka punjenja), ispod HEPA filtera, u strujama zraka iznad proizvoda",
+          "Na vratima",
+          "Na podu"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Kritična mjesta: (1) Točka punjenja (gdje proizvod dolazi u dodir s okolinom), (2) Izravno ispod HEPA filtara (prvi zrak), (3) U blizini otvorenih spremnika, (4) Na radnim površinama, (5) Najgora mjesta (mali turbulentni vrtlozi). Uzimanje uzoraka na 'slučajnim' lokacijama je beskorisno - ne govori vam o riziku proizvoda.",
+        "hint": "🎯 Uzorak GDJE JE proizvod - ne u prolazu! Najbliže proizvodu = Najkritičnije!"
+      },
+      {
+        "question": "Što je 'aktivno uzorkovanje zraka' i kako funkcionira?",
+        "options": [
+          "Uzorkovanje okolnog zraka",
+          "Korištenje pumpe za aktivno usisavanje zraka kroz filtar/medij za uzgoj - skuplja određeni volumen zraka (npr. 1 m³)",
+          "Uzorkovanje pasivno",
+          "Površinsko uzorkovanje"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Aktivno uzorkovanje zraka: (1) Crpka usisava zrak (npr. 100 L/min), (2) Zrak prolazi kroz traku medija kulture ili membranu filtera, (3) Bakterije se sudaraju s medijem kulture, (4) Nakon inkubacije, brojimo CFU, (5) Rezultat: CFU/m³. Ovo je osjetljivija i ponovljivija metoda od pasivne (taložne ploče).",
+        "hint": "💨 Aktivno usisava zrak kroz medij kulture (kao sisavac). Pasivno čeka da bakterije padnu (gravitacija)."
+      },
+      {
+        "question": "Zašto je identifikacija mikroorganizama iz EM važna?",
+        "options": [
+          "Nema veze",
+          "Identificirati IZVOR kontaminacije (osoblje, voda, sirovine) i poduzeti ciljane mjere",
+          "Iz radoznalosti",
+          "Zbog skupoće"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Identifikacija mikroorganizama (Staphylococcus = osoblje, Bacillus = okoliš, Pseudomonas = voda) otkriva izvor: (1) Ljudska flora = problem osoblja/aseptičke tehnike, (2) Gram-negativni mikroorganizmi = problem vode, (3) Spore = problem čišćenja. To omogućuje ciljanu akciju, a ne slijepo 'očisti više'.",
+        "hint": "🔍 Nađete Staph aureus → To je iz nosa ljudi → Problem: Osoblje. Ciljana mjera: Trening!"
+      },
+      {
+        "question": "Što je 'održivi brojač čestica' i po čemu se razlikuje od normalnog?",
+        "options": [
+          "Nema razlike",
+          "Broji ŽIVE mikroorganizme u stvarnom vremenu s UV fluorescencijom - rezultati u minutama umjesto u danima",
+          "Veći je",
+          "Jeftinije je"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Brojač održivih čestica (npr. BioVigilant, Lighthouse) koristi laserski induciranu fluorescenciju (LIF) za ODMAH otkrivanje živih bakterija (triptofan, NADH fluorescencija). Rezultati za MINUTA umjesto za 5-7 dana. Ovo je brza mikrobiološka metoda - omogućuje reakciju u stvarnom vremenu. Skuplje ali brže.",
+        "hint": "⚡ Normalno: Uzorak → 5-7 dana inkubacije → Rezultat. Održivi brojač: Trenutačni rezultat (minute)!"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "title": "Upravljanje incidentima i CAPA",
+    "slug": "incident-management-capa",
+    "annexReference": "ICH Q10, DPP Poglavlje 1",
+    "category": "Validacija",
+    "developmentAndExplanation": "**UPRAVLJANJE INCIDENTIMA - UČENJE NA GREŠKAMA**\n\n**ŠTO JE INCIDENT?**\nSvako odstupanje od standardnih uvjeta:\n• Kontaminacija (mikrobiološka, ​​djelomična)\n• Kvar opreme\n• Pogreške osoblja\n• Odstupanja od procedura\n• Rezultati izvan specifikacije (OOS).\n• Pritužbe kupaca\n\n**CAPA PROCES (korektivne i preventivne radnje):**\n\n**1. IDENTIFIKACIJA** - Otkrijte problem\n**2. DOKUMENTACIJA** - Zapišite što, gdje, kada, tko\n**3. TRENUTNA AKCIJA** - Zaustavljanje (ograničenje štete)\n**4. ANALIZA OSNOVNOG UZROKA** - Pronađite PRAVI uzrok\n**5. KOREKTIVNA RADNJA** - Riješite problem\n**6. PREVENTIVNO DJELOVANJE** - Spriječiti ponovnu pojavu\n**7. VERIFIKACIJA** - Provjerite učinkovitost\n**8. ZATVARANJE** - Zatvorite incident\n\n**ALAT ZA ANALIZU UZROKA:**\n• **5 Zašto**: Pitajte 'zašto' 5 puta dok ne dođete do korijena\n• **Dijagram riblje kosti** (Ishikawa): 6M analiza (čovjek, stroj, materijal, metoda, mjerenje, majka priroda)\n• **Analiza stabla grešaka**: Stablo mogućih uzroka\n• **Paretova analiza**: pravilo 80/20 - fokus na temeljne uzroke\n\n**SAMO KULTURA:**\nKultura u kojoj osoblje prijavljuje pogreške bez straha od kazne - fokus na sustavno poboljšanje, a ne na optuživanje",
+    "practicalChallenges": "• **Kultura okrivljavanja**: Traženje krivca umjesto uzroka\n• **Plitak uzrok**: 'Ljudska pogreška' nije pravi uzrok!\n• **Neučinkovit CAPA**: Radnje ne rješavaju problem → Ponavljanje\n• **Dokumentacijski teret**: CAPA procesi postaju birokracija\n• **Nedostatak praćenja**: CAPA su 'zatvoreni', ali učinkovitost nije provjerena",
+    "improvementIdeas": "→ **Prijedlog temeljnog uzroka pokretan AI**: Sustav predlaže moguće uzroke\n→ **Automatsko otkrivanje trenda**: Upozorava na probleme koji se ponavljaju\n→ **Digitalni CAPA tijek rada**: Bez papira, sljedivost, brže\n→ **Gamification**: Bodovi za prijavu incidenata (potiče pravednu kulturu)\n→ **Baza znanja**: Baza podataka prošlih CAPA - 'Je li ovaj problem već riješen?'",
+    "visualComponent": "IncidentTimeline",
+    "quizQuestions": [
+      {
+        "question": "Koja je NAJČEŠĆA pogreška u analizi uzroka?",
+        "options": [
+          "Preduga analiza",
+          "Zaustavljanje na 'ljudskoj pogrešci' umjesto traženja SUSTAVNOG razloga zašto je osoba pogriješila",
+          "Prevelika ekipa",
+          "Preskup proces"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "'Ljudska pogreška' NIJE pravi uzrok! Moramo se zapitati: ZAŠTO je čovjek pogriješio? (1) Nejasne upute? (2) Neadekvatna obuka? (3) Loša ergonomija? (4) Vremenski pritisak? Pravi temeljni uzrok je SUSTAVNI problem koji je dopustio ljudsku pogrešku. Popravite sustav, ne krivite čovjeka.",
+        "hint": "❌ 'Covjek je kriv' = Plitka analiza. ✅ 'ZAŠTO je osoba postupila pogrešno?' = Pravi uzrok!"
+      },
+      {
+        "question": "Što znači metoda '5 zašto'?",
+        "options": [
+          "Pitajte 5 ljudi",
+          "Pitajte 'ZAŠTO' 5 puta za redom kako biste od simptoma došli do pravog korijena problema",
+          "5 različitih pitanja",
+          "Pričekajte 5 dana"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "5 Zašto metoda: Pitajte 'ZAŠTO se to dogodilo?' → 'ZAŠTO se to dogodilo?' → Nastavite dok ne dođete do pravog uzroka (obično 5x). Primjer: Kontaminacija → ZAŠTO? Kontaminirane rukavice → ZAŠTO? Dodirnuo neprikladni predmet → ZAŠTO? Nije znao da ne može → ZAŠTO? Nije bilo treninga → UZROK!",
+        "hint": "❓❓❓❓❓ Pet slojeva 'zašto' → Na petom dolazite do STVARNOG uzroka (obično sistemski problem)."
+      },
+      {
+        "question": "Koja je razlika između KOREKTIVNOG i PREVENTIVNOG djelovanja?",
+        "options": [
+          "Nema razlike",
+          "Korektiv = riješiti POSTOJEĆI problem; Preventivno = sprječava da se isti problem dogodi BILO GDJE",
+          "Korektiv je brži",
+          "Prevencija je skuplja"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Korektivna radnja ispravlja problem tamo gdje se pojavio (npr. popravak pokvarenog autoklava). Preventivno djelovanje proširuje rješenje kako bi se problem spriječio negdje drugdje (npr. izvedite PM na SVIM autoklavima, ne samo na pokvarenom). Prevencija je šira – učenje iz incidenta.",
+        "hint": "🔧 Korektiv = Popravi OVAJ autoklav. 🛡️ Preventivno = Provjerite SVE autoklave da se negdje drugdje ne pokvare!"
+      },
+      {
+        "question": "Što je 'kultura pravednosti' i zašto je ključna za upravljanje incidentima?",
+        "options": [
+          "Kultura pravde",
+          "Kultura u kojoj osoblje prijavljuje pogreške/incidente BEZ straha od kazne - usredotočite se na učenje, a ne na optuživanje",
+          "Stroga kultura",
+          "Nema veze"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Pravedna kultura potiče PRIJAVLJIVANJE problema jer: (1) nema straha od kazne, (2) fokus je na poboljšanjima sustava, (3) iskrenost se cijeni. Rezultat: Više uhvaćenih problema → Manje ozbiljnih incidenata. Naprotiv: Okrivite kulturu → Osoblje skriva greške → Problemi rastu → Katastrofa.",
+        "hint": "🤝 Prijavi problem = Pohvale (pomogli ste!). Ne prijaviš = kazna. Ovako osoblje ŽELI prijaviti!"
+      },
+      {
+        "question": "Zašto je 'suzbijanje' prvi korak nakon otkrivanja incidenta?",
+        "options": [
+          "To nije prvi korak",
+          "ODMAH ograničiti štetu i spriječiti širenje problema prije nego što započnemo analizu",
+          "Da imamo vremena",
+          "Dokumentirati"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Obuzdavanje = trenutna akcija za sprječavanje pogoršanja problema. Primjer: Kontaminirana serija → TRENUTNA karantena (još nije analizirano!). Pokvarena oprema → isključivanje ODMAH (još nije popravljeno). Prvo zaustavite širenje, a zatim analizirajte. Princip prve pomoći.",
+        "hint": "🚒 Kao vatrogasac: PRVO ugasite vatru (zaustavljanje), ONDA potražite uzrok. Ne obrnuto!"
+      },
+      {
+        "question": "Što je 'Dijagram riblje kosti' (Ishikawa)?",
+        "options": [
+          "Dijagram ribe",
+          "Alat za vizualizaciju mogućih uzroka problema - kategoriziran prema 6M (čovjek, stroj, materijal, metoda, mjerenje, majka priroda)",
+          "Plan tvornice",
+          "Vremenska crta"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Dijagram riblje kosti: Problem je 'glava', mogući uzroci su 'kosti'. 6M kategorije: (1) Čovjek (osoblje), (2) Stroj (oprema), (3) Materijal (sirovine), (4) Metoda (postupak), (5) Mjerenje (mjerenja), (6) Majka priroda (okoliš). Razmišljanje o svim mogućim uzrocima u svakoj kategoriji → Identificirajte glavni uzrok.",
+        "hint": "🐟 Glava = Problem. Kosti = Mogući uzroci. 6 glavnih kostiju (6M). Razmotrite SVE moguće uzroke!"
+      },
+      {
+        "question": "Zašto je PROVJERA učinkovitosti CAPA kritična?",
+        "options": [
+          "Nije kritično",
+          "Da dokažemo da je CAPA STVARNO riješila problem - bez provjere, ne znamo radi li",
+          "Zbog dokumentacije",
+          "Zbog skupoće"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "CAPA bez provjere je nepouzdana. Provjere provjere: (1) Je li problem stvarno riješen? (2) Pojavljuje li se još uvijek? (3) Stvara li CAPA nove probleme? Metode: Praćenje trendova, ponovna ispitivanja, revizije. Tek nakon uspješne verifikacije CAPA se zatvara. Inače: 'Popravljeno', ali zapravo i dalje pokvareno.",
+        "hint": "✅ Rekli smo da smo riješili → Ali jesmo li stvarno? Provjera = DOKAZ da radi!"
+      },
+      {
+        "question": "Što je 'provjera učinkovitosti' u CAPA procesu?",
+        "options": [
+          "Provjera troškova",
+          "Planirana provjera (npr. nakon 3 mjeseca) radi li CAPA i dalje i problem se nije vratio",
+          "Brzi test",
+          "Zadnji potpis"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Provjera učinkovitosti je naknadna provjera (npr. 1 mjesec, 3 mjeseca, 6 mjeseci nakon implementacije CAPA). Provjerimo: (1) Je li problem još uvijek riješen? (2) Je li se ponovilo? (3) Jesu li korektivne mjere još uvijek na snazi? Ovo je dugoročna provjera - neki se problemi vraćaju s vremenom.",
+        "hint": "📅 Nemojte samo provjeravati odmah nakon popravka! Provjerite ponovo za 3 mjeseca - radi li još uvijek ili se problem vratio?"
+      },
+      {
+        "question": "Zašto je 'analiza trenda' važnija od pojedinačnih incidenata?",
+        "options": [
+          "Nije važnije",
+          "Budući da TRENDOVI otkrivaju sustavne probleme - pojedinačni incidenti mogu biti nasumični",
+          "Jer je brži",
+          "Jer je jeftinije"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Jedan incident = možda slučajnost. TREND (ponavljajući incidenti) = SUSTAVNI problem. Primjer: 1× pokvareni autoklav = Slučajnost. 3x pokvaren autoklav u 6 mjeseci = PM program ne radi. Analiza trendova otkriva sistemske probleme koje pojedinačni CAPA ne bi. Mjesečni/tromjesečni pregled svih incidenata.",
+        "hint": "📊 1 bod = Ništa. 10 bodova povucite CRTU (trend) → Otkrijte uzorak (sistemski problem)!"
+      },
+      {
+        "question": "Kakva je veza između procjene rizika i CAPA-e?",
+        "options": [
+          "Nema veze",
+          "Incidenti potvrđuju je li procjena rizika točna - ako se dogodi incident koji nije bio predviđen, procjena rizika je pogrešna",
+          "Procjena rizika zamjenjuje CAPA",
+          "CAPA zamjenjuje procjenu rizika"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Ako se dogodi incident, pitajte: 'Jesmo li ovaj rizik predvidjeli u procjeni rizika?' Ako NE → Procjena rizika bila je manjkava → Ažurirajte je! Ako DA → Kontrolne mjere nisu bile učinkovite → Poboljšajte strategiju kontrole! CAPA i procjena rizika su povezani – učenje i poboljšanje.",
+        "hint": "🔄 Incident = Test procjene rizika. Ako se dogodi neočekivano → Procjena rizika nije bila dobra → Ažuriraj!"
+      }
+    ]
+  }
+]

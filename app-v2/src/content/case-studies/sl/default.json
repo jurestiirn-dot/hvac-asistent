@@ -1,0 +1,48 @@
+{
+  "case1": {
+    "title": "Primer iz prakse",
+    "context": "Ta primer prikazuje uporabo konceptov iz lekcije v realnem okolju.",
+    "problem": "Organizacija je potrebovala izboljšave v postopku, ki neposredno izhaja iz vsebine lekcije.",
+    "approach": [
+      "Analiza trenutnega stanja in identifikacija vrzeli",
+      "Načrt uvajanja izboljšav z jasnimi odgovornostmi",
+      "Izvedba v več fazah z merjenjem vpliva"
+    ],
+    "results": [
+      "Opazno zmanjšanje napak ali odstopanj",
+      "Boljša sledljivost in skladnost",
+      "Povečana učinkovitost ekipe"
+    ],
+    "metrics": [
+      { "label": "Zmanjšanje odstopanj", "value": "−35% v 8 tednih" },
+      { "label": "Čas obdelave", "value": "−18%" }
+    ],
+    "lessonsLearned": [
+      "Majhni, iterativni koraki so učinkovitejši kot velika enkratna sprememba",
+      "Vključenost uporabnikov je ključna za trajnost izboljšav"
+    ]
+  },
+  "case2": {
+    "title": "Še en primer iz prakse",
+    "context": "Drugi primer, ki dopolnjuje razumevanje konceptov s praktičnim primerom iz drugega konteksta.",
+    "problem": "Ekipa se je soočala z drugačnim izzivom, vendar z uporabo podobnih principov iz lekcije.",
+    "approach": [
+      "Prilagoditev metod iz prvega primera specifičnemu kontekstu",
+      "Sodelovanje z več oddelki za celovit pristop",
+      "Testiranje v pilotnem okolju pred širšo implementacijo"
+    ],
+    "results": [
+      "Hitrejša implementacija zahvaljujoč pilotnem testiranju",
+      "Zmanjšanje stroškov zaradi boljše koordinacije",
+      "Pozitivna povratna informacija od uporabnikov"
+    ],
+    "metrics": [
+      { "label": "Čas implementacije", "value": "−42%" },
+      { "label": "Prihranki", "value": "+28%" }
+    ],
+    "lessonsLearned": [
+      "Pilotno testiranje omogoča identifikacijo težav pred celotno uvedbo",
+      "Medoddelčno sodelovanje poveča uspešnost projekta"
+    ]
+  }
+}

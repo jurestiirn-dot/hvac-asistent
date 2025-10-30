@@ -1,0 +1,53 @@
+{
+  "case1": {
+    "title": "HEPA filtracija – optimizacija menjave filtrov",
+    "context": "Proizvodna enota je opažala nenačrtovane izpade zaradi kasne menjave HEPA filtrov.",
+    "problem": "Menjave filtrov so bile planirane po fiksnem intervalu, ne glede na realno obremenitev, kar je vodilo v presenečenja in odstopanja.",
+    "approach": [
+      "Uvedba spremljanja diferenčnega tlaka na kritičnih točkah",
+      "Definicija pragov za preventivno menjavo na podlagi podatkov",
+      "Standardni postopek za hitro zamenjavo z minimalnim vplivom na validacijo"
+    ],
+    "results": [
+      "Zmanjšanje nenačrtovanih izpadov za 60%",
+      "Bolj predvidljivo načrtovanje vzdrževanja",
+      "Nižji stroški zaradi manj odpadnega materiala"
+    ],
+    "metrics": [
+      { "label": "Nenačrtovani izpadi", "value": "−60%" },
+      { "label": "Povprečni ΔP pred menjavo", "value": "95% praga" }
+    ],
+    "lessonsLearned": [
+      "Merjenje omogoča boljšo odločitev kot fiksni interval",
+      "Hitra menjava s SOP zmanjša vpliv na proizvodnjo"
+    ]
+  },
+  "case2": {
+    "title": "HEPA filtracija – integrity testing po poškodbi",
+    "context": "Med rednim Environmental Monitoring (EM) so bili zaznani povečani nivoji delcev v Grade A coni kljub normalnemu diferenčnemu tlaku.",
+    "problem": "Integrity test je pokazal, da ima HEPA filter mikrorazpoko (leak), ki omogoča prehod delcev velikosti 0.3 µm. Filter je bil star 18 mesecev, kar je še znotraj pričakovane življenjske dobe.",
+    "approach": [
+      "Takojšnja izolacija cone in prekinitev proizvodnje v skladu z Deviation Management SOP",
+      "Zamenjava HEPA filtra z novim, certificiranim filtrom (H14 razred, 99.995% učinkovitost)",
+      "DOP (Dispersed Oil Particulate) test za potrditev integritete po vgradnji",
+      "Re-kvalifikacija cone z merjenjem delcev in mikrobiološkim monitoringom (settle plates, active air sampling)"
+    ],
+    "results": [
+      "Filter zamenjan v 4 urah (vključno z integrity testom)",
+      "DOP test uspešno prestal: <0.01% penetracija pri 0.3 µm",
+      "Nivoji delcev ponovno v specifikaciji (<3520 delcev/m³ ≥0.5 µm za Grade A v mirovanju)",
+      "Proizvodnja ponovno zagnana po 24 urah (čas za mikrobiološko potrditev)"
+    ],
+    "metrics": [
+      { "label": "Čas odprave", "value": "4 ure" },
+      { "label": "DOP test penetracija", "value": "<0.01%" },
+      { "label": "Delci ≥0.5 µm", "value": "−88%" },
+      { "label": "EM skladnost", "value": "100%" }
+    ],
+    "lessonsLearned": [
+      "Integrity testing je kritičen preventivni ukrep – priporočljivo 2× letno tudi če ΔP normalen",
+      "Imeti spare filter na zalogi skrajša downtime (v tem primeru prihranek 2-3 dni)",
+      "Mikrobiološka potrditev po menjavi filtra je nujna za GMP skladnost"
+    ]
+  }
+}

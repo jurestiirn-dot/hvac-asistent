@@ -1,0 +1,12 @@
+{
+  "risk": {
+    "enableApprovalBump": false,
+    "high": 2,
+    "medium": 1
+  },
+  "aiSession": {
+    "active": false,
+    "fileThreshold": 20,
+    "extraApprovals": 1
+  }
+}

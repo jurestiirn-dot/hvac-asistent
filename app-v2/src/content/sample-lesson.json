@@ -1,0 +1,18 @@
+{
+  "id": 101,
+  "title": "Filtracija Zraka in Koncept Kaskade",
+  "slug": "filtracija-kaskada",
+  "annexReference": "GxP Annex 1, 4.3",
+  "developmentAndExplanation": "HEPA filtracija in kaskada tlakov - osnove.",
+  "practicalChallenges": "PAO test integritete filtrov in merjenje diferenčnega tlaka.",
+  "improvementIdeas": "Continuous monitoring z AI za napovedovanje napak.",
+  "visualComponent": "3D-Airflow",
+  "quizQuestions": [
+    {
+      "question": "Kateri test je nujen za preverjanje integritete HEPA filtra?",
+      "options": ["PAO Test", "Recovery Test", "Test Nasičenja"],
+      "correctAnswerIndex": 0,
+      "explanation": "PAO test potrjuje integriteto filtra."
+    }
+  ]
+}

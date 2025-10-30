@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HVAC Asistent</title>
+  <link rel="icon" href="./favicon.ico" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div id="app-wrapper">
+    <header>
+      <h1 id="app-title">HVAC Asistent</h1>
+      <nav>
+        <a href="#dashboard" class="nav-link" data-module="dashboard">🏠 Nadzorna plošča</a>
+        <a href="#gxp" class="nav-link" data-module="gxp">📘 GxP</a>
+        <a href="#converter" class="nav-link" data-module="converter">🔁 Pretvornik</a>
+        <a href="#cal" class="nav-link" data-module="cal">🧪 Kalibrator</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Dashboard View -->
+      <section id="dashboard-view" class="container">
+        <h2>Dobrodošli</h2>
+        <p>Izberite modul v navigaciji zgoraj.</p>
+        <div>
+          <label for="sample-input">Primer vnosa (shrani v sejo):</label>
+          <input id="sample-input" class="session-input" type="text" placeholder="Vnesi nekaj..." />
+        </div>
+      </section>
+
+      <!-- GxP View -->
+      <section id="gxp-view" class="container hidden">
+        <aside id="gxp-sidebar" class="sidebar"></aside>
+        <article id="gxp-content" class="content">
+          <h2 id="lesson-title"></h2>
+          <p id="lesson-reference" class="muted"></p>
+          <h3>1. Razlaga</h3>
+          <p id="dev-explanation"></p>
+          <h3>2. Praktični izzivi</h3>
+          <p id="practical-challenges"></p>
+          <h3>3. Ideje za izboljšave</h3>
+          <p id="improvement-ideas"></p>
+          <div id="visual-or-quiz-area"></div>
+        </article>
+      </section>
+
+      <!-- Converter View -->
+      <section id="converter-view" class="container hidden">
+        <h2>Pretvornik</h2>
+        <p>V razvoju...</p>
+      </section>
+
+      <!-- Calibrator View -->
+      <section id="cal-view" class="container hidden">
+        <h2>Kalibrator</h2>
+        <p>V razvoju...</p>
+      </section>
+    </main>
+  </div>
+
+  <script type="module" src="./dist/main.js"></script>
+</body>
+</html>

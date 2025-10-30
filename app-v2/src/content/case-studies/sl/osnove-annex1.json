@@ -1,0 +1,49 @@
+{
+  "case1": {
+    "title": "Čiste sobe – uvedba osnovnih SOP po Annex 1",
+    "context": "Farmacevtsko podjetje je uvajalo osnovne prakse po Annex 1 v obstoječem proizvodnem prostoru z omejenimi investicijami.",
+    "problem": "Neskladnosti v nadzoru okoljskih pogojev in nedosledna uporaba osebnih praks so povzročale povečana tveganja kontaminacije.",
+    "approach": [
+      "Vzpostavitev minimalnega nabora SOP (oblačenje, čiščenje, vstop/izstop)",
+      "Usposabljanje operaterjev s poudarkom na točki uporabe",
+      "Preprost sistem spremljanja (EM) z vizualnimi tablami za takojšnjo povratno informacijo"
+    ],
+    "results": [
+      "Zmanjšanje alarmov EM za 42% v prvih 6 tednih",
+      "Bolj dosledno oblačenje (90% skladnost na prvem auditu)",
+      "Hitrejše reševanje odstopanj (−25% časa)"
+    ],
+    "metrics": [
+      { "label": "EM alarmi", "value": "−42%" },
+      { "label": "Skladnost oblačenja", "value": "90%+" }
+    ],
+    "lessonsLearned": [
+      "Vidna povratna informacija poveča zavzetost",
+      "Standardizacija pred avtomatizacijo prinese hiter napredek"
+    ]
+  },
+  "case2": {
+    "title": "Čiste sobe – nadgradnja iz Grade D v Grade C",
+    "context": "Podjetje je načrtovalo proizvodnjo novega produkta, ki zahteva boljše kontrole in višji čistilni razred (Grade C namesto D).",
+    "problem": "Obstoječi HVAC sistem ni zagotavljal zadostne menjave zraka (15 ACH namesto zahtevanih 20 ACH za Grade C) in diferenčni tlaki niso bili ustrezni.",
+    "approach": [
+      "Tehnična revizija HVAC z inženirjem: povečanje pretoka zraka in optimizacija filtrov",
+      "Validacija čistega prostora z merjenjem delcev in mikrobiološkimi testi",
+      "Novo usposabljanje osebja za strožje protokole Grade C (manj oseb v prostoru, daljši postopki oblačenja)"
+    ],
+    "results": [
+      "Doseženo 22 ACH v kritičnih conah (nad 20 ACH zahtevanim)",
+      "Diferenčni tlaki stabilizirani na +15 Pa relativno na Grade D",
+      "Uspešna kvalifikacija Performance Qualification (PQ) brez večjih odstopanj"
+    ],
+    "metrics": [
+      { "label": "ACH izboljšanje", "value": "+47%" },
+      { "label": "Delci ≥0.5 µm", "value": "−65%" },
+      { "label": "PQ skladnost", "value": "100%" }
+    ],
+    "lessonsLearned": [
+      "Vlaganje v HVAC infrastrukturo se hitro povrne z manj odstopanji",
+      "Validacija v fazah (IQ, OQ, PQ) zmanjša tveganje večjih popravkov na koncu"
+    ]
+  }
+}

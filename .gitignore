@@ -1,0 +1,57 @@
+# Node / Vite / React
+node_modules/
+**/node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build outputs
+/dist/
+**/dist/
+/build/
+**/build/
+.vite/
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.swp
+
+# Test artifacts
+coverage/
+playwright-report/
+blob-report/
+
+# Vercel/Netlify
+.vercel/
+.netlify/
+
+# Strapi / uploads / temp
+backend/
+backend-strapi/.tmp/
+backend-strapi/.cache/
+backend-strapi/node_modules/
+app-v2/backend/
+app-v2/backend-strapi/
+
+# Python cache
+**/__pycache__/
+*.pyc
+
+# Local data exports/backups
+*.sqlite
+*.db
+*.bak
+*.tar.gz
+*.zip

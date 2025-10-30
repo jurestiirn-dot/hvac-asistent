@@ -1,0 +1,1 @@
+Start-Process powershell -ArgumentList "-NoExit","-Command","cd 'C:\Users\Jure\Desktop\Končne verzije\v0,1\hvac asistent\backend-strapi'; npm install; npm run develop"

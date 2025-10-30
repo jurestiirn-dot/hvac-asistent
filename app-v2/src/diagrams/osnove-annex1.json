@@ -1,0 +1,15 @@
+{
+  "background": "#0f172a",
+  "layers": { "zones": true, "flows": true, "hotspots": true, "legend": true },
+  "zones": [
+    { "x": 110, "y": 160, "width": 240, "height": 240, "fill": "#0ea5e9", "label": "Okolje A/B" },
+    { "x": 380, "y": 160, "width": 240, "height": 240, "fill": "#22c55e", "label": "Okolje C" },
+    { "x": 650, "y": 160, "width": 180, "height": 240, "fill": "#eab308", "label": "Okolje D" }
+  ],
+  "flows": [ { "from": [150, 430], "to": [360, 430], "color": "#f59e0b" }, { "from": [400, 430], "to": [640, 430], "color": "#f59e0b" } ],
+  "hotspots": [
+    { "id": "source-human", "x": 180, "y": 180, "label": "Osebje", "description": "Največji vir kontaminacije.", "anchor": "Človeški Faktor" },
+    { "id": "env-monitor", "x": 540, "y": 220, "label": "EM točka", "description": "Merjenje delcev / mikrobov.", "anchor": "Program Nadzora Okolja" }
+  ],
+  "legend": [ { "label": "Okolje A/B", "color": "#0ea5e9" }, { "label": "Okolje C", "color": "#22c55e" }, { "label": "Okolje D", "color": "#eab308" } ]
+}

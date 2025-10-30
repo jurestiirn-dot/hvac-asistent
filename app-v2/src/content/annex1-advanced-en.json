@@ -1,0 +1,1332 @@
+[
+  {
+    "id": 112,
+    "title": "Media Fill Test - Simulation of Aseptic Process",
+    "slug": "media-fill-test",
+    "annexReference": "DPP Appendix 1, Chapter 8, ISO 13408-1",
+    "category": "Validacija",
+    "developmentAndExplanation": "**MEDIA FILL TEST - THE GOLD STANDARD OF ASEPTIC PRODUCTION VALIDATION**\n\n**WHAT IS THE MEDIA FILL TEST?**\n\nThe media fill test is the most critical validation procedure in aseptic production. Instead of real medicine, ampoules or vials are filled with a sterile microbiological culture medium (usually TSB - Tryptic Soy Broth), which enables the growth of microorganisms.\n\n**ESSENTIAL OF THE TEST:**\n\nIf ANY contamination occurs during the aseptic process, the microorganism in the culture medium will multiply and the culture medium will change from clear to cloudy (turbidity). This allows visual detection of the smallest contamination.\n\n**REGULATORY REQUIREMENTS:**\n\n→ **Acceptable level of contamination**: Less than 0.1% (1 in 1000 units)\n→ **Minimum number of units**: 3,000 units for initial validation, 5,000-10,000 for large batches\n→ **Frequency**: Twice a year for each aseptic line and shift team\n→ **Duration**: The simulation must last as long or longer than the longest production run\n\n**PRINCIPLES OF IMPLEMENTATION:**\n\n**1. WORST-CASE SIMULATION**\n\nThe test must include all critical steps:\n• Pre-preparation of components (washing, sterilization)\n• Transfer of materials to the aseptic zone\n• Setup and preparation of equipment\n• Charging (including interruptions if they occur)\n• Closing and crimping\n• Transfer from aseptic zone\n• Visual inspection\n\n**2. INCUBATION OF MEDIA**\n\n→ All filled units are incubated at 20-25°C for 7 days, then 30-35°C for an additional 7 days\n→ This enables the growth of both mesophilic and thermophilic microorganisms\n→ Daily visual inspection of all units\n\n**3. INTERVENTIONS AND DISORDERS**\n\nThe test must simulate:\n• Start and end of the production shift\n• Replacement of components\n• Aseptic tube connection\n• Adding materials during the process\n• Entry of personnel into the critical zone (if necessary)\n• Minor equipment interference\n\n**INTERPRETATION OF RESULTS:**\n\n**0 contaminated units** = EXCELLENT result → Process under control\n**1 contaminated unit (0.03%)** = ACCEPTABLE → Cause investigation, corrective action\n**2+ contaminated units** = UNACCEPTABLE → Retest, thorough investigation, validation failed\n\n**IMPORTANT**: Even 1 contaminated unit requires complete microbiological identification and investigation of the likely source.\n\n**COMMON CAUSES OF FAILURE:**\n\n• **Staff errors**: Improper technique, touching critical surfaces, violation of aseptic rules\n• **Equipment failures**: Seal leaks, laminar flow disturbances\n• **Inadequate cleaning**: Leftovers from previous batches\n• **Environment**: Disturbances in the HVAC system, excessive humidity\n• **Culture**: Past contamination of the culture medium (a positive control test is therefore mandatory)\n\n**SUCCESS STRATEGY:**\n\n✓ **Intensive training** of staff specifically for media fill\n✓ **Mock runs** (exercises) before the actual test\n✓ **Video recording** of the entire test for later analysis\n✓ **Observer** (Quality Assurance) present at all times\n✓ **Microbiological monitoring** of the environment during the test (increased frequency)\n✓ **Documentation** of each intervention with exact time\n\n**HOW DOES THE NURSERY WORK?**\n\nTSB (Tryptic Soy Broth) contains:\n• Peptone - source of nitrogen\n• Soy - a source of carbon\n• NaCl - osmotic stability\n• pH 7.3 ± 0.2\n\nA single microorganism (CFU - Colony Forming Unit) can produce millions of offspring in 24-48 hours, causing visible turbidity. This is an extremely sensitive method of detection.",
+    "practicalChallenges": "**CHALLENGES WHEN PERFORMING MEDIA FILL TESTS:**\n\n**1. PSYCHOLOGICAL PRESSURE ON STAFF**\n\n• Staff are under a lot of stress - \"all eyes are on them\"\n• Paradox: Behavior during test is often BETTER than during regular production\n• Therefore, it is important to simulate normal conditions and stress\n• Solution: Report the test as a \"practice\", perform an unannounced real test\n\n**2. COST ASPECT**\n\n• One media fill test costs EUR 10,000-50,000 (culture medium, work, equipment, analysis)\n• In case of failure: additional cost of retesting, production stoppage\n• Time commitment: 2-4 weeks (preparation → implementation → incubation → analysis)\n\n**3. FALSE POSITIVE RESULTS**\n\n**Problem**: The contamination did NOT occur during the process, but:\n• During incubation (poorly closed units)\n• In the culture medium before filling (manufacturer's error)\n• During visual inspection (opening for additional inspection)\n\n**Solution**:\n• Culture media sterility control tests\n• Container closure integrity test (CCIT)\n• Incubation under controlled conditions\n\n**4. SIMULATION OF REAL CONDITIONS**\n\n• The culture medium has different physical properties than the real product (viscosity, foaming)\n• It is difficult to simulate all disturbances that occur in reality\n• Operators are aware that they are doing a test, not real production\n\n**5. STATISTICAL RELEVANCE**\n\n• Even with 3,000 units, we can \"miss\" rare contamination events\n• Theoretically: 99.9% success in test does not guarantee 99.9% in production\n• The confidence interval is wide for a small number of units\n\n**6. ENDURANCE AND FATIGUE**\n\n• Media fill can last 8-16 hours continuously\n• Physical and mental fatigue of personnel in full aseptic equipment\n• The risk of errors increases with time\n• Solution: Planned breaks, staff rotation (if this is part of the process)\n\n**7. INTERPRETATION OF ABNORMAL RESULTS**\n\n• What if the contaminated unit is at the beginning of the batch? (Equipment setting)\n• What if the contaminated unit is in the middle of the batch? (Random error)\n• What if only the last units are contaminated? (Fatigue, deterioration of conditions)\n\n**8. HANDLING FAILED TESTS**\n\n• Management pressure for a \"quick retest\"\n• A thorough RCA (Root Cause Analysis) is required\n• It may take weeks or months to identify the true cause\n• In the meantime, production stops → financial losses\n\n**9. TECHNICAL PROBLEMS WITH THE CULTURE**\n\n• The culture medium can spontaneously change color (without bacteria) due to:\n  - Oxidations\n  - Light exposures\n  - Temperature extremes\n• Distinguishing between bacterial growth and chemical change can be difficult\n\n**10. REGULATORY EXPECTATIONS**\n\n• FDA, EMA, WHO have slightly different guidelines\n• Inspectors interpret the results differently\n• Trend: Increasingly strict requirements (some require 0 contamination)",
+    "improvementIdeas": "**MODERN INNOVATIONS AND THE FUTURE OF MEDIA FILL TESTING:**\n\n→ **Automated visual inspection with AI**: Cameras with machine learning algorithms for turbidity detection\n→ **Robotic execution of tests**: Removal of the human factor - the robot performs the test identically every time\n→ **Continuous media fill**: Smaller tests more often instead of big semi-annual ones\n→ **Fluorescent detection**: Culture media with fluorescent indicators for faster detection\n→ **Real-time monitoring**: Turbidity sensors already during incubation\n→ **Virtual reality training**: VR simulation media fill for better preparation\n→ **Rapid microbiological methods (RMM)**: ATP bioluminescence, flow cytometry for faster results\n→ **Predictive analytics**: Analysis of historical data to predict the probability of success\n→ **Isolator technology**: Complete isolation reduces the risk of contamination",
+    "visualComponent": "MediaFillSimulation",
+    "quizQuestions": [
+      {
+        "question": "What is the MAXIMUM acceptable level of contamination in the media fill test?",
+        "options": [
+          "0% - no unit must be contaminated",
+          "Less than 0.1% (1 in 1000 units)",
+          "Less than 1% (10 per 1000 units)",
+          "Less than 5%"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "According to the DPP Appendix 1 guidelines, an acceptable level of contamination is less than 0.1%, which means less than 1 contaminated unit per 1000 filled units. This is an extremely strict criterion, because aseptic production must be practically error-free.",
+        "hint": "💡 Think: If 1% were acceptable, that would mean 10 contaminated units per 1000 - this is unacceptably high for aseptic production!"
+      },
+      {
+        "question": "What is the MAIN purpose of the media fill test?",
+        "options": [
+          "Testing the quality of the culture medium",
+          "Validation of aseptic process and personnel capability to prevent microbiological contamination",
+          "Training of new staff",
+          "Testing of charging equipment"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "The media fill test is the gold standard for validating the entire aseptic process. Demonstrates that the combination of personnel, equipment, facilities and procedures ensures a sterile product. The test simulates real production and reveals every weak point in the process.",
+        "hint": "🔍 Think: Why would you fill the culture medium instead of the real medicine? Because the culture medium enables the GROWTH of microorganisms and thus the visual detection of contamination."
+      },
+      {
+        "question": "How long are media fill units incubated?",
+        "options": [
+          "24 hours at 37°C",
+          "7 days at 20-25°C, then 7 days at 30-35°C (14 days in total)",
+          "3 days at room temperature",
+          "10 days only at 37°C"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Double incubation enables the growth of different types of microorganisms: first mesophilic (20-25°C) then thermophilic (30-35°C). A total of 14 days provides enough time for the growth of even slow-growing microorganisms. This is a regulatory requirement.",
+        "hint": "🌡️ Hint: Different microorganisms grow best at different temperatures - the test must cover ALL possible contaminants."
+      },
+      {
+        "question": "What does the 'worst-case' approach in the media fill test mean?",
+        "options": [
+          "The test is conducted in the night shift",
+          "Simulation of the worst possible conditions and all critical interventions that may occur during production",
+          "The test is performed with the oldest equipment",
+          "The test is conducted in winter"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Worst-case means that the test includes ALL critical steps and interventions that increase risk: start/end of shift, change of components, entry of personnel, maximum duration. If the test passes the worst conditions, it will pass the normal ones.",
+        "hint": "💭 Logic: If a process works under the WORST conditions, then it surely works under normal conditions."
+      },
+      {
+        "question": "How often should a media fill test be performed for each aseptic line?",
+        "options": [
+          "Once a year",
+          "Twice a year (every 6 months) for each line and shift",
+          "Once every 5 years",
+          "Only on initial validation"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Regulatory guidelines require periodic revalidation with media fill tests at least twice a year. This ensures that the process remains under control despite changes in personnel, season, equipment. Each shift and line must be tested separately.",
+        "hint": "📅 Consider: Staff changes, equipment wears out, the season affects the environment - why should one test be enough at the beginning?"
+      },
+      {
+        "question": "What is TSB and why is it used in media fill tests?",
+        "options": [
+          "Toxic Substance Barrier - protection against poisons",
+          "Tryptic Soy Broth - a universal microbiological culture medium that enables the growth of a wide range of microorganisms",
+          "Technical Safety Board - safety protocol",
+          "Temperature Sensing Buffer - temperature buffer"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "TSB (Tryptic Soy Broth) is a rich nutrient medium that supports the growth of almost all clinically relevant bacteria and fungi. It is transparent, so turbidity due to bacterial growth is easy to detect visually. It has wide acceptance in the pharmaceutical industry.",
+        "hint": "🧫 Think: We need a culture medium that will allow the growth of ANY microorganisms, not just specific ones."
+      },
+      {
+        "question": "If 1 unit out of 5000 is contaminated in the media fill test, what is the result?",
+        "options": [
+          "Test failed - retest required",
+          "The test is acceptable (0.02%), but a thorough investigation of the cause is required",
+          "Test is great - no action required",
+          "The test is invalid"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "1/5000 = 0.02% which is LESS than 0.1% (acceptable limit). The test is formally ACCEPTED, but ANY contamination requires: microbiological identification, RCA (Root Cause Analysis), corrective actions, and documentation. The goal is 0 contaminations.",
+        "hint": "⚖️ Think: If the limit is 0.1% (1/1000), how much is 1/5000? Smaller or bigger?"
+      },
+      {
+        "question": "What should the media fill test documentation contain?",
+        "options": [
+          "Final result only (number of contaminated units)",
+          "Each step, intervention, time, personnel involved, environmental parameters, deviations, observations",
+          "Staff list only",
+          "Photos only"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "The media fill test is a critical GMP document. The documentation must be comprehensive and allow reconstruction of the entire test. It should include: batch record, time of each step, operator names, parameters (temperature, pressure, air flow), any disturbances, Quality Assurance observations, incubation results. This is the basis for regulatory inspections.",
+        "hint": "📋 Think: If the inspector wanted to know exactly what happened at 10:37 am on the day of the test - can you answer?"
+      },
+      {
+        "question": "Why is videotaping a media fill test useful?",
+        "options": [
+          "For marketing purposes",
+          "For subsequent analysis of techniques, error identification, training, and proof of correct implementation",
+          "It's not useful - it just creates additional costs",
+          "Just for the fun of the staff"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Video documentation enables: detailed analysis of personnel movements and techniques, identification of suboptimal practices, proof of correct implementation for regulators, training material for new operators, possibility of audit if contamination occurs. More and more companies are using multi-camera recording.",
+        "hint": "🎥 Think: If the test failed, how else would you find out WHAT exactly happened at that particular time?"
+      },
+      {
+        "question": "What is a 'growth promotion test' and why is it important?",
+        "options": [
+          "Plant growth test",
+          "A test that confirms that the culture medium allows the growth of microorganisms - a positive control of the validity of the media fill test",
+          "New employee promotion test",
+          "Charging speed test"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Growth promotion test is a POSITIVE CONTROL: we deliberately inoculate the culture medium with known microorganisms (e.g. Bacillus subtilis, Candida albicans) and check that they really grow. This proves that if there was NO growth in the media fill, it was because there was NO contamination, not because the medium was incapable of supporting growth. Without this media fill test the results are not valid.",
+        "hint": "🔬 Logic: How can you trust a negative result (no growth) if you don't check that the culture medium would allow growth at all?"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "title": "Personnel Behavior and Aseptic Technique",
+    "slug": "osebje-asepticna-tehnika",
+    "annexReference": "DPP Appendix 1, Chapter 7",
+    "category": "Higiena",
+    "developmentAndExplanation": "**HUMAN FACTOR - 80% OF ALL CONTAMINATIONS**\n\nPersonnel are the greatest source of contamination in aseptic production. The human body continuously releases:\n• **1 million particles/minute** at rest\n• **5-10 million particles/minute** when walking\n• **100,000-1,000,000 CFU/day** (bacteria and fungi)\n\n**KEY ASEPTIC RULES:**\n\n✓ **Never work above the critical zone** - particles fall down\n✓ **Minimal movement** - every movement raises particles\n✓ **Do not speak even in an aseptic area** - drops from the mouth\n✓ **Slow, controlled movements** - preventing turbulence\n✓ **Never touch sterile surfaces** - even with gloved hands\n✓ **Correct hand placement** - always below the level of the critical zone\n✓ **Do not turn your back on the critical zone** - the suit releases particles\n✓ **Plan movements in advance** - reduce the number of manipulations\n\n**PSYCHOLOGY OF ASEPTIC WORK:**\n\n• **Focus and concentration**: Minimal distraction, meditative concentration\n• **Discipline**: Blindly following SOP, not improvisation\n• **Fear of mistakes**: Constructive stress, not paralyzing\n• **Pride at work**: Awareness of the importance of patient safety",
+    "practicalChallenges": "**MAIN CHALLENGES:**\n\n• **Routine**: After 100x of the same procedure, \"autopilot\" and errors may occur\n• **Fatigue**: 8-hour shifts in full protective gear\n• **Heat**: Protective equipment causes overheating\n• **Limited visibility**: Visor/mask restricts peripheral vision\n• **Time pressure**: Production has deadlines, leading to a rush\n• **Discomfort**: Reusable gloves, non-flexible clothing",
+    "improvementIdeas": "→ **Wearable sensors**: Motion sensors for real-time feedback on the correctness of techniques\n→ **AR instructions**: Show steps in real time via smart glasses\n→ **Biofeedback**: Measurement of stress and adjustment of working conditions\n→ **Gamification of training**: Gamification of learning aseptic techniques\n→ **Exoskeleton**: Support for reducing physical strain\n→ **Ergonomic design**: Better protective equipment for comfort",
+    "visualComponent": "PersonnelBehavior",
+    "quizQuestions": [
+      {
+        "question": "Approximately how many particles does a person release per minute at rest?",
+        "options": [
+          "10,000",
+          "100,000",
+          "1 million",
+          "10 million"
+        ],
+        "correctAnswerIndex": 2,
+        "explanation": "At rest, a person releases about 1 million particles per minute. When moving, this number increases to 5-10 million particles per minute, so it is important to minimize movement in critical zones.",
+        "hint": "💡 Think: Even at complete rest, we are a 'part factory' - why? Skin cells are constantly being peeled off!"
+      },
+      {
+        "question": "Why should you NOT work above the critical zone (above the exposed product)?",
+        "options": [
+          "Because you can't see well enough",
+          "Because gravity causes the particles to fall down directly onto the product",
+          "Because it's uncomfortable",
+          "Because that's what it says in the SOP"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Gravity causes particles and microorganisms to fall downward. If you work above the critical zone, all particles from your clothes, hands, body fall directly on the sterile product. So always work from the side or below.",
+        "hint": "🍎 Gravity: What falls down? Everything! Even bacteria on particles from your clothes."
+      },
+      {
+        "question": "What is the CORRECT movement technique in the aseptic zone?",
+        "options": [
+          "Fast, efficient movements to save time",
+          "Slow, controlled, planned movements with minimal turbulence",
+          "Normal movement as outside",
+          "Movements don't matter"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Slow, controlled movements are key to preventing turbulence from disrupting laminar airflow. Every movement should be planned in advance to reduce the number of manipulations and movements. The rapid movements create eddies that lift the particles.",
+        "hint": "🌊 Imagine that you are moving under water - slowly and controlled, without eddies."
+      },
+      {
+        "question": "Why is speaking in an aseptic area dangerous?",
+        "options": [
+          "Because you disturb others",
+          "Because drops with bacteria come from the mouth, which can contaminate the product",
+          "Because you use up oxygen",
+          "It's not dangerous"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "When you speak, micro-droplets (aerosols) filled with bacteria from the oral cavity come out of your mouth. Even with a mask, these droplets can penetrate or bypass the mask. Therefore, communication in critical zones is limited to what is absolutely necessary.",
+        "hint": "🗣️ When you speak, you 'spit' microscopic droplets - even if you can't see or feel them!"
+      },
+      {
+        "question": "What is the MAIN reason for double gloves?",
+        "options": [
+          "Warmth for the hands",
+          "A second layer of protection if the first is penetrated + the possibility of external disinfection",
+          "Better grip",
+          "Fashion"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Double gloves allow: (1) An additional layer of protection if the outer one is punctured, (2) The possibility of disinfecting the outer glove without contaminating the inner one, (3) Visual confirmation (different colors) if a puncture occurs. Changing the outer glove is faster than re-gowning.",
+        "hint": "🧤 What if the glove gets punctured? The second layer saves you! Plus you can disinfect the outside without risk."
+      },
+      {
+        "question": "Why is it important to plan movements AHEAD in the aseptic zone?",
+        "options": [
+          "To save time",
+          "To reduce the number of manipulations, movements and thus the risk of contamination",
+          "To look professional",
+          "It doesn't matter"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Every movement, every manipulation, every reach increases the risk: (1) More particles are released, (2) More opportunity for error, (3) More turbulence in the airflow. Planning in advance allows for an optimal sequence of actions with minimal movement.",
+        "hint": "🎯 Chess principle: Plan 3 moves in advance. Every additional movement = additional risk."
+      },
+      {
+        "question": "What is the 'First Air Principle'?",
+        "options": [
+          "First come first served",
+          "The critical zone must be the first to be exposed to filtered air in front of all obstacles",
+          "The first breath is important",
+          "The air filter is the first element"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "The First Air Principle means that the sterile product must receive FIRST, unfiltered air directly from the HEPA filter BEFORE the air comes into contact with any obstacle (personnel, equipment). This ensures the highest air quality above the critical zone.",
+        "hint": "🌬️ The best air is the FIRST air from the filter - as soon as it comes out, without touching anything."
+      },
+      {
+        "question": "Why can ONLY a certain number of people enter the aseptic zone at the same time?",
+        "options": [
+          "Because of space",
+          "Because each additional person increases partial load, heat, CO2 and the risk of contamination",
+          "Because of the regulators",
+          "There are no restrictions"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Each additional person in the zone: (1) Releases 1+ million particles/min, (2) Increases temperature (body heat), (3) Produces CO2, (4) Creates turbulence, (5) Increases the probability of errors and collisions. The HVAC system has limited capacity.",
+        "hint": "➕ More people = More particles + More heat + More movement = MUCH more risk!"
+      },
+      {
+        "question": "What is 'bracket creep' and why is it dangerous?",
+        "options": [
+          "A type of bacteria",
+          "Gradual relaxation of discipline and aseptic standards over time",
+          "Air leakage",
+          "Movement of equipment"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "'Bracket creep' (also 'normalization of deviance') is a dangerous phenomenon where staff gradually move away from strict standards: small violations become 'normal' until serious contamination occurs. Solution: regular audits, refresher training, zero tolerance.",
+        "hint": "🎯 Like a kid, you start with 100% standards, but gradually: 'Ah, today you can do a little...'. Years later: chaos!"
+      },
+      {
+        "question": "Why is self-criticism and reporting your own mistakes KEY in aseptic production?",
+        "options": [
+          "To get a punishment",
+          "Because it enables learning, prevents relapse, and helps protect patients",
+          "To look good",
+          "It doesn't matter"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "A culture of openness and self-criticism is the foundation of safe production. If staff hide mistakes for fear of consequences, mistakes are repeated and can reach the patient. 'Just culture' encourages reporting to learn, not punish.",
+        "hint": "🛡️ Better to admit the mistake NOW and fix it than to hide it and risk contaminating the batch!"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "title": "Insulator Technology and RABS",
+    "slug": "izolatorji-rabs",
+    "annexReference": "DPP Appendix 1, Chapter 4.18-4.23",
+    "category": "HEPA Sistemi",
+    "developmentAndExplanation": "**ISOLATORS - THE NEXT GENERATION OF ASEPTICS**\n\nIsolators represent a physical barrier between the operator and the sterile process, which DRASTICALLY reduces the risk of contamination.\n\n**ADVANTAGES OF INSULATORS:**\n• Separation of personnel from the critical zone = 10-100x lower risk\n• Possibility of using Grade D environment for Grade A insulator\n• Lower HVAC system costs\n• H2O2 decontamination achieves a 6-log reduction\n• Greater layout flexibility\n\n**RABS (Restricted Access Barrier System):**\nPartial insulation - arm openings but limited access. An intermediate solution between conventional asepsis and full isolation.\n\n**H2O2 DECONTAMINATION:**\nHydrogen peroxide (H2O2) in its gaseous phase destroys all microorganisms, including spores. The cycle lasts 2-4 hours, achieving a 6-log reduction (99.9999% efficiency).",
+    "practicalChallenges": "• **Ergonomics**: Working with gloves is tiring\n• **Visibility**: Plastic may fog or scratch\n• **Difficulty of transferring materials**: Everything has to pass through the transfer lock\n• **Costs**: Isolators are expensive (100,000-500,000 EUR)\n• **H2O2 Validation**: Demanding proof of effectiveness\n• **Maintenance**: Change of HEPA filters, gloves, seals",
+    "improvementIdeas": "→ **Robotic Manipulation**: Complete automation without human hands\n→ **AI integrity control**: Real-time leak detection\n→ **Modular construction**: Rapid expansion and modification\n→ **Virtual reality**: Training on a virtual isolator\n→ **Self-cleaning surfaces**: Antimicrobial materials\n→ **Biod etectors**: Instant detection of contamination",
+    "visualComponent": "IsolatorCrossSection",
+    "quizQuestions": [
+      {
+        "question": "What is the MAIN advantage of the isolator over conventional aseptic production?",
+        "options": [
+          "It's cheaper",
+          "Physical separation of personnel from the critical zone drastically reduces the risk of contamination",
+          "It's faster",
+          "There is no advantage"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "The isolator creates a complete physical barrier between the operator and the sterile process. This reduces the risk of contamination by a factor of 10-100x because personnel (the biggest source of contamination) do not come into direct contact with the critical zone.",
+        "hint": "🛡️ Imagine complete separation: the operator is OUTSIDE, the sterile process is INSIDE - no contact!"
+      },
+      {
+        "question": "What is H2O2 isolator decontamination?",
+        "options": [
+          "Acid cleaning",
+          "Use of hydrogen peroxide gas to kill all microorganisms including spores",
+          "Water usage",
+          "Use of alcohol"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "H2O2 (hydrogen peroxide) in its gaseous phase penetrates into all crevices and destroys ALL microorganisms including bacterial spores. It achieves a 6-log reduction (99.9999% efficiency). The cycle lasts 2-4 hours and is highly effective.",
+        "hint": "💨 Gas that goes EVERYWHERE and kills EVERYTHING - even spores that survive everything else!"
+      },
+      {
+        "question": "What is the difference between an isolator and a RABS?",
+        "options": [
+          "There is no difference",
+          "The isolator is completely enclosed, the RABS has limited openings for the operator's hands",
+          "RABS is bigger",
+          "The insulator is cheaper"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "The isolator is a COMPLETELY closed system - manipulation through gloves. RABS (Restricted Access Barrier System) is PARTIALLY closed - it has hand openings but with restricted access. RABS is an intermediate solution between classical asepsis and isolator.",
+        "hint": "🔒 Isolator = Fort Knox (fully sealed). RABS = Fence (you can reach inside, but limited)"
+      },
+      {
+        "question": "In what environment (Grade) can the Grade A insulator stand?",
+        "options": [
+          "Only in Grade B",
+          "In Grade D (less severe environment) because it is physically separated",
+          "Only in Grade A",
+          "In Grade C"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "This is a HUGE advantage of insulators! Because the Grade A critical zone is PHYSICALLY separated by a barrier, the insulator can stand in a less severe Grade D environment. This drastically reduces the cost of the HVAC system and building the premises. Classical asepsis requires a Grade B environment.",
+        "hint": "💰 Less strict space = Lower construction and operating costs. Insulator = savings!"
+      },
+      {
+        "question": "How much log reduction of microorganisms does H2O2 decontamination achieve?",
+        "options": [
+          "3-log (99.9%)",
+          "6-log (99.9999%)",
+          "1-log (90%)",
+          "12-log"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "H2O2 decontamination achieves a 6-log reduction, which means 99.9999% efficiency. This is an EXTREMELY high level of sterility - statistically only 1 out of 1 million bacteria survives. This is comparable to autoclaving.",
+        "hint": "🧮 6-log = 10^6 = 1,000,000x reduction. 1 out of a million remains!"
+      },
+      {
+        "question": "Why is working with insulating gloves tiring?",
+        "options": [
+          "Because they are heavy",
+          "Due to limited mobility, limited range, and the need for greater force for manipulation",
+          "Because they are hot",
+          "It's not tiring"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "The gloves are thick (to withstand the pressure), the mobility of the fingers is limited, the reach is limited to the length of the gloves, more force is required for manipulation due to the resistance of the material. After 2-3 hours, the arms and shoulders are very tired. Ergonomics is a big challenge.",
+        "hint": "🥊 It's like working with thick boxing gloves - everything is harder and slower."
+      },
+      {
+        "question": "What is 'transfer lock' in an isolator?",
+        "options": [
+          "A lock",
+          "Double door/chamber to transfer materials to/from the isolator without contamination",
+          "Security system",
+          "Computer program"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Transfer lock (also 'material airlock') is a double door or chamber for safe transfer of materials to/from the isolator. The material is placed in it, closed, decontaminated (H2O2), opened from the other side. This prevents contamination during transfer.",
+        "hint": "🚪🚪 Double door: insert material from one side → disinfect → open from the other side. Contamination can't get through!"
+      },
+      {
+        "question": "Why is insulator technology ideal for highly active drugs (HPAPI - cytotoxic)?",
+        "options": [
+          "Because it's cheaper",
+          "Because it protects the OPERATOR from exposure to hazardous substances AND protects the product from contamination",
+          "Because it's faster",
+          "It's not ideal"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "The isolator works TWO-WAY: (1) Protects the product from environmental contamination, (2) Protects personnel from the toxic drug. With cytotoxic drugs, this is critical - the operator must not inhale the drug. The insulator solves both problems at the same time.",
+        "hint": "↔️ Two-way protection: The drug is toxic to the operator, the operator is dangerous to the drug. Insulator = win-win!"
+      },
+      {
+        "question": "How is the integrity (tightness) of the insulator tested?",
+        "options": [
+          "Visually",
+          "Pressure decay test - measurement of pressure drop in a closed chamber",
+          "With smoke",
+          "Not tested"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Pressure decay test: the insulator is closed under pressure, then it is measured how quickly the pressure drops. Rapid drop = leak. The test must be performed regularly (daily/weekly) and after each intervention. The leak rate test is also used.",
+        "hint": "🎈 Like a balloon: you blow it up, close it, wait - if it shrinks quickly = it's leaking somewhere!"
+      },
+      {
+        "question": "Why is H2O2 better than alcohol for insulator decontamination?",
+        "options": [
+          "Because it's cheaper",
+          "Because it penetrates into crevices, kills spores, and breaks down into water and oxygen (no residue)",
+          "Because it's faster",
+          "It's not better"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "H2O2 in gaseous phase: (1) Penetrates EVERYWHERE (even in hard-to-reach crevices), (2) Kills SPORES (alcohol does not), (3) Breaks down into H2O + O2 (no toxic residues), (4) Achieves 6-log reduction. Alcohol: surface application only, does not kill spores.",
+        "hint": "☁️ Gas goes where liquid cannot. Plus kills spores. Plus no leftovers. = The perfect solution!"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "title": "Critical Control Points (CCP) and Risk Management",
+    "slug": "ccp-obvladovanje-tveganj",
+    "annexReference": "ICH Q9, ISO 14971",
+    "category": "Validacija",
+    "developmentAndExplanation": "**RISK-BASED APPROACH - THE FOUNDATION OF MODERN GMP**\n\n**CCP (Critical Control Point)** is a step in the process where control is NECESSARY to prevent or eliminate a security risk.\n\n**HACCP PRINCIPLES IN PHARMACY:**\n1. **Hazard analysis** - identification of all potential risks\n2. **CCP determination** - which steps are critical\n3. **Definition of critical limit values** - what parameters are acceptable\n4. **Establishment of monitoring** - how we monitor CCP\n5. **Corrective measures** - what we do if there is a deviation\n6. **Verification** - how we check the effectiveness\n7. **Documentation** - records of all data\n\n**FMEA (Failure Mode and Effects Analysis):**\nA systematic method for identifying possible errors and their consequences. Each possible failure mode is evaluated by:\n• **Severity** (severity) - how severe the consequences are\n• **Occurrence** (probability) - how often it happens\n• **Detection** (detectability) - how difficult it is to detect\nRPN (Risk Priority Number) = S × O × D\n\n**RISK MATRIX:**\nVisualization of risks on a 2D matrix: Probability vs. Seriousness",
+    "practicalChallenges": "• **Subjectivity**: Different people assess risks differently\n• **Analysis Paralysis**: Too much time for analysis, not enough time for action\n• **Documentation burden**: FMEA can become extensive\n• **Dynamics**: Risks change, documents become obsolete\n• **False sense of security**: \"We have a risk assessment\" ≠ \"It's safe\"",
+    "improvementIdeas": "→ **AI-powered risk prediction**: Machine learning predicts risks\n→ **Real-time risk dashboards**: Live visualization of current risks\n→ **Automated CCP monitoring**: Sensors and automatic alarms\n→ **Crowdsourced risk databases**: Learning from industry experience\n→ **Dynamic risk reassessment**: Automatic updating upon changes",
+    "visualComponent": "RiskMatrix",
+    "quizQuestions": [
+      {
+        "question": "What is a CCP (Critical Control Point)?",
+        "options": [
+          "Central control panel",
+          "A step in the process where control is necessary to prevent a security risk",
+          "Critical point of production",
+          "Control system"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "A CCP is a specific step in a process where we MUST have control to prevent, eliminate, or reduce a security risk to an acceptable level. If we lose control of the CCP, the product is potentially dangerous.",
+        "hint": "🎯 Like brakes on a car - critical for safety. If they cancel, it's a disaster!"
+      },
+      {
+        "question": "What does RPN mean in FMEA analysis?",
+        "options": [
+          "Reverse Process Number",
+          "Risk Priority Number - the product of severity, probability and detectability",
+          "Repeat Production Number",
+          "Rotation Plan Number"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "RPN (Risk Priority Number) = Severity × Occurrence × Detection. Higher RPN = higher risk = higher priority for action. Typically, an RPN > 100 requires immediate corrective action.",
+        "hint": "🔢 Multiplying three numbers: How bad? × How often? × How difficult is it to discover? = Priority!"
+      },
+      {
+        "question": "Which of the following is a CCP in aseptic filling?",
+        "options": [
+          "The color of the packaging",
+          "HEPA air filtration in the critical zone",
+          "Storage size",
+          "A type of light"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "HEPA filtration is a CCP because it directly affects the microbiological safety of the product. If HEPA filters fail, contamination occurs. This is a critical control point that requires continuous monitoring and validation.",
+        "hint": "💨 What if this fails → product contaminated → patient at risk = CCP!"
+      },
+      {
+        "question": "In the risk matrix, where are the most CRITICAL risks?",
+        "options": [
+          "Bottom Left (Low Probability, Low Severity)",
+          "Top Right (High Probability, High Severity)",
+          "Ywhere in between",
+          "It doesn't matter"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Risk matrix: Y-axis = Severity, X-axis = Probability. Top Right = High Probability AND High Severity = CRITICAL Risk. This area is usually red and requires IMMEDIATE action.",
+        "hint": "🔴 Imagine a traffic light: Red = STOP = Maximum risk = Top right!"
+      },
+      {
+        "question": "What is the FIRST step in the HACCP approach?",
+        "options": [
+          "Determination of CCP",
+          "Hazard analysis - identification of all potential risks",
+          "Documentation",
+          "Monitoring"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "HACCP begins with Hazard Analysis. First you have to identify ALL possible risks (biological, chemical, physical), only then can you determine which ones are critical (CCP). Logic: You can't control if you don't know what to control.",
+        "hint": "🔍 Logic: First FIND all hazards, then decide which ones are critical. You can't fix it if you don't know what!"
+      },
+      {
+        "question": "What is 'Severity' in the context of FMEA?",
+        "options": [
+          "How often the error occurs",
+          "How SEVERE are the consequences of the error for the patient/product",
+          "How difficult is it to discover a mistake",
+          "The price of a mistake"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Severity evaluates the CONSEQUENCES of the error. Score 1 = Minimal impact, Score 10 = Catastrophic consequences (e.g. patient death). This is independent of probability - even a very rare error can be very serious.",
+        "hint": "💀 If the worst happens - WHAT can happen? Patient death = 10. Minimal effect = 1."
+      },
+      {
+        "question": "Why is 'Detection' an important component of risk?",
+        "options": [
+          "It doesn't matter",
+          "Because more difficult to detect errors increase the risk - they can reach the patient",
+          "Because it is necessary to know who is to blame",
+          "Because of the documentation"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Detection rates: How HARD is the error to detect? Score 1 = Very easy (automatic detection), Score 10 = Almost impossible to detect. If you can't detect the error, everything can go to the patient = HIGH risk.",
+        "hint": "👁️ You can fix the mistake you SEE. An error that is INVISIBLE can reach the patient = dangerous!"
+      },
+      {
+        "question": "How often is it necessary to update the risk assessment?",
+        "options": [
+          "Just once at the beginning",
+          "Periodically and with every significant change in the process, equipment, materials",
+          "Only if the inspector requests",
+          "Never"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Risk assessment is a LIVING document. It must be updated: (1) Periodically (e.g. annually), (2) Upon changes (new equipment, new materials, new procedures), (3) After incidents/deviations, (4) Based on new data. The risks are changing!",
+        "hint": "📅 The world is changing → New equipment, new people, new problems → Risk assessment MUST be updated!"
+      },
+      {
+        "question": "What is 'Control Strategy' in the context of CCP?",
+        "options": [
+          "Recruitment plan",
+          "A planned set of control measures to ensure that the process remains within acceptable limits",
+          "Financial strategy",
+          "IT strategy"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Control Strategy is a comprehensive plan that defines: (1) Which parameters we control, (2) How we control them (PAT, testing), (3) Critical limit values, (4) What we do if a deviation occurs. This is the core of Quality by Design (QbD).",
+        "hint": "🎮 As a game strategy: We know WHAT to control, HOW to control, WHAT to do if it goes wrong."
+      },
+      {
+        "question": "Why is the documentation of all risk assessments critical for GMP compliance?",
+        "options": [
+          "That we have more paper",
+          "Because it proves to the regulators that we have systematically identified and managed risks",
+          "To employ people",
+          "It is not critical"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Documented risk assessment demonstrates: (1) Systematic approach to security, (2) Understanding of processes and risks, (3) Justification of decisions, (4) Traceability of measures. Inspectors ALWAYS review risk assessments. 'If it's not documented, it didn't happen.'",
+        "hint": "📝 Regulators want to see PROOF that you have considered the risks. No documentation = no proof!"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "title": "Documentation and Data Integrity (ALCOA+)",
+    "slug": "dokumentacija-data-integrity",
+    "annexReference": "DPP Appendix 11, MHRA Data Integrity Guidance",
+    "category": "Validacija",
+    "developmentAndExplanation": "**DATA INTEGRITY - THE FOUNDATION OF TRUST**\n\n**ALCOA+ PRINCIPLES:**\n• **Attributable** (attributable) - Who did it?\n• **Legible** (readable) - Can it be read?\n• **Contemporaneous** (contemporary) - Recorded at the time of creation?\n• **Original** (original) - First record?\n• **Accurate** - Correct data?\n\n**+Plus extras:**\n• **Complete** - All data?\n• **Consistent** (consistent) - No contradictions?\n• **Enduring** (enduring) - Preserved?\n• **Available** (accessible) - When you need it?\n\n**CRITICAL DOCUMENTS IN ASEPTIC:**\n1. **Batch records** - Record of all production steps\n2. **Environmental monitoring data** - Particles, microbiology\n3. **Equipment logs** - Maintenance, calibration\n4. **Training records** - Staff training\n5. **Deviation/CAPA** - Deviations and corrective measures\n6. **Change control** - Change control\n\n**ELECTRONIC RECORDS (21 CFR Part 11):**\n• Audit trail (traceability of changes)\n• Electronic signatures\n• Access control\n• Backup and archiving",
+    "practicalChallenges": "• **Mistakes in manual recording**: Forgotten notes, wrong times\n• **Data manipulation**: Changing data to meet specifications\n• **Data loss**: Insufficient archiving\n• **Inaccessibility**: Data stored but unavailable when you need it\n• **Audit trail gaps**: Changes without traceability",
+    "improvementIdeas": "→ **Blockchain technology**: Immutable records\n→ **AI anomaly detection**: Automatic detection of suspicious data\n→ **Real-time electronic recording**: Paperless, directly into the system\n→ **Biometric authentication**: Fingerprint instead of signature\n→ **Automated integrity checks**: The system itself checks ALCOA+",
+    "visualComponent": "DocumentFlow",
+    "quizQuestions": [
+      {
+        "question": "What does the 'A' stand for in the ALCOA principle?",
+        "options": [
+          "Available",
+          "Attributable - the information must be attributable to the author",
+          "Automatic",
+          "Approved"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Attributable means that it should ALWAYS be clear WHO made the record/action. This is achieved with a signature (manual) or a user account (electronic). Anonymous entries are not accepted.",
+        "hint": "✍️ WHO did it? It must be clear - name, signature or user account!"
+      },
+      {
+        "question": "Why is 'Contemporaneous' a critical principle?",
+        "options": [
+          "He is not critical",
+          "Because data recorded IMMEDIATELY upon creation is more reliable and prevents forgetting or manipulation",
+          "To save time",
+          "Because of the inspection"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Contemporaneous means that the data is written AS SOON as it is created, not later by memory. This prevents: (1) Oblivion, (2) Misinformation, (3) Deliberate manipulation, (4) Reconstruction of 'what they must have been'. Real-time = authentic.",
+        "hint": "⏰ Record NOW (at this moment) = Correct. Writing tomorrow 'off the top of my head' = Unbelievable!"
+      },
+      {
+        "question": "What is an 'audit trail' in the context of electronic records?",
+        "options": [
+          "List of audits",
+          "Electronic traceability of ALL changes (who, what, when, why)",
+          "Recording mode",
+          "Backup"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "An audit trail is an automatic recording of EVERY change in an electronic system: (1) WHO changed, (2) WHAT changed (old/new value), (3) WHEN (timestamp), (4) WHY (reason). This is critical for data integrity - no change should be invisible.",
+        "hint": "🕵️ Like a detective: Every change leaves a trace - who, what, when, why. It is impossible to hide!"
+      },
+      {
+        "question": "Why is 'Original' data important?",
+        "options": [
+          "It doesn't matter",
+          "Because copying and copying increases the risk of errors and loss of information",
+          "To save paper",
+          "For aesthetics"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "The original data is the FIRST record. Any copying/rewriting increases the risk of errors (typo, misreading). Plus: the original record shows WHEN it was created. Copies cannot replace the original for GMP purposes.",
+        "hint": "📄 Photocopy of photocopy... = Always worse. Original = The best, no transcription errors!"
+      },
+      {
+        "question": "How long should GMP documentation be kept?",
+        "options": [
+          "1 year",
+          "At least 1 year after the expiration date of the product (usually 5+ years)",
+          "Only while the product is on sale",
+          "There are no rules"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "GMP requires documentation to be kept for at least 1 year AFTER the expiration date. If the shelf life is 3 years, we keep it for 4+ years. Often more (7-10 years) for biological products. This allows complaints or adverse reactions to be investigated.",
+        "hint": "📅 Product + 1 year. If it expires in 3 years, keep it for 1 year after that = 4 years in total!"
+      },
+      {
+        "question": "What is 'Complete' in the context of ALCOA+?",
+        "options": [
+          "The document is written to the end",
+          "ALL data must be recorded - even negative/unwanted results",
+          "The document has a signature",
+          "It doesn't matter"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Complete means that ALL data is recorded, including: (1) Failed tests (not only passed), (2) Deviations, (3) Repeated tests, (4) Data that do not support the desired result. Cherry-picking data is a data integrity violation.",
+        "hint": "🍒 NOT cherry-picking! Even bad results go into the documentation. All or nothing!"
+      },
+      {
+        "question": "Why is an electronic signature equivalent to a manual one?",
+        "options": [
+          "It is not equivalent",
+          "If Compliant with 21 CFR Part 11 - Unique, Non-Transferable, Password Protected, Traceable",
+          "Because it's faster",
+          "Because he's prettier"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "21 CFR Part 11 defines the conditions for electronic signatures: (1) Bound to an individual (username), (2) Protected with a password (2-factor authentication), (3) Audit trail (when used), (4) Non-transferable. If this meets = equivalent to manual signature.",
+        "hint": "🔐 E-signature = Username + Password + Audit trail = Same as physical signature!"
+      },
+      {
+        "question": "What is the 'data integrity violation' that worries regulators MOST?",
+        "options": [
+          "Missing signature",
+          "Intentional deletion or alteration of data to meet specifications (falsification)",
+          "Readability",
+          "Feeding"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Deliberate falsification of data is the WORST violation - it is FRAUD. Examples: deleting OOS results, changing times, forging signatures. This can lead to criminal measures, closure of the establishment, revocation of licenses. Zero tolerance.",
+        "hint": "⚠️ Deliberate lying (change, delete) = FRAUD = Criminal prosecution!"
+      },
+      {
+        "question": "Why is 'Enduring' an important aspect of data integrity?",
+        "options": [
+          "It doesn't matter",
+          "Because the data must be readable and accessible for the ENTIRE required retention period",
+          "For environmental sustainability",
+          "Because of the cost"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Enduring means that data survives time: (1) Inks do not fade, (2) Magnetic media do not fail, (3) Formats remain readable, (4) Backup systems work. After 7 years you can still read all the records.",
+        "hint": "⏳ In 7 years: Can you still read? Is the paper faded, the CD damaged, the format out of date? = It must be OK!"
+      },
+      {
+        "question": "Why is 'Available' critical for a GMP audit?",
+        "options": [
+          "It is not critical",
+          "Because data must be available for review within a reasonable amount of time - if you can't find it, it's as if it doesn't exist",
+          "That regulators control",
+          "Because of the archive"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Available means that you can find and present the data in a reasonable time (e.g. 24 hours). If the data is 'in the archive somewhere' but cannot be found, this is a data integrity issue. 'If it's not accessible, it's not there.'",
+        "hint": "🔍 Inspector: 'Show batch record from 1/3/2019.' You: 'I can't find...' = Problem!"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "title": "Disinfection, Disinfection and Sporicidal Action",
+    "slug": "dezinfekcija-razkuževanje",
+    "annexReference": "DPP Appendix 1, Chapter 5",
+    "category": "Higiena",
+    "developmentAndExplanation": "**CLEANING HIERARCHY:**\n1. **Cleaning** - dirt removal (detergent)\n2. **Disinfection** - reduction of microbiological load\n3. **Sterilization** - destruction of ALL microorganisms\n\n**RANGE OF OPERATION:**\n• **Bactericidal** - kills bacteria\n• **Fungicidal** - kills fungi\n• **Viricidal** - kills viruses\n• **Sporicidal** - kills spores (hardest!)\n\n**ROTATION OF DISINFECTANTS:**\nIt is critical to use several different disinfectants in rotation to prevent the development of resistance. Typically:\n• **Week 1-2**: Alcohol (70% IPA/ethanol)\n• **Week 3**: Quaternary ammonium compounds (QAC)\n• **Week 4**: Peroxide compounds\n• **Week 5**: Peracetic acid\n\n**SPORICIDAL ACTION:**\nSpores are EXTREMELY resistant - they survive alcohol, heat (up to 120°C), drought, UV. Only sporicidal agents destroy them:\n• H2O2 (hydrogen peroxide)\n• Peracetic acid\n• Chlorine compounds (hypochlorite)\n\n**CONTACT TIME:**\nThe disinfectant must be in WET contact with the surface long enough (wet contact time). If the surface dries too quickly, there is no effect!",
+    "practicalChallenges": "• **Development of resistance**: Bacteria adapt to disinfectants\n• **Biofilm**: Mucous protection of bacteria - difficult penetration\n• **Organic load**: Dirt inactivates the disinfectant\n• **Contact time**: Staff often do not wait long enough\n• **Compatibility**: Some disinfectants damage materials",
+    "improvementIdeas": "→ **UV-C disinfection**: No chemicals, instant\n→ **Antimicrobial surfaces**: Self-disinfection (copper, silver)\n→ **Fogging technology**: Automatic complete disinfection of the room\n→ **Real-time ATP monitoring**: Instant purity check\n→ **Enzymatic cleaners**: Biological decomposition of organic residues",
+    "visualComponent": "DisinfectionCycle",
+    "quizQuestions": [
+      {
+        "question": "Why is 70% alcohol (IPA/ethanol) MORE effective than 100% alcohol?",
+        "options": [
+          "Because it's cheaper",
+          "Because water enables the denaturation of proteins and penetration into the cell - 100% evaporates too quickly",
+          "Because it's safer",
+          "It's not true"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "70% alcohol is optimal because: (1) Water enables the denaturation of proteins, (2) It does not evaporate too quickly - the contact time is longer, (3) Better penetration through the cell wall. 100% alcohol coagulates surface proteins too quickly, creates a 'crust' and does not penetrate inside.",
+        "hint": "💧 Water helps! 100% = Dry too quickly, does not penetrate. 70% = Just right, time to act!"
+      },
+      {
+        "question": "What are bacterial SPORES and why are they problematic?",
+        "options": [
+          "A type of bacteria",
+          "Dormant (sleeping) form of bacteria with exceptional resistance to heat, drought, chemicals",
+          "Small bacteria",
+          "Bacterial products"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Spores are the 'survival mode' of bacteria (mainly Bacillus, Clostridium): extremely resistant structures that survive: (1) Heat up to 120°C, (2) Drought, (3) Radiation, (4) Most disinfectants. When conditions become favorable, the bacteria 'wake up' and become active. Only sporicidal agents kill them.",
+        "hint": "😴 Like a bear in hibernation - extremely resistant. Wake up when it's warm. It's hard to kill him!"
+      },
+      {
+        "question": "Why is ROTATION of disinfectants critical?",
+        "options": [
+          "Because of the cost",
+          "To prevent the development of bacterial resistance and destroy various types of microorganisms",
+          "Because of laws",
+          "It is not critical"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Rotation of disinfectants: (1) Prevents the development of resistance (bacteria adapt to one agent), (2) Different agents kill different microorganisms (alcohol ≠ sporicide), (3) Covers a wider spectrum. Recommendation: at least 2 different mechanisms of action in rotation.",
+        "hint": "🔄 Like antibiotics: Only one = resistance. Rotation = Bacteria don't have time to adapt!"
+      },
+      {
+        "question": "What is 'wet contact time' and why is it critical?",
+        "options": [
+          "Cleaning time",
+          "The time that the disinfectant must remain WET on the surface to work - if it dries too quickly, it has no effect",
+          "Time of use",
+          "Disinfectant temperature"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Wet contact time is the minimum time the surface must be wet with the disinfectant. Usually: 1-10 minutes depending on the agent. If it evaporates too quickly (too little, rapid evaporation), the microorganisms are not killed. WE HAVE TO WAIT!",
+        "hint": "⏱️ Wet = Works. Dry = No longer working. It must be wet LONG ENOUGH!"
+      },
+      {
+        "question": "Which disinfectant is SPORICIDEN (kills spores)?",
+        "options": [
+          "70% alcohol (NOT sporicidal!)",
+          "Hydrogen peroxide (H2O2) or peracetic acid",
+          "Soap",
+          "Water"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Sporicidal agents: (1) H2O2 (hydrogen peroxide), (2) Peracetic acid, (3) Hypochlorite (chlorine). Alcohol, QAC, biguanides are NOT sporicidal - they kill the vegetative bacteria but not the spore. This is the reason for rotation - you need a sporicidal agent periodically.",
+        "hint": "💀 Spores are super tough! Only the strongest agents (peroxides, chlorine) kill them."
+      },
+      {
+        "question": "What is BIOFILM and why is it problematic?",
+        "options": [
+          "A film about bacteria",
+          "The mucus matrix that bacteria produce for protection - disinfectants have a hard time penetrating",
+          "The color of bacteria",
+          "A type of bacteria"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "A biofilm is an organized community of bacteria surrounded by a self-made polymer matrix (mucus). This 'slime': (1) Protects bacteria from disinfectants (up to 1000x greater resistance!), (2) Difficult to remove, (3) Common in pipes, drains, corners. MECHANICAL removal + disinfection required.",
+        "hint": "🛡️ Like a fortress around bacteria - protects them from attacks. Hard to get through, need to demolish!"
+      },
+      {
+        "question": "Why is it necessary to clean FIRST, ONLY to disinfect?",
+        "options": [
+          "For the sake of order",
+          "Because organic dirt (fats, proteins) inactivates the disinfectant and protects microorganisms",
+          "To save",
+          "It is not necessary"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Organic dirt (fats, proteins, product residues): (1) Inactivates the disinfectant (chemically reacts with it), (2) Physically protects the bacteria (as a shield), (3) The disinfectant is used on the dirt, not on the bacteria. Zap equipment: FIRST cleaning (removing dirt), THEN disinfection (killing bacteria).",
+        "hint": "🧼 Disinfection without cleaning = No effect! It's like disinfecting mud - it doesn't work!"
+      },
+      {
+        "question": "What is the MINIMUM concentration of IPA (isopropyl alcohol) for bactericidal action?",
+        "options": [
+          "10%",
+          "60-70% (optimally 70%)",
+          "100%",
+          "30%"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "60-70% alcohol concentration is bactericidal. Below 60%, the effect is minimal. 70% is optimal - good penetration, suitable contact time, good protein denaturation. Most GMP standards use 70% IPA or 70% ethanol.",
+        "hint": "🎯 Sweet spot: 70%. Not too little (doesn't work), not too much (dry too quickly)."
+      },
+      {
+        "question": "Why is it necessary to validate cleaning and disinfection?",
+        "options": [
+          "It is not necessary",
+          "To demonstrate that the process ACTUALLY removes microorganisms to an acceptable level",
+          "Because of the documentation",
+          "Because of the cost"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Cleaning/disinfection validation demonstrates: (1) The process effectively removes microorganisms, (2) There is no residual disinfectant, (3) There is no cross-contamination. Methods: ATP swab, microbiological prints, visual inspection, chemical analysis of residues. No validation = no proof it works.",
+        "hint": "🔬 'Works' ≠ 'Proven to work'. Validation = PROOF that disinfection really kills bacteria!"
+      },
+      {
+        "question": "What is 'D-value' in the context of disinfection/sterilisation?",
+        "options": [
+          "The price of the disinfectant",
+          "Time required for 90% (1-log) reduction of microorganisms at a given temperature/agent",
+          "Depth of disinfection",
+          "Agent dose"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "D-value (decimal reduction time) is the time required to reduce the population of microorganisms by 90% (1-log = factor 10). Example: If the D-value is 10 minutes, after 10 minutes 10% of bacteria remain, after 20 minutes 1%, after 30 minutes 0.1%. This is the basis for determining the contact time.",
+        "hint": "📉 Each D-value = 90% less bacteria. 3× D-value = 99.9% reduction!"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "title": "Utilities: Water, Steam, Compressed Air",
+    "slug": "utilities-voda-para-zrak",
+    "annexReference": "DPP Supplement 1, European Pharmacopoeia",
+    "category": "HEPA Sistemi",
+    "developmentAndExplanation": "**UTILITIES ARE CRITICAL FOR GMP PRODUCTION**\n\n**WATER:**\n• **Potable Water** (Potable Water) - entry point\n• **Purified Water** (Purified Water, PW) - for non-sterile products\n• **Water for Injection** (Water for Injection, WFI) - for parenteral products\n\n**WFI REQUIREMENTS:**\n• Bacteria < 10 CFU/100ml\n• Endotoxins < 0.25 EU/ml\n• Produced by distillation or reverse osmosis + ultrafiltration\n• Stored at > 80°C OR circulated at > 65°C (prevention of bacterial growth)\n\n**CLEAN STEAM:**\n• Made from WFI\n• No additives (amines, antifoam)\n• Used to sterilize equipment\n• Non-condensable gases < 3.5%\n\n**COMPRESSED AIR:**\n• Direct contact with the product = STERILE filtered (0.2 µm)\n• No oil, water, particles\n• Dewpoint: < -40°C\n• Microbiological monitoring",
+    "practicalChallenges": "• **Biofilm in pipes**: WFI systems susceptible to bacterial growth\n• **Corrosion**: High temperatures and chemicals damage pipes\n• **Contamination**: Dead zones, valves, T-pieces\n• **Energy waste**: Maintaining 80°C+ requires a lot of energy\n• **Validation**: Complex proof that the system is suitable",
+    "improvementIdeas": "→ **UV-C disinfection**: Contamination in WFI systems\n→ **TOC monitoring**: Real-time detection of organic contamination\n→ **Wireless sensors**: Temperature, pressure, flow monitoring\n→ **AI predictive maintenance**: Prediction of failure before it happens\n→ **Ozone sanitization**: An alternative to heat sanitization",
+    "visualComponent": "UtilityMonitoring",
+    "quizQuestions": [
+      {
+        "question": "What is the KEY difference between Purified Water (PW) and Water for Injection (WFI)?",
+        "options": [
+          "Color",
+          "WFI has STRICTER requirements for endotoxins (< 0.25 EU/ml) and must be produced by distillation/RO+UF",
+          "Temperature",
+          "There is no difference"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "WFI is highly purified water for parenteral (injectable) products. Requirements: (1) Endotoxins < 0.25 EU/ml (PW: no requirement), (2) Produced by distillation OR RO+ultrafiltration, (3) Bacteria < 10 CFU/100ml. WFI > PW > Potable Water.",
+        "hint": "💉 WFI goes directly into the vein! It must be ULTRA pure, free of endotoxins (bacterial poisons)."
+      },
+      {
+        "question": "Why is WFI stored and distributed at > 80°C?",
+        "options": [
+          "That it is hot to use",
+          "To prevent bacterial growth - bacteria do not survive > 80°C",
+          "Because of chemistry",
+          "It is not necessary"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Temperature > 80°C (or circulation > 65°C) prevents bacterial growth and biofilm formation. Most bacteria do not survive long-term exposure > 65°C, practically none survive > 80°C. Alternative: Cold WFI with continuous circulation + periodic sanitization.",
+        "hint": "🔥 Hot = Bacteria die. Cold = Bacteria grow → Biofilm → Contamination!"
+      },
+      {
+        "question": "What are ENDOTOXINS and why are they problematic in WFI?",
+        "options": [
+          "Bacteria",
+          "Poisons from bacterial cell walls (lipopolysaccharides) that cause pyrogenicity (fever) in the patient",
+          "Viruses",
+          "Chemicals"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Endotoxins are lipopolysaccharides (LPS) from the cell wall of Gram-negative bacteria. Problematic because: (1) Thermostable (do not disintegrate during sterilization!), (2) Cause pyrogenicity (fever, shock), (3) Small amounts are dangerous (< 5 EU/kg patient). Filters do not remove endotoxins - distillation/UF required.",
+        "hint": "☠️ The bacterium dies, but its poison (from the cell wall) remains → It causes a fever in the patient!"
+      },
+      {
+        "question": "What is 'Clean Steam' and where is it used?",
+        "options": [
+          "Ordinary steam",
+          "Steam produced from WFI, without additives, used to sterilize equipment in contact with the product",
+          "Steam for heating",
+          "Humid steam"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Clean Steam is 'pharmaceutical steam' - produced from WFI, without amines, antifoam or other additives. It is used for: (1) SIP (Sterilization-In-Place) of pipelines, (2) Autoclave sterilization, (3) Sterilization of equipment in contact with the product. It must comply with the European Pharmacopoeia.",
+        "hint": "☁️ Not ordinary steam (from the tap)! Steam from WFI, ultra pure, for sterilizing equipment."
+      },
+      {
+        "question": "Why must the compressed air in contact with the product be STERILELY filtered?",
+        "options": [
+          "It is not necessary",
+          "Because unfiltered compressed air contains bacteria, spores, particles, moisture that contaminate the product",
+          "Because of the color",
+          "Because of the cost"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Compressed air from the compressor contains: (1) Bacteria and spores from the environment, (2) Particles (dust, rust), (3) Oil from the compressor, (4) Water vapor. A HEPA filter (0.2 µm) sterile filters the air before use. No filtration = direct product contamination.",
+        "hint": "💨 Compressed air = Ambient air = Full of bacteria! It has to go through a HEPA filter!"
+      },
+      {
+        "question": "What is 'Dewpoint' and why is it important for compressed air?",
+        "options": [
+          "Dew point - temperature at which moisture condenses; low dewpoint = dry air (< -40°C)",
+          "Pressure point",
+          "Flash point",
+          "Melting point"
+        ],
+        "correctAnswerIndex": 0,
+        "explanation": "Dewpoint is the temperature at which moisture from the air condenses into water. A low dewpoint (e.g. -40°C) means very dry air - moisture only condenses at -40°C. This is critical because: (1) Moisture supports bacterial growth, (2) Causes corrosion, (3) Contaminates the product.",
+        "hint": "🌡️ Low dewpoint = Dry air = Good! High dewpoint = Moist air = Bad (bacteria, corrosion)."
+      },
+      {
+        "question": "What are dead legs in WFI systems?",
+        "options": [
+          "Unusable parts",
+          "Dead pipes without flow where water stops → ideal for bacterial growth and biofilm",
+          "Closed valves",
+          "Old pipes"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Dead legs are parts of the pipeline without flow (dead branches, T-pieces, closed valves). Water does not move there → (1) Cooling (below critical temperature), (2) Bacterial growth, (3) Biofilm. GMP requires minimizing dead legs (< 3× pipe diameter).",
+        "hint": "🚫 Water stagnates → Cools → Bacteria grow → Biofilm. Every blind corner = Potential contamination!"
+      },
+      {
+        "question": "How is the microbiological quality of WFI tested?",
+        "options": [
+          "Visually",
+          "Membrane filtration - filtration of a large volume (100-1000 ml) through a 0.45 µm membrane, incubation, CFU counting",
+          "With the eyes",
+          "Not tested"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Membrane filtration method: (1) Filter 100-1000 ml of WFI through a 0.45 µm membrane, (2) Bacteria remain on the membrane, (3) Place the membrane on the culture medium, (4) Incubate for 5-7 days, (5) Count the colonies (CFU). Requirement: < 10 CFU/100ml. This is a more sensitive method than direct plating.",
+        "hint": "🔬 Filtration → Bacteria trapped on the membrane → Culture medium → Incubation → Colony counting."
+      },
+      {
+        "question": "What is TOC (Total Organic Carbon) and why is it measured in WFI?",
+        "options": [
+          "Temperature",
+          "Total organic carbon - measure of organic contamination (bacteria, endotoxins, residues); < 500 ppb for WFI",
+          "Test carbon",
+          "The heat"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "TOC measures the total amount of organic carbon in water. Source: bacteria, endotoxins, biofilm, chemical residues. WFI requires: < 500 µg/L (ppb). The TOC test is a quick (5-10 min) online monitoring test - a good alternative to a long microbiological analysis. High TOC = sign of contamination.",
+        "hint": "🧪 Organics in water = Bad (bacteria, endotoxins). TOC meter = Instant problem detection!"
+      },
+      {
+        "question": "Why is it necessary to periodically 'sanitize' the WFI system?",
+        "options": [
+          "It is not necessary",
+          "To destroy biofilm and bacteria that can accumulate despite high temperatures",
+          "To clean it",
+          "Because of the color"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Despite > 80°C, bacteria and biofilm can accumulate in dead zones, valves, joints. Periodic sanitization (eg monthly): (1) Circulation > 90°C for 1+ hour, OR (2) Chemical sanitization (ozone, H2O2), OR (3) Steam. This destroys the accumulated bacteria and removes the biofilm.",
+        "hint": "🧽 Like cleaning at home: Despite daily maintenance, you still need a thorough cleaning from time to time!"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Preventive Maintenance and Calibration",
+    "slug": "preventivno-vzdrzevanje",
+    "annexReference": "DPP Appendix 15",
+    "category": "Validacija",
+    "developmentAndExplanation": "**PREVENTIVE MAINTENANCE (PM) - THE BASIS OF RELIABILITY**\n\n**WHY IS PM CRITICAL?**\n• Prevents unannounced breakdowns during production\n• Ensures equipment operation within qualified parameters\n• Extends the life of the equipment\n• Ensures compliance with GMP (qualified status)\n\n**MAIN TYPES OF MAINTENANCE:**\n1. **Preventive** (PM) - regularly planned according to the schedule\n2. **Corrective** - repair after failure\n3. **Predictive** - based on condition monitoring (vibrations, temperature)\n4. **Condition-based** - when measurements show a need\n\n**CRITICAL PM EQUIPMENT:**\n• HEPA filters (change annually or after integrity test)\n• Laminar boxy (certification 6-12 months)\n• Autoclaves (calibration of temperature probes, door seals)\n• Isolators (change of gloves, HEPA filters, integrity test)\n• HVAC systems (filter change, differential pressure check)\n• WFI systems (sanitization, TOC sensors)\n\n**CALIBRATION:**\nPeriodic verification that the measuring instruments are measuring correctly:\n• Thermometers, manometers, anemometers\n• Particle counters, microbial samplers\n• TOC meters, pH meters\n• Scales, pipettes\n\n**QUALIFICATION STATUS:**\nThe equipment must have the status: Qualified / Under maintenance / Unqualified",
+    "practicalChallenges": "• **Down time**: PM stops production\n• **Cost**: Parts, labor, calibration are expensive\n• **Complexity**: Modern equipment requires specialized techniques\n• **Documentation**: Every PM requires records, signatures, verification\n• **Fake PM**: 'Ticked' without actual work",
+    "improvementIdeas": "→ **IoT sensors**: Real-time monitoring of equipment status\n→ **Predictive AI**: Predict failure 2-4 weeks in advance\n→ **AR instructions**: Technicians see instructions through AR glasses\n→ **Digital twins**: Virtual model of simulation equipment\n→ **Blockchain PM records**: Immutable evidence of maintenance\n→ **Automated calibration**: The equipment is calibrated automatically",
+    "visualComponent": "MaintenanceSchedule",
+    "quizQuestions": [
+      {
+        "question": "What is the MAIN difference between preventive and corrective maintenance?",
+        "options": [
+          "Costs",
+          "Preventive is PLANNED and regular, corrective is REACTIVE after failure",
+          "Duration time",
+          "There is no difference"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Preventive maintenance (PM) is proactive - performed on a predetermined schedule (eg monthly, annually) to prevent breakdowns. Corrective maintenance is reactive - we fix it only when something breaks. PM is more expensive in the short term, but cheaper in the long term (fewer unannounced failures).",
+        "hint": "🛠️ PM = Car service BEFORE it breaks down. Corrective = Repair AFTER it breaks. What is better?"
+      },
+      {
+        "question": "How often do HEPA filters in laminar boxes need to be changed?",
+        "options": [
+          "Only if they break",
+          "Annual OR when the integrity test shows a leak (DOP test)",
+          "Every 5 years",
+          "Never"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "HEPA filters are changed: (1) After the integrity test (DOP, PAO, light scattering) if they leak, (2) After 1-2 years of use (material fatigue), (3) If the differential pressure across the filter exceeds the specification (clogging). Integrity test at least annually or after each relocation/maintenance.",
+        "hint": "🔍 Annual test: If leaking or clogged → Exchange. If OK → Keep until next year."
+      },
+      {
+        "question": "What is CALIBRATION of a measuring instrument?",
+        "options": [
+          "Cleaning",
+          "Comparison with a reference standard to check accuracy and adjust if necessary",
+          "Repair",
+          "Exchange"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Calibration is the process of comparing an instrument's measurement with a known reference standard (traceable to a national/international standard). If the deviation is > allowed tolerance, the instrument is adjusted or withdrawn from use. It is documented: date, results, who found out.",
+        "hint": "📏 Does your scale still measure correctly? Put a 100g weight on it (reference) → If it shows 100g = OK. If not = Calibration!"
+      },
+      {
+        "question": "Why is the 'Qualified' status of equipment critical to GMP?",
+        "options": [
+          "He is not critical",
+          "Because only qualified equipment can be used for production - it proves that it works correctly",
+          "Because of the inspection",
+          "Because of insurance"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "'Qualified' status means that the equipment is: (1) Installed Correctly (IQ), (2) Operates Correctly (OQ), (3) Produces Qualified Products (PQ), (4) Maintained in accordance with PM. Only qualified equipment is allowed to produce GMP products. Label a on equipment: 'Qualified - Next PM: [date]'.",
+        "hint": "✅ Qualified equipment = Proven to work correctly = May produce. Unqualified = Not allowed!"
+      },
+      {
+        "question": "What is 'condition-based maintenance'?",
+        "options": [
+          "Maintenance always",
+          "Maintenance based on the ACTUAL condition of the equipment (vibration, temperature, wear) and not on a fixed schedule",
+          "Random maintenance",
+          "Maintenance in the event of breakdowns"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Condition-based maintenance uses real-time monitoring (vibration, temperature, ultrasound) to assess the ACTUAL condition of the equipment. Maintenance is carried out when measurements show the need, not 'blindly' according to a fixed schedule. This is more efficient than rigid PM - you maintain when you really need to.",
+        "hint": "📊 Sensors watch the equipment 24/7. When vibration/temperature shows wear → PM. Instead of 'always every month'."
+      },
+      {
+        "question": "Why is it necessary to document ALL PM activities?",
+        "options": [
+          "It is not necessary",
+          "To prove to regulators that equipment is maintained and qualified - 'If it ain't on the record, it ain't happened'",
+          "That we have work to do",
+          "Because of the archive"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Each PM requires a record of: (1) WHAT was done, (2) WHO did it, (3) WHEN, (4) RESULTS of checks, (5) Parts used, (6) Next PM date. This proves that the equipment is in qualified condition. Inspectors review PM records. No documentation = unqualified equipment.",
+        "hint": "📝 Inspector: 'Show PM records for this autoclave.' You: 'We do PM but it's not written down' = Unqualified!"
+      },
+      {
+        "question": "What is an 'integrity test' of a HEPA filter?",
+        "options": [
+          "Color test",
+          "Leakage test - checking that the filter filters > 99.97% of particles 0.3 µm (DOP, PAO test)",
+          "Size test",
+          "Weight test"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "The Integrity test verifies that the HEPA filter is NOT damaged and still filters > 99.97% of particles. Methods: (1) DOP test (Dispersed Oil Particulate), (2) PAO test (PolyAlphaOlefin aerosol), (3) Light scattering. The test detects cracks, holes, poor sealing. It is carried out annually and after each exchange/relocation.",
+        "hint": "🔍 Blow smoke (aerosol) into the filter → Scan output → If you find particles = Leaking = Change!"
+      },
+      {
+        "question": "How often is it necessary to certify the laminar box?",
+        "options": [
+          "Just once",
+          "6-12 months (depending on local legislation) + after each relocation/maintenance",
+          "Every 5 years",
+          "Never"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "The laminar box certification includes: (1) Integrity test of the HEPA filter, (2) Airflow velocity test (0.36-0.54 m/s), (3) Smoke pattern test (airflow visualization), (4) Particle count. It is carried out: 6-12 months (depending on the country), after HEPA change, after relocation, after major maintenance.",
+        "hint": "📅 Annually (or semi-annually) + ALWAYS after changing the filter or moving the box. Proof that it still works OK!"
+      },
+      {
+        "question": "Why is it necessary to calibrate the particle counter?",
+        "options": [
+          "It is not necessary",
+          "To ensure it still counts particles correctly - critical for cleanroom validation",
+          "To fix it",
+          "To clean it"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "The particle counter changes over time (the laser diode weakens, the optics wear out). Calibration with a reference aerosol (known particle concentration) verifies accuracy. If deviation > ±10%, service required. Calibration annually. Critical because cleanroom validation is based on particle count data.",
+        "hint": "🔬 If it counts wrong → Validation wrong → Maybe we are producing in the 'wrong' Grade! Must be accurate!"
+      },
+      {
+        "question": "What is 'calibration due date' and why is it critical?",
+        "options": [
+          "Date of purchase",
+          "The date until which the calibration is valid - after this date the instrument MUST NOT be used until it is recalibrated",
+          "Date of repair",
+          "Date of manufacture"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Calibration due date is the date when the current calibration expires. After this date: (1) The instrument becomes 'Out of calibration', (2) It MUST NOT be used for GMP activities, (3) It must be recalibrated. Label on instrument: 'Calibrated: 1/1/2024, Due: 1/1/2025'. Use after due date = GMP violation.",
+        "hint": "🚫 As the validity of the driver's license: Expired = You are not allowed to drive. By cal due date = You must not measure!"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "title": "Environmental Monitoring",
+    "slug": "monitoriranje-okolja",
+    "annexReference": "DPP Appendix 1, ISO 14644",
+    "category": "Higiena",
+    "developmentAndExplanation": "**ENVIRONMENTAL MONITORING (EM) - EYES OF ASEPTICS**\n\n**WHY EM?**\n• Early warning system - we discover trends BEFORE contamination occurs\n• Verification of cleaning/disinfection effectiveness\n• Confirmation of qualified status\n• GMP requirement\n\n**MONITORING PARAMETERS:**\n\n**1. NON-LIVING PARTICLES (Particle Monitoring):**\n• At-rest (at rest) - a place without activity\n• In-operation (during operation) - real situation\n• Frequency: Continuous (Grade A/B) or periodic (Grade C/D)\n\n**2. MICROBIOLOGICAL MONITORING:**\n• **Active Air Sampling**: Particle counter for bacteria\n• **Passive Air Sampling**: Settle plates (plates in the air for 4 hours)\n• **Surface Monitoring**: Contact plates, swabs\n• **Personnel Monitoring**: Finger dab plates, gown prints\n\n**ACTION/ALERT LIMITS:**\n• **Alert limit**: Early warning sign - requires investigation\n• **Action limit**: Critical level - requires immediate corrective measures\n\n**EXAMPLE Grade A:**\n• Particles (0.5 µm): Alert 1, Action 5\n• CFU (active air): Alert 0, Action 1\n• CFU (settle plate): Alert 0, Action 1\n• CFU (contact plate): Alert 0, Action 1\n• CFU (gloves): Alert 0, Action 1\n\n**TREND ANALYSIS:**\nMonthly/quarterly review of data to detect trends of increasing contamination",
+    "practicalChallenges": "• **False positives**: Sample contamination during sampling\n• **False negatives**: Missed problems due to sampling in the wrong locations\n• **Data overload**: Too much data, hard to find patterns\n• **Compliance burden**: Extremely labor intensive\n• **Non-reproducibility**: Microbiological results vary",
+    "improvementIdeas": "→ **AI trend detection**: Automatic detection of anomalies\n→ **Wireless particle counters**: Real-time monitoring without cables\n→ **Rapid microbiological methods**: Results in 24 hours instead of 5-7 days\n→ **Automated sampling**: Robotic sampling\n→ **Digital dashboards**: Live visualization of EM data\n→ **Genomic identification**: Accurate identification of sources of contamination",
+    "visualComponent": "EnvironmentalTrend",
+    "quizQuestions": [
+      {
+        "question": "What is the difference between 'at-rest' and 'in-operation' particle count?",
+        "options": [
+          "There is no difference",
+          "At-rest = empty space without activity; In-operation = during production with personnel and equipment",
+          "At-rest is higher",
+          "In-operation is lower"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "At-rest is a measurement in an empty, inactive space (space qualification). In-operation is a measurement between ACTUAL production with personnel, equipment, movement - the real state. In-operation limits are higher because personnel generate particles. Both are necessary for a complete picture.",
+        "hint": "🏠 At-rest = Empty space (ideal). In-operation = During work (real with people). The second is more difficult!"
+      },
+      {
+        "question": "What is a 'settle plate' and how is it used?",
+        "options": [
+          "Seat board",
+          "The culture plate is exposed to air for 1-4 hours so that the bacteria 'fall' onto it due to gravity",
+          "Test board",
+          "Microscope"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "A settle plate is an open Petri dish with culture medium exposed to air (usually 4 hours). Bacteria and spores fall onto it due to gravity. After incubation (5-7 days) colonies (CFU) are counted. This is a passive method - simple but less sensitive than active air sampling.",
+        "hint": "🍽️ The open plate 'catches' bacteria that fall from the air. Close after 4 hours → Incubate → Count colonies."
+      },
+      {
+        "question": "Why is the 'finger dab' test critical for aseptic personnel?",
+        "options": [
+          "He is not critical",
+          "Because it checks whether the gloves are ACTUALLY clean after work - it detects the contamination of the gloves",
+          "Because it's fun",
+          "Because it is mandatory"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Finger dab test: The operator presses his fingers (in gloves) on the culture plate ON EXITING the aseptic zone. This checks for: (1) Whether gloves are contaminated, (2) Whether aseptic technique is good, (3) Whether gloves have been punctured. Grade A/B requirement: 0 CFU (Action limit: 1 CFU).",
+        "hint": "✋ Press your fingers on the plate at the end of the work → If bacteria grow = Gloves contaminated = Problem!"
+      },
+      {
+        "question": "What does 'Alert Limit' mean in EM?",
+        "options": [
+          "Fire alarm",
+          "Level indicating potential drift from normal conditions - requires INVESTIGATION but not shutdown of production",
+          "Maximum level allowed",
+          "The lowest level"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Alert limit is an early warning signal - the result is higher than normal, but not critical. It requires: (1) Documented investigation, (2) Trend analysis, (3) Preventive measures. Production does NOT stop. It is between 'normal' and 'Action limit'. Usually Alert = 50-70% Action limit.",
+        "hint": "⚠️ Yellow light: 'Caution, something is wrong!' Search, check the trend. Not yet red (critical)!"
+      },
+      {
+        "question": "What does 'Action Limit' mean in EM?",
+        "options": [
+          "Operating limit",
+          "Critical level requiring IMMEDIATE corrective action and possible batch stop/rejection",
+          "Target value",
+          "Average value"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "The action limit is the CRITICAL level - an indicator of serious contamination. Requires: (1) IMMEDIATE corrective action (cleaning, disinfection), (2) Cause investigation, (3) CAPA, (4) Potential batch rejection, (5) Potential production shutdown. This is the 'red line'.",
+        "hint": "🚨 Red light: STOP! Critical! Immediate action, possible batch rejection!"
+      },
+      {
+        "question": "Why is microbial EM slower than particle count?",
+        "options": [
+          "Because it's expensive",
+          "Because bacteria need 5-7 days of INCUBATION to grow into visible colonies",
+          "Because it's complicated",
+          "It's not slower"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Microbiological results take time: (1) 5-7 days incubation at 30-35°C (mesophilic bacteria), (2) Additional 5-7 days at 20-25°C (yeasts, molds), (3) Identification additional few days. Total: 7-14 days from sampling to result. Particle count is instant. This is the challenge - the contamination is already old when you get the result.",
+        "hint": "⏳ Bacteria are small. They need time to grow into the colonies you see (5-7 days). You can see the particles immediately!"
+      },
+      {
+        "question": "Where are the MOST critical locations for EM sampling?",
+        "options": [
+          "Random locations",
+          "Closest to the critical zone (point-of-fill), under HEPA filters, in the air streams above the product",
+          "At the door",
+          "On the floor"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Critical locations: (1) Point-of-fill (where the product comes into contact with the environment), (2) Directly under HEPA filters (first air), (3) Near open containers, (4) On work surfaces, (5) Worst-case locations (small turbulent eddies). Sampling 'random' locations is useless - it doesn't tell you about the risk of the product.",
+        "hint": "🎯 Sample WHERE the product is - not in the aisle! Closest to product = Most critical!"
+      },
+      {
+        "question": "What is 'active air sampling' and how does it work?",
+        "options": [
+          "Ambient air sampling",
+          "Using a pump to actively suck air through the filter/growing medium - collects a certain volume of air (e.g. 1 m³)",
+          "Sampling passively",
+          "Surface sampling"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Active air sampling: (1) The pump sucks in air (e.g. 100 L/min), (2) The air passes through the culture medium strip or filter membrane, (3) The bacteria collide with the culture medium, (4) After incubation, we count the CFU, (5) Result: CFU/m³. This is a more sensitive and reproducible method than passive (settle plates).",
+        "hint": "💨 It actively sucks air through the culture medium (like a mammal). It passively waits for the bacteria to fall (gravity)."
+      },
+      {
+        "question": "Why is the identification of microorganisms from EM important?",
+        "options": [
+          "It doesn't matter",
+          "To identify the SOURCE of contamination (personnel, water, raw materials) and take targeted action",
+          "Out of curiosity",
+          "Because of the cost"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Identification of microorganisms (Staphylococcus = personnel, Bacillus = environment, Pseudomonas = water) reveals the source: (1) Human flora = personnel/aseptic technique problem, (2) Gram-negatives = water problem, (3) Spores = cleaning problem. This enables targeted action, not a blind 'clean more'.",
+        "hint": "🔍 You find Staph aureus → It's from people's noses → Problem: Staff. Target measure: Training!"
+      },
+      {
+        "question": "What is a 'viable particle counter' and how does it differ from a normal one?",
+        "options": [
+          "There is no difference",
+          "Counts LIVE microorganisms in real time with UV fluorescence - results in minutes instead of days",
+          "It's bigger",
+          "It's cheaper"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Viable particle counter (eg BioVigilant, Lighthouse) uses laser-induced fluorescence (LIF) to INSTANTLY detect live bacteria (tryptophan, NADH fluorescence). Results in MINUTES instead of 5-7 days. This is a rapid microbiological method - it enables a real-time reaction. More expensive but faster.",
+        "hint": "⚡ Normal: Sample → 5-7 days incubation → Result. Viable counter: Instant result (minutes)!"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "title": "Incident Management and CAPA",
+    "slug": "incident-management-capa",
+    "annexReference": "ICH Q10, DPP Chapter 1",
+    "category": "Validacija",
+    "developmentAndExplanation": "**INCIDENT MANAGEMENT - LEARNING FROM MISTAKES**\n\n**WHAT IS AN INCIDENT?**\nAny deviation from the standard terms:\n• Contamination (microbiological, partial)\n• Equipment failure\n• Staff errors\n• Deviations from procedures\n• Out-of-Specification (OOS) results\n• Customer complaints\n\n**CAPA PROCESS (Corrective And Preventive Action):**\n\n**1. IDENTIFICATION** - Discover the problem\n**2. DOCUMENTATION** - Write down what, where, when, who\n**3. IMMEDIATE ACTION** - Containment (limit damage)\n**4. ROOT CAUSE ANALYSIS** - Find the REAL cause\n**5. CORRECTIVE ACTION** - Fix the problem\n**6. PREVENTIVE ACTION** - Prevent recurrence\n**7. VERIFICATION** - Check efficiency\n**8. CLOSURE** - Close the incident\n\n**ROOT CAUSE ANALYSIS TOOL:**\n• **5 Why**: Ask 'why' 5 times until you get to the root\n• **Fishbone diagram** (Ishikawa): 6M analysis (Man, Machine, Material, Method, Measurement, Mother Nature)\n• **Fault Tree Analysis**: Tree of possible causes\n• **Pareto analysis**: 80/20 rule - focus on root causes\n\n**JUST CULTURE:**\nA culture where staff report errors without fear of punishment - a focus on systemic improvement, not blame",
+    "practicalChallenges": "• **Blame culture**: Finding the culprit instead of the cause\n• **Shallow root cause**: 'Human error' is not the real root cause!\n• **Ineffective CAPA**: Actions do not solve the problem → Repetition\n• **Documentation burden**: CAPA processes become bureaucracy\n• **Lack of follow-up**: CAPAs are 'closed' but effectiveness is not verified",
+    "improvementIdeas": "→ **AI-powered root cause suggestion**: The system suggests possible causes\n→ **Automated trend detection**: Warns of recurring problems\n→ **Digital CAPA workflow**: Paperless, traceable, faster\n→ **Gamification**: Points for reporting incidents (encourages just culture)\n→ **Knowledge base**: Database of past CAPAs - 'Has this problem already been solved?'",
+    "visualComponent": "IncidentTimeline",
+    "quizQuestions": [
+      {
+        "question": "What is the MOST COMMON error in root cause analysis?",
+        "options": [
+          "Too long an analysis",
+          "Stopping at 'human error' instead of looking for a SYSTEMATIC reason why a person made a mistake",
+          "Too big a team",
+          "Too expensive a process"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "'Human error' is NOT the real root cause! We must ask: WHY did man make a mistake? (1) Unclear instructions? (2) Inadequate training? (3) Poor ergonomics? (4) Time pressure? The real root cause is a SYSTEMIC problem that allowed human error. Fix the system, don't blame the man.",
+        "hint": "❌ 'The man is to blame' = Shallow analysis. ✅ 'WHY did the person act wrongly?' = True root cause!"
+      },
+      {
+        "question": "What does the '5 Why' method mean?",
+        "options": [
+          "Ask 5 people",
+          "Ask 'WHY' 5 times in a row to get from the symptom to the real root of the problem",
+          "5 different questions",
+          "Wait 5 days"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "5 Why method: Ask 'WHY did this happen?' → 'WHY did that happen?' → Continue until you get to the real root cause (usually 5x). Example: Contamination → WHY? Gloves contaminated → WHY? Touched an inappropriate object → WHY? He didn't know he couldn't → WHY? There was no training → ROOT CAUSE!",
+        "hint": "❓❓❓❓❓ Five layers of 'why' → At the fifth you get to the REAL cause (usually a systemic problem)."
+      },
+      {
+        "question": "What is the difference between CORRECTIVE and PREVENTIVE action?",
+        "options": [
+          "There is no difference",
+          "Corrective = fix an EXISTING problem; Preventive = prevents the same problem from happening ANYWHERE ELSE",
+          "Corrective is faster",
+          "Prevention is more expensive"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Corrective action corrects the problem where it occurred (e.g. repair of a broken autoclave). Preventive action extends the solution to prevent the problem elsewhere (eg perform PM on ALL autoclaves, not just the broken one). Prevention is broader - learning from the incident.",
+        "hint": "🔧 Corrective = Fix THIS autoclave. 🛡️ Preventive = Check ALL autoclaves so that they don't break down somewhere else!"
+      },
+      {
+        "question": "What is 'Just Culture' and why is it critical to incident management?",
+        "options": [
+          "A culture of justice",
+          "A culture where staff report errors/incidents WITHOUT fear of punishment - focus on learning not blame",
+          "Strict culture",
+          "It doesn't matter"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Just Culture encourages REPORTING problems because: (1) There is no fear of punishment, (2) The focus is on systemic improvements, (3) Candor is valued. Result: More problems caught → Fewer serious incidents. On the contrary: Blame culture → Staff hide mistakes → Problems grow → Disaster.",
+        "hint": "🤝 Report a problem = Praise (you helped!). You don't report = Punishment. This is how staff WANTS to report!"
+      },
+      {
+        "question": "Why is 'containment' the first step after discovering an incident?",
+        "options": [
+          "It's not the first step",
+          "To limit the damage IMMEDIATELY and prevent the problem from spreading before we start the analysis",
+          "That we have time",
+          "To document"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Containment = immediate action to prevent the problem from getting worse. Example: Contaminated batch → IMMEDIATE quarantine (not yet analyzed!). Broken equipment → shutdown IMMEDIATELY (not yet repaired). First stop the spread, then analyze. The first aid principle.",
+        "hint": "🚒 As a firefighter: FIRST put out the fire (containment), THEN look for the root cause. Not the other way around!"
+      },
+      {
+        "question": "What is a 'Fishbone Diagram' (Ishikawa)?",
+        "options": [
+          "Diagram of a fish",
+          "Tool for visualizing possible causes of the problem - categorized according to 6M (Man, Machine, Material, Method, Measurement, Mother Nature)",
+          "Factory plan",
+          "Timeline"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Fishbone diagram: The problem is the 'head', the possible causes are the 'bones'. 6M categories: (1) Man (personnel), (2) Machine (equipment), (3) Material (raw materials), (4) Method (procedure), (5) Measurement (measurements), (6) Mother Nature (environment). Brainstorming all possible causes in each category → Identify the main root cause.",
+        "hint": "🐟 Head = Problem. Bones = Possible causes. 6 main bones (6M). Brainstorm ALL possible causes!"
+      },
+      {
+        "question": "Why is CAPA effectiveness VERIFICATION critical?",
+        "options": [
+          "It is not critical",
+          "To prove that CAPA ACTUALLY solved the problem - without verification, we don't know if it works",
+          "Because of the documentation",
+          "Because of the cost"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "CAPA without verification is unreliable. Verification checks: (1) Is the problem really solved? (2) Does it still appear? (3) Does CAPA create new problems? Methods: Trend monitoring, retests, audits. Only after successful verification is the CAPA closed. Otherwise: 'Fixed' but actually still broken.",
+        "hint": "✅ We said we solved it → But did we really? Verification = PROOF that it works!"
+      },
+      {
+        "question": "What is the 'effectiveness check' in the CAPA process?",
+        "options": [
+          "Cost verification",
+          "Scheduled check (eg after 3 months) that CAPA is still working and the problem has not returned",
+          "Quick test",
+          "Last signature"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Effectiveness check is a follow-up check (eg 1 month, 3 months, 6 months after CAPA implementation). Let's check: (1) Is the problem still solved? (2) Has it recurred? (3) Are corrective actions still in place? This is a long-term verification - some problems return over time.",
+        "hint": "📅 Don't just check immediately after repair! Check back in 3 months - is it still working or has the problem returned?"
+      },
+      {
+        "question": "Why is 'trend analysis' more important than individual incidents?",
+        "options": [
+          "It is not more important",
+          "Because TRENDS reveal systemic problems - individual incidents can be random",
+          "Because it's faster",
+          "Because it's cheaper"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "One incident = maybe a coincidence. TREND (recurring incidents) = SYSTEMIC problem. Example: 1× broken autoclave = Coincidence. 3x broken autoclave in 6 months = PM program does not work. Trend analysis uncovers systemic problems that individual CAPAs would not. Monthly/quarterly review of all incidents.",
+        "hint": "📊 1 point = Nothing. 10 points draw a LINE (trend) → Reveal a pattern (systemic problem)!"
+      },
+      {
+        "question": "What is the connection between Risk Assessment and CAPA?",
+        "options": [
+          "There is no connection",
+          "Incidents validate whether the risk assessment is correct - if an incident occurs that was not foreseen, the risk assessment is flawed",
+          "Risk assessment replaces CAPA",
+          "CAPA replaces risk assessment"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "If an incident occurs, ask: 'Did we foresee this risk in the risk assessment?' If NO → Risk assessment was flawed → Update it! If YES → Control measures were not effective → Improve control strategy! CAPA and risk assessment are related - learning and improvement.",
+        "hint": "🔄 Incident = Risk assessment test. If the unexpected happens → Risk assessment was not good → Update!"
+      }
+    ]
+  }
+]

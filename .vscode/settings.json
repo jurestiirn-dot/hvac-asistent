@@ -1,0 +1,5 @@
+{
+    "chat.agentSessionsViewLocation": "view",
+    "chat.allowAnonymousAccess": true,
+    "chat.checkpoints.showFileChanges": true
+}

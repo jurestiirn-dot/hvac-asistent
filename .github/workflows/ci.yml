@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Install dependencies
+        run: npm ci
+        working-directory: ./app-v2
+      - name: Build
+        run: npm run build
+        working-directory: ./app-v2
+      - name: Typecheck
+        run: npm run typecheck
+        working-directory: ./app-v2
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps
+        working-directory: ./app-v2
+      - name: Run E2E tests
+        run: npx playwright test --reporter=list
+        working-directory: ./app-v2

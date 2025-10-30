@@ -1,0 +1,415 @@
+[
+  {
+    "id": 101,
+    "title": "Osnove GxP Annex 1 - Aseptična Proizvodnja",
+    "slug": "osnove-annex1",
+    "annexReference": "GxP Annex 1, Poglavja 1-2",
+    "developmentAndExplanation": "**GxP Annex 1** je evropski regulatorni dokument, ki določa standarde za proizvodnjo sterilnih zdravil. Zagotavlja najvišjo raven varnosti pacientov z nadzorom mikrobiološke kontaminacije.\n\n**KLJUČNI KONCEPTI:**\n\n• **Aseptična Proizvodnja**: Proces, kjer sterilne komponente združimo v sterilnem okolju brez končne sterilizacije\n\n• **Kontaminacijska Kontrolna Strategija (CCS)**: Holističen pristop k preprečevanju kontaminacije z integracijo dizajna objekta, procesov, kontrolnih ukrepov in monitoringa\n\n• **Quality Risk Management (QRM)**: Sistematična ocena tveganj za kakovost produkta\n\n**HIERARHIJA ČISTIH PROSTOROV:**\n\n**Klasa A** (ISO 5) → Neposredno okolje sterilnega produkta (kritična cona)\n**Klasa B** (ISO 5/7) → Ozadje za aseptične operacije  \n**Klasa C** (ISO 7/8) → Priprava komponent\n**Klasa D** (ISO 8) → Manj kritične operacije\n\n**KRITIČNI PARAMETRI MONITORINGA:**\n\n✓ Delci (0.5µm, 5.0µm) - Kontinuirano v A/B  \n✓ Mikrobiološki monitoring (settle plates, air sampling)\n✓ Temperatura in relativna vlažnost (RH)\n✓ Tlačne razlike (differential pressure)\n✓ Hitrost zraka in zračni tokovi",
+    "practicalChallenges": "**GLAVNI IZZIVI V IMPLEMENTACIJI:**\n\n1. **Personel** - Največji vir kontaminacije (do 80%)\n   - Zahtevana obsežna kvalifikacija gowning tehnike\n   - Periodična revalidacija aseptičnih veščin\n   - Behaviour-based monitoring\n\n2. **Ohranjanje Klas Med Operacijo**\n   - Aktivnost povzroči resuspenzijo delcev\n   - Rešitev: laminarni tok 0.36-0.54 m/s v Klasi A\n\n3. **Media Fills (Process Simulation)**\n   - Obvezna simulacija aseptičnega procesa\n   - Zahtevana stopnja kontaminacije <0.1%\n   - 3 zaporedni uspešni testi za validacijo\n\n4. **Environmental Monitoring Program**\n   - Real-time monitoring Klase A in B\n   - Trend analiza in root cause investigation",
+    "improvementIdeas": "**DIGITALNA TRANSFORMACIJA:**\n\n→ AI-Driven Anomaly Detection za predvidevanje odstopanj\n→ Digital Twin Technology za simulacijo zračnih tokov\n→ Blockchain za nespremenljivo beleženje GMP zapisov\n→ Augmented Reality (AR) Training za aseptične tehnike\n→ Continuous Monitoring Platforms z centraliziranim dashboardom",
+    "visualComponent": "3D-Airflow",
+    "quizQuestions": [
+      {
+        "question": "Katera je GLAVNA razlika med aseptično proizvodnjo in terminalno sterilizacijo?",
+        "options": [
+          "Aseptična proizvodnja ne uporablja sterilnih komponent",
+          "Pri aseptični proizvodnji sterilne komponente združimo v sterilnem okolju BREZ končne sterilizacije",
+          "Terminalna sterilizacija ne zahteva čistih prostorov",
+          "Aseptična proizvodnja je cenejša"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Aseptična proizvodnja združuje že sterilizirane komponente v visoko kontroliranem sterilnem okolju, medtem ko terminalna sterilizacija sterilizira končni zapolnjeni produkt (npr. z avtoklaviranjem)."
+      },
+      {
+        "question": "Kakšen je GLAVNI vir kontaminacije v aseptičnem procesu?",
+        "options": [
+          "HEPA filtri",
+          "Surovine",
+          "Personel (operaterji)",
+          "Oprema"
+        ],
+        "correctAnswerIndex": 2,
+        "explanation": "Študije kažejo, da personel predstavlja do 80% vseh kontaminacij v aseptičnih conah zaradi emisij delcev iz kože, las in oblačil."
+      },
+      {
+        "question": "Katera ISO klasifikacija ustreza GxP Klasi A v mirovanju (At Rest)?",
+        "options": [
+          "ISO 3",
+          "ISO 5",
+          "ISO 7",
+          "ISO 8"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "GxP Klasa A ustreza ISO 5 standardu (maksimalno 3520 delcev ≥0.5µm na m³ zraka v mirovanju)."
+      },
+      {
+        "question": "Kaj pomeni 'Contamination Control Strategy' (CCS)?",
+        "options": [
+          "Samo čiščenje prostorov",
+          "Samo monitoring delcev",
+          "Holističen pristop k preprečevanju kontaminacije z integracijo dizajna, procesov, monitoringa in personala",
+          "Samo usposabljanje personala"
+        ],
+        "correctAnswerIndex": 2,
+        "explanation": "CCS je celovita strategija, ki integrira dizajn objekta, procese, kontrole okolja, monitoring in personelno prakso v eno koherentno strategijo za obvladovanje tveganj kontaminacije."
+      },
+      {
+        "question": "Koliko zaporednih uspešnih Media Fill testov zahteva validacija aseptičnega procesa?",
+        "options": [
+          "1 uspešen test",
+          "2 zaporedna uspešna testa",
+          "3 zaporedni uspešni testi",
+          "5 zaporednih uspešnih testov"
+        ],
+        "correctAnswerIndex": 2,
+        "explanation": "Annex 1 zahteva najmanj 3 consecutive successful media fill runs za začetno validacijo, pri čemer mora biti stopnja kontaminacije <0.1%."
+      },
+      {
+        "question": "Kateri monitoring je OBVEZEN v realnem času (continuous) za Klaso A?",
+        "options": [
+          "Samo temperatura",
+          "Delci (particle counting)",
+          "Samo tlačne razlike",
+          "Mikrobiološki monitoring"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Annex 1 zahteva kontinuirano (real-time) monitoring delcev v Klasi A med proizvodnjo. Mikrobiološki monitoring se izvaja z settle plates in air sampling, ne pa kontinuirano."
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "title": "HEPA Filtracija in Integriteta Filtrov",
+    "slug": "hepa-filtracija",
+    "annexReference": "GxP Annex 1, 4.3",
+    "developmentAndExplanation": "**HEPA (High Efficiency Particulate Air) filtracija** je temelj čistih prostorov v farmacevtski industriji.\n\n**KLASIFIKACIJA FILTROV:**\n\n• **H13**: 99.95% učinkovitost pri MPPS  \n• **H14**: 99.995% učinkovitost (standard za Klase A/B)  \n• **U15-U17 (ULPA)**: >99.9995% - izjemno kritični procesi  \n\n*MPPS = Most Penetrating Particle Size (~0.1-0.3µm)*\n\n**MEHANIZMI FILTRACIJE:**\n\n1. **Inercija** - Veliki delci (>1µm) trčijo v vlakna\n2. **Prestrezanje** - Srednji delci sledijo zračnemu toku in se ujamejo\n3. **Difuzija (Brownian)** - Najmanjši delci (<0.1µm) se premikajo naključno in se ujamejo\n\n**TESTIRANJE INTEGRITETE - PAO TEST:**\n\nPAO (Poly-Alpha-Olefin) test je obvezen za potrditev, da filter:\n• Nima mikrorazpok ali poškodb\n• Dosega zahtevano učinkovitost\n• Je pravilno nameščen (leak test med filterjem in okvirjem)\n\n**POSTOPEK:**\n1. Upstream - Generiranje PAO aerosola\n2. Downstream - Skeniranje celotne površine filtra\n3. Dovoljeno uhajanje: max 0.01% za H14",
+    "practicalChallenges": "**IZZIVI PRI HEPA FILTRACIJI:**\n\n1. **Pravilna Namestitev**\n   - Gel-seal ali fluid-seal sistem\n   - Preprečevanje by-pass leakage\n\n2. **Monitoring Diferenčnega Tlaka (ΔP)**\n   - Initial ΔP: ~100-150 Pa (nov filter)\n   - Alarm pri 2x initial ΔP\n   - Nakazuje nalaganje delcev ali vlage\n\n3. **Zamenjava Filtrov**\n   - Bag-in/bag-out postopek za preprečitev kontaminacije\n   - Dekontaminacija pred zamenjavo\n   - Re-kvalifikacija prostora po zamenjavi\n\n4. **Vlaga in Kondenzacija**\n   - HEPA filtri so občutljivi na vlago\n   - Potreben pre-heating ali conditioning coils",
+    "improvementIdeas": "**NAPREDNE REŠITVE:**\n\n→ Predictive Maintenance z AI analizo ΔP trendov\n→ Remote Aerosol Skeniranje (avtomatizirano PAO testiranje)\n→ Smart Filters z vgrajenimi senzorji\n→ CFD (Computational Fluid Dynamics) simulacije za optimizacijo postavitve\n→ IoT-enabled Real-time Performance Dashboards",
+    "visualComponent": "Diagram",
+    "quizQuestions": [
+      {
+        "question": "Kateri test je NUJEN za preverjanje integritete HEPA filtra?",
+        "options": [
+          "PAO Test",
+          "Recovery Test",
+          "Test Nasičenja",
+          "Smoke Test"
+        ],
+        "correctAnswerIndex": 0,
+        "explanation": "PAO (Poly-Alpha-Olefin) test je obvezen za potrditev, da filter nima mikrorazpok in ustreza zahtevani učinkovitosti (99.995% za H14)."
+      },
+      {
+        "question": "Kakšna je zahtevana učinkovitost H14 HEPA filtra?",
+        "options": [
+          "99.9%",
+          "99.95%",
+          "99.995%",
+          "99.9995%"
+        ],
+        "correctAnswerIndex": 2,
+        "explanation": "H14 HEPA filter mora dosegati učinkovitost 99.995% pri MPPS (Most Penetrating Particle Size), kar pomeni da zajame 99,995% delcev."
+      },
+      {
+        "question": "Kaj pomeni MPPS v kontekstu HEPA filtrov?",
+        "options": [
+          "Maximum Pressure Point Size",
+          "Most Penetrating Particle Size",
+          "Minimum Performance Particle Standard",
+          "Maximum Particle Penetration System"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "MPPS (Most Penetrating Particle Size) označuje velikost delcev (~0.1-0.3µm), ki najlažje prodrejo skozi filter in predstavljajo najkritičnejšo točko testiranja."
+      },
+      {
+        "question": "Kdaj je potrebno alarmirati pri diferenčnem tlaku (ΔP) čez HEPA filter?",
+        "options": [
+          "Ko ΔP doseže 1.5x začetno vrednost",
+          "Ko ΔP doseže 2x začetno vrednost",
+          "Ko ΔP doseže 3x začetno vrednost",
+          "Ko ΔP doseže 50 Pa"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Alarmna vrednost je običajno nastavljena pri 2x začetnega ΔP, kar nakazuje nalaganje delcev ali vlage in potrebo po zamenjavi filtra."
+      },
+      {
+        "question": "Kakšno je MAKSIMALNO dovoljeno uhajanje pri PAO testu za H14 filter?",
+        "options": [
+          "0.1%",
+          "0.01%",
+          "0.001%",
+          "0.05%"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Za H14 HEPA filter je maksimalno dovoljeno uhajanje 0.01% pri PAO testu, kar zagotavlja visoko integriteto filtracije."
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "title": "Klasifikacija Čistih Prostorov in Particle Counting",
+    "slug": "klasifikacija-prostorov",
+    "annexReference": "GxP Annex 1, 4.1, 4.2",
+    "developmentAndExplanation": "**KLASIFIKACIJA PROSTOROV** temelji na številu delcev določene velikosti na m³ zraka.\n\n**KLJUČNI PARAMETRI:**\n\n**Velikosti delcev:**\n• 0.5 µm - Glavni kriterij\n• 5.0 µm - Strožji kriterij za Klase A in B\n\n**Stanja merjenja:**\n• **At Rest** (v mirovanju) - Brez osebja, proizvodnja ne teče\n• **In Operation** (v delovanju) - Med normalno proizvodnjo\n\n**LIMITI ZA KLASE (delci/m³):**\n\n**KLASA A:**\n- At Rest: max 3,520 (≥0.5µm), 0 (≥5.0µm)\n- In Operation: max 3,520 (≥0.5µm), 0 (≥5.0µm)\n\n**KLASA B:**\n- At Rest: max 3,520 (≥0.5µm), 0 (≥5.0µm)  \n- In Operation: max 352,000 (≥0.5µm), 2,900 (≥5.0µm)\n\n**KLASA C:**\n- At Rest: max 352,000 (≥0.5µm), 2,900 (≥5.0µm)\n- In Operation: max 3,520,000 (≥0.5µm), 29,000 (≥5.0µm)\n\n**KLASA D:**\n- At Rest: max 3,520,000 (≥0.5µm), 29,000 (≥5.0µm)\n- In Operation: Ni določeno\n\n**PARTICLE COUNTING:**\n\nMeritve se izvajajo z:\n• Optical Particle Counter (OPC)\n• Isokinetično vzorčenje\n• Določen volumen zraka (tipično 1 m³ za končno klasifikacijo)",
+    "practicalChallenges": "**IZZIVI PRI KLASIFIKACIJI:**\n\n1. **Določanje Merilnih Točk**\n   - Formula: √(površina prostora)\n   - Minimalno število točk glede na velikost prostora\n   - Kritične točke blizu virov kontaminacije\n\n2. **Časovni Interval Vzorčenja**\n   - Dovolj dolg za zajem 1 m³ pri določenem flow rate\n   - Izogibanje prekoračitvi koncentracijskih limitov OPC\n\n3. **Reprezentativnost Meritev**\n   - '5.0µm = 0' v Klasi A/B At Rest je izjemno strogo\n   - Potreba po dolgem času vzorčenja za statistično veljavnost\n   - ISO 14644-1 formule za number of particles\n\n4. **In Operation Klasifikacija**\n   - Izziv: aktivnost osebja povzroči emisije\n   - Potrebna validacija operacijskih pogojev",
+    "improvementIdeas": "**IZBOLJŠAVE:**\n\n→ Continuous Particle Monitoring v kritičnih conah\n→ Real-time Trend Analysis z avtomatskimi alarmi\n→ Wireless Particle Counters za večjo fleksibilnost\n→ Integration z BMS za korelacijo s HVAC parametri\n→ Heat-map Visualization za identifikacijo problematičnih con",
+    "visualComponent": "Simulation",
+    "quizQuestions": [
+      {
+        "question": "Kateri pogoj (stanje) postavlja NAJSTROŽJE zahteve za število delcev 5.0µm v Klasi A?",
+        "options": [
+          "At Rest (V mirovanju)",
+          "In Operation (V delovanju)",
+          "Oboje sta enako stroga",
+          "In Operation je manj strog"
+        ],
+        "correctAnswerIndex": 2,
+        "explanation": "Za Klaso A je zahteva za 5.0µm delce 0/m³ tako At Rest kot In Operation, kar je izjemno strogo."
+      },
+      {
+        "question": "Koliko delcev ≥0.5µm je MAKSIMALNO dovoljenih v Klasi B At Rest?",
+        "options": [
+          "3,520 delcev/m³",
+          "35,200 delcev/m³",
+          "352,000 delcev/m³",
+          "3,520,000 delcev/m³"
+        ],
+        "correctAnswerIndex": 0,
+        "explanation": "Klasa B At Rest dovoljuje maksimalno 3,520 delcev ≥0.5µm na m³, kar je enako kot pri Klasi A."
+      },
+      {
+        "question": "Katera metoda se uporablja za merjenje delcev v čistih prostorih?",
+        "options": [
+          "Gravimetrična analiza",
+          "Optical Particle Counter (OPC)",
+          "Mikroskopija",
+          "Sedimentacijske plošče"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Optical Particle Counter (OPC) je standardna metoda za real-time merjenje števila in velikosti delcev v zraku."
+      },
+      {
+        "question": "Kakšno je MINIMALNO število merilnih točk za klasifikacijo prostora?",
+        "options": [
+          "Vedno 5 točk",
+          "√(površina prostora v m²)",
+          "10% površine prostora",
+          "1 točka na 10 m²"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Po ISO 14644-1 je minimalno število merilnih točk izračunano kot kvadratni koren površine prostora v kvadratnih metrih."
+      },
+      {
+        "question": "Zakaj je zahteva '0 delcev ≥5.0µm' v Klasi A/B At Rest tako stroga?",
+        "options": [
+          "Ker so večji delci manj nevarni",
+          "Ker lahko večji delci nosijo mikroorganizme",
+          "Ker so manjši delci pomembnejši",
+          "Ker je lažje meriti večje delce"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Večji delci (≥5.0µm) lahko prenašajo mikroorganizme, zato je njihova popolna odsotnost kritična v aseptičnih conah za preprečevanje mikrobiološke kontaminacije."
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Tlačne Razlike in Kaskada Tlaka",
+    "slug": "tlacne-razlike",
+    "annexReference": "GxP Annex 1, 4.3",
+    "developmentAndExplanation": "**TLAČNA KASKADA** je kritični kontrolni parameter za preprečevanje kontaminacije.\n\n**OSNOVNE ZAHTEVE:**\n\n• **Minimalna tlačna razlika:** 10-15 Pa med sosednjimi prostori različnih klas\n• **Smer pretoka:** Od čistejših proti manj čistim območjem\n• **Continuous monitoring:** Obvezen za kritične cone\n\n**HIERARHIJA TLAKOV:**\n\nKlasa A (najvišji tlak) → +15 Pa →  \nKlasa B → +12 Pa →  \nKlasa C → +10 Pa →  \nKlasa D → +10 Pa →  \nNekontrolirano območje (najnižji tlak)\n\n**AIRLOCKS (Zračne Zapornice):**\n\n• **Bubble Airlock:** Višji tlak od obeh sosednjih prostorov\n• **Sink Airlock:** Nižji tlak od obeh sosednjih prostorov\n• **Cascade Airlock:** Tlak med vrednostma sosednjih prostorov\n\n**TIPIČNA KONFIGURACIJA:**\n- Med Klaso A/B in C: 12-15 Pa\n- Med Klaso C in D: 10-12 Pa  \n- Med Klaso D in nekontroliranim: 10-15 Pa\n\n**ALARMI:**\n• Warning alarm: <5 Pa odstopanje\n• Critical alarm: Negativna diferenca (obrnjen tok)",
+    "practicalChallenges": "**IZZIVI VZDRŽEVANJA TLAČNE KASKADE:**\n\n1. **Odpiranje Vrat**\n   - Trenutna sprememba tlaka\n   - Potreben hiter recovery (<30 sekund)\n   - HVAC sistem mora kompenzirati\n\n2. **Personelna Aktivnost**\n   - Gibanje osebja povzroča turbulence\n   - Povečan volumen ob vstopu/izstopu\n   - Interlocked door systems za nadzor\n\n3. **Sezonske Spremembe**\n   - Zunanji tlak in temperatura vplivata\n   - Potrebna prilagoditev HVAC parametrov\n   - Winter vs. summer režimi\n\n4. **Leak Detection**\n   - Netesnosti v stenah, vratih, prehodih\n   - Smoke tests za vizualizacijo zračnih tokov\n   - Periodic requalification\n\n5. **Sensor Placement**\n   - Pravilna lokacija senzorjev (ne blizu vrat)\n   - Izogibanje mrtvih con\n   - Reprezentativna meritev dejanskega tlaka",
+    "improvementIdeas": "**NAPREDNE REŠITVE:**\n\n→ Dynamic Pressure Control z AI predvidevanjem obremenitev\n→ Predictive Door Opening Detection (motion sensors)\n→ Automated Damper Control za kompenzacijo\n→ Real-time CFD Simulation za optimizacijo\n→ Wireless Pressure Sensor Networks\n→ Integration z Access Control Systems",
+    "visualComponent": "Simulation",
+    "quizQuestions": [
+      {
+        "question": "Katera je MINIMALNA zahtevana tlačna razlika med dvema sosednjima prostoroma različnih klas po Annex 1?",
+        "options": [
+          "vsaj 5 Pa",
+          "vsaj 10 Pa",
+          "vsaj 15 Pa",
+          "vsaj 20 Pa"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Zahtevana minimalna tlačna razlika je vsaj 10 Pa, čeprav se za kritična območja priporoča 12-15 Pa."
+      },
+      {
+        "question": "Kaj je GLAVNI namen tlačne kaskade v čisti sobi?",
+        "options": [
+          "Povečanje pretoka zraka skozi filtre",
+          "Preprečevanje toka zraka iz manj čistih v čistejša območja",
+          "Zmanjšanje porabe energije",
+          "Povečanje hitrosti zraka"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Tlačna kaskada zagotavlja, da se zrak vedno premika od najčistejšega območja (najvišji tlak) proti manj čistim območjem, s čimer preprečuje prenos kontaminacije."
+      },
+      {
+        "question": "Kaj je 'Bubble Airlock'?",
+        "options": [
+          "Airlock z nižjim tlakom od obeh sosednjih prostorov",
+          "Airlock z višjim tlakom od obeh sosednjih prostorov",
+          "Airlock brez tlačne razlike",
+          "Airlock z enakostranskim tlakom"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Bubble Airlock ima višji tlak od obeh sosednjih prostorov, kar preprečuje vstop kontaminantov iz katerekoli smeri."
+      },
+      {
+        "question": "Kdaj je potrebno aktivirati CRITICAL alarm za tlačno razliko?",
+        "options": [
+          "Ko je ΔP <8 Pa",
+          "Ko je ΔP <5 Pa",
+          "Ko je ΔP negativen (obrnjen zračni tok)",
+          "Ko je ΔP >20 Pa"
+        ],
+        "correctAnswerIndex": 2,
+        "explanation": "Critical alarm se aktivira, ko postane tlačna razlika negativna, kar pomeni, da se je smer zračnega toka obrnila in lahko pride do kontaminacije."
+      },
+      {
+        "question": "Koliko časa mora sistem potrebovati za recovery tlačne razlike po odprtju vrat?",
+        "options": [
+          "Manj kot 10 sekund",
+          "Manj kot 30 sekund",
+          "Manj kot 1 minuto",
+          "Manj kot 5 minut"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "HVAC sistem mora biti sposoben povrniti tlačno razliko v manj kot 30 sekundah po odprtju vrat, da se minimizira tveganje kontaminacije."
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "title": "Izmenjava Zraka (ACH) in Recovery Time",
+    "slug": "izmenjava-zraka",
+    "annexReference": "GxP Annex 1, 4.4",
+    "developmentAndExplanation": "**AIR CHANGES PER HOUR (ACH)** določa, kolikokrat na uro se celoten volumen zraka v prostoru zamenja.\n\n**FORMULA:**\nACH = (Volumen dobavljenega zraka m³/h) / (Volumen prostora m³)\n\n**TIPIČNE VREDNOSTI:**\n\n**Klasa A/B:**\n- Unidirectional flow (laminar): ≥0.36 m/s hitrost zraka\n- To ustreza približno 500-1000 ACH!\n\n**Klasa C:**\n- Turbulentno mešanje: 20-40 ACH\n- Odvisno od obremenitve prostora\n\n**Klasa D:**\n- 10-20 ACH\n- Manj kritične operacije\n\n**RECOVERY TIME (Čas Rekuperacije):**\n\nČas, potreben za zmanjšanje koncentracije delcev za 90% (1 log reduction) ali 99% (2 log reduction).\n\n**FORMULA ZA RECOVERY:**\nT = (ln(C0/C1) / ACH) × 60 minut\n\nKje:\n- C0 = začetna koncentracija\n- C1 = končna koncentracija  \n- ACH = število izmenjav zraka na uro\n\n**PRIMER:**\nZa 99% removal (2 log) pri 20 ACH:\nT = (ln(100/1) / 20) × 60 = ~14 minut\n\n**VALIDACIJA RECOVERY:**\n\n• Smoke test ali aerosol challenge test\n• Dokumentacija: T90 in T99 vrednosti\n• Pomembno za requalifikacijo po incidentih",
+    "practicalChallenges": "**IZZIVI:**\n\n1. **Določanje Ustreznega ACH**\n   - Risk-based approach\n   - Upoštevanje heat load, particle generation, osebja\n   - CFD simulacije za optimizacijo\n\n2. **Balancing Supply in Exhaust**\n   - Pozitiven tlak zahteva več supply kot exhaust\n   - Precise flow control z VAV dampers\n   - Continuous balancing\n\n3. **Energy Consumption**\n   - Visok ACH = visoka poraba energije\n   - Heat recovery systems\n   - Variable speed drives za optimizacijo\n\n4. **Uniformity of Air Distribution**\n   - Izogibanje mrtvim conam\n   - Pravilna postavitev supply in return grilles\n   - Smoke visualization studies\n\n5. **Validation Tests**\n   - Airflow velocity tests\n   - Recovery time tests\n   - Air balance tests\n   - Re-testing po spremembah",
+    "improvementIdeas": "**OPTIMIZACIJE:**\n\n→ Demand-controlled ACH (lower rates v At Rest)\n→ CFD modeling za predicting recovery times\n→ Real-time Particle Counting za validacijo učinkovitosti\n→ Energy-efficient VAV systems z inteligentnim krmiljenjem\n→ Digital calculators za ACH design\n→ Integrated Monitoring Dashboards",
+    "visualComponent": "Diagram",
+    "quizQuestions": [
+      {
+        "question": "Kateri je KLJUČNI validacijski test, ki dokazuje, da je število ACH ustrezno?",
+        "options": [
+          "Test tlačne razlike",
+          "Test rekuperacije (Recovery Test)",
+          "Test integritete filtra (PAO)",
+          "Media Fill test"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Recovery Test potrjuje, da je sistem sposoben v validiranem času po motnji vrniti prostor v zahtevano čisto klaso, kar direktno povezuje ACH z dejansko zmogljivostjo."
+      },
+      {
+        "question": "Kaj Annex 1 poudarja bolj kot fiksno ACH številko?",
+        "options": [
+          "Uporabo samo H14 filtrov",
+          "Validiran Recovery Rate na podlagi študije tveganja",
+          "Minimalni volumen zraka 500 m³/h",
+          "Maksimalno 50 ACH"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Sodobni Annex 1 se osredotoča na validiran Recovery Rate (kako hitro se kontaminacija odstrani), ne pa na fiksno ACH številko."
+      },
+      {
+        "question": "Kakšna je tipična hitrost zraka v Klasi A z unidirectional flow?",
+        "options": [
+          "0.1-0.2 m/s",
+          "0.36-0.54 m/s",
+          "1.0-1.5 m/s",
+          "2.0-3.0 m/s"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Unidirectional (laminarni) zračni tok v Klasi A zahteva hitrost 0.36-0.54 m/s za učinkovito odstranjevanje delcev iz kritične cone."
+      },
+      {
+        "question": "Če želimo 99% removal delcev (2 log reduction) pri 20 ACH, koliko časa je potrebnega?",
+        "options": [
+          "Približno 5 minut",
+          "Približno 14 minut",
+          "Približno 30 minut",
+          "Približno 60 minut"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Uporabimo formulo T = (ln(100/1) / 20) × 60 = približno 14 minut za 2-logaritmično zmanjšanje koncentracije delcev."
+      },
+      {
+        "question": "Kaj je GLAVNI razlog za visok ACH v Klasi C (20-40 ACH)?",
+        "options": [
+          "Zmanjšanje porabe energije",
+          "Hitra odstranitev delcev zaradi turbulentnega mešanja",
+          "Povečanje tlačne razlike",
+          "Zmanjšanje hrupa"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "V Klasi C se uporablja turbulentno mešanje zraka, zato je potreben visok ACH (20-40) za učinkovito razredčitev in odstranitev delcev v razumnem času."
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "title": "Mikrobiološki Monitoring in Kontrola",
+    "slug": "mikrobioloski-monitoring",
+    "annexReference": "GxP Annex 1, Poglavje 5",
+    "developmentAndExplanation": "**MIKROBIOLOŠKI MONITORING** je kritičen element kontrole aseptičnega procesa.\n\n**METODE MONITORINGA:**\n\n**1. Active Air Sampling:**\n- Volumetric air samplers\n- Določen volumen zraka (0.5-1.0 m³)\n- Colony Forming Units (CFU) se štejejo po inkubaciji\n\n**2. Passive Air Sampling (Settle Plates):**\n- Petrijevke izpostavljene določen čas (običajno 4 ure)\n- Gravitacijsko usedanje delcev z mikroorganizmi\n- CFU/plate/hour\n\n**3. Surface Monitoring:**\n- Contact plates (RODAC)\n- Swabs za težko dostopna območja\n- CFU/plate ali CFU/cm²\n\n**4. Personnel Monitoring:**\n- Fingerprint tests (po kritičnih operacijah)\n- Gown sampling\n- Critical check points\n\n**LIMITI (CFU):**\n\n**KLASA A:**\n- Active air: <1 CFU/m³\n- Settle plates: <1 CFU/4h\n- Contact plates: <1 CFU/plate\n- Glove prints: <1 CFU/glove\n\n**KLASA B:**\n- Active air: 10 CFU/m³\n- Settle plates: 5 CFU/4h  \n- Contact plates: 5 CFU/plate\n- Glove prints: 5 CFU/glove\n\n**KLASA C:**\n- Active air: 100 CFU/m³\n- Settle plates: 50 CFU/4h\n- Contact plates: 25 CFU/plate\n\n**KLASA D:**\n- Active air: 200 CFU/m³\n- Settle plates: 100 CFU/4h\n- Contact plates: 50 CFU/plate",
+    "practicalChallenges": "**IZZIVI:**\n\n1. **Identifikacija Organizmov**\n   - Objectionable organisms (npr. S. aureus, E. coli)\n   - Environmental flora vs. contaminants\n   - Trend analysis za persistentne izolate\n\n2. **Alert in Action Limits**\n   - Alert: Zgodnje opozorilo (tipično 50% action limita)\n   - Action: Zahteva investigation in CAPA\n   - Določitev na podlagi baseline data\n\n3. **Root Cause Investigation**\n   - Ko se presežejo action limits\n   - Mikrobiološka identifikacija (16S rRNA, MALDI-TOF)\n   - Review aseptične tehnike, čiščenja, gowning\n\n4. **Trending in Data Analysis**\n   - Mesečni in kvartalni reporti\n   - Statistična analiza trendov\n   - Early warning indicators\n\n5. **Media Selection**\n   - TSA (Tryptic Soy Agar) - bakterije\n   - SDA (Sabouraud Dextrose Agar) - glive/kvasovke\n   - Inkubacija: 30-35°C (2-3 dni) + 20-25°C (5 dni)",
+    "improvementIdeas": "**NAPREDNE TEHNOLOGIJE:**\n\n→ Rapid Microbiological Methods (RMM)\n→ ATP Bioluminescence za real-time detection\n→ Automated Colony Counters z AI prepoznavanjem\n→ Whole Genome Sequencing za source tracking\n→ Electronic Data Capture Systems\n→ Predictive Trending z Machine Learning",
+    "visualComponent": "Diagram",
+    "quizQuestions": [
+      {
+        "question": "Kakšen je MAKSIMALNI dovoljeni CFU count za active air sampling v Klasi A?",
+        "options": [
+          "<0.1 CFU/m³",
+          "<1 CFU/m³",
+          "<5 CFU/m³",
+          "<10 CFU/m³"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "V Klasi A je action limit za active air sampling <1 CFU/m³, kar odraža izjemno visoke zahteve za mikrobiološko čistost kritične cone."
+      },
+      {
+        "question": "Koliko časa se običajno izpostavljajo settle plates v Klasi A/B?",
+        "options": [
+          "1 uro",
+          "2 uri",
+          "4 ure",
+          "8 ur"
+        ],
+        "correctAnswerIndex": 2,
+        "explanation": "Standardni čas ekspozicije za settle plates je 4 ure, kar omogoča reprezentativno vzorčenje gravitacijskega usedanja mikroorganizmov."
+      },
+      {
+        "question": "Kaj pomeni 'objectionable organism' v kontekstu mikrobiološkega monitoringa?",
+        "options": [
+          "Katerikoli mikroorganizem najden v čisti sobi",
+          "Patogeni ali potencialno škodljivi organizmi, ki predstavljajo tveganje za produkt",
+          "Samo gram-negativne bakterije",
+          "Organizmi, ki rastejo počasi"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Objectionable organisms so patogeni ali potencialno škodljivi mikroorganizmi (npr. S. aureus, P. aeruginosa, E. coli), ki predstavljajo tveganje za kakovost in varnost produkta."
+      },
+      {
+        "question": "Katera metoda se uporablja za monitoring površin v aseptičnih območjih?",
+        "options": [
+          "Samo vizualna inspekcija",
+          "Contact plates (RODAC) in swabs",
+          "Samo ATP testing",
+          "Smoke testing"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Contact plates (RODAC - Replicate Organism Detection And Counting) in swabs so standardne metode za monitoring mikrobiološke kontaminacije na površinah."
+      },
+      {
+        "question": "Zakaj je potrebna inkubacija pri DVEh različnih temperaturah (30-35°C in 20-25°C)?",
+        "options": [
+          "Za prihranek energije",
+          "Za detekcijo bakterij pri višji in gliv/kvasovk pri nižji temperaturi",
+          "Za hitrejšo rast",
+          "Ni potrebna dvojna inkubacija"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Inkubacija pri 30-35°C favorizira rast bakterij, medtem ko inkubacija pri 20-25°C omogoča rast gliv in kvasovk, kar zagotavlja celovito detekcijo različnih mikroorganizmov."
+      }
+    ]
+  }
+]

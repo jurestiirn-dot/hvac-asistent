@@ -1,0 +1,39 @@
+// src/modules/gxp/gxp.data.ts
+import { GxPLesson } from './gxp.model';
+
+export const GxPLessons: GxPLesson[] = [
+    {
+        id: 1,
+        title: "Temelji Dobre Proizvodne Praksi (GMP)",
+        content: `GMP (Good Manufacturing Practice) zagotavlja, da so izdelki dosledno proizvedeni in kontrolirani v skladu z najvišjimi standardi kakovosti. Pokriva vse vidike: prostore, opremo, usposabljanje in higienske pogoje. Glavni cilj je zmanjšati tveganje za končnega uporabnike. To vključuje sisteme za preprečevanje zamenjave in kontaminacije.`,
+        practicalExamples: `V praksi to vključuje vzdrževanje čistih prostorov (HVAC validacija) in kalibracijo vse merilne opreme. Vsako odstopanje (Deviation) je treba dokumentirati in raziskati (Root Cause Analysis).`,
+        improvementIdeas: `Digitalizacija dokumentacije z uporabo validiranih elektronskih sistemov (EDMS) in implementacija 'Paperless' sistemov zmanjšuje ročne napake in izboljša revizijsko sledenje.`,
+        keyPoints: ["Zmanjšanje tveganja", "Dosledna kakovost", "Popolna sledljivost (Audit Trail)"],
+        visualComponent: 'Diagram', // Mesto za vstavitev grafike
+        quizQuestions: [
+            {
+                question: "Kateri je glavni cilj GMP?",
+                options: ["Zmanjšanje stroškov", "Zmanjšanje tveganja za uporabnika", "Pospešitev proizvodnje"],
+                correctAnswerIndex: 1,
+                explanation: "Glavni cilj Dobre Proizvodne Prakse (GMP) je zmanjšati tveganje za končnega uporabnika s kontrolo kakovosti.",
+            }
+        ]
+    },
+    {
+        id: 2,
+        title: "ALCOA Načelo in Celovitost Podatkov (Data Integrity)",
+        content: `ALCOA načelo je temelj Dobre Dokumentacijske Praksi (GDP) in zagotavlja celovitost podatkov (Data Integrity). ALCOA pomeni: Attributable, Legible, Contemporaneous, Original, Accurate. Vsak zapis mora biti pripisan osebi, čitljiv, ustvarjen ob pravem času, izviren in točen.`,
+        practicalExamples: `V praksi Data Integrity postavlja izzive pri ročnem vnosu podatkov ali uporabi nevalidirane programske opreme. Napačen časovni žig na digitalnem logu predstavlja kršitev.`,
+        improvementIdeas: `Implementacija elektronskih podpisov, avtomatskega revizijskega sledenja vseh sprememb in uporaba validiranih računalniških sistemov (CSV).`,
+        keyPoints: ["ALCOA načelo", "Atributivnost", "Točnost zapisa", "Računalniška Validacija"],
+        visualComponent: 'Diagram',
+        quizQuestions: [
+            {
+                question: "Kateri del ALCOA načela se nanaša na preprečevanje naknadnih sprememb podatkov?",
+                options: ["Attributable", "Contemporaneous", "Accurate"],
+                correctAnswerIndex: 1,
+                explanation: "Contemporaneous pomeni, da je podatek zabeležen v trenutku izvedbe, kar preprečuje naknadne spremembe.",
+            }
+        ]
+    },
+];

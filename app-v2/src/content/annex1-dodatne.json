@@ -1,0 +1,270 @@
+[
+  {
+    "id": 107,
+    "title": "Čiščenje, Razkuževanje in Sterilizacija",
+    "slug": "ciscenje-razkuzevanje",
+    "annexReference": "DPP Dodatek 1, Točka 4.8",
+    "developmentAndExplanation": "**ČIŠČENJE, RAZKUŽEVANJE IN STERILIZACIJA** predstavljajo tri ključne stopnje zagotavljanja mikrobiološke varnosti v farmacevtski proizvodnji.\n\n**TEMELJNE DEFINICIJE:**\n\n• **Čiščenje**: Odstranjevanje vidnih in nevidnih nečistoč, organskih ostankov, delcev in mikroorganizmov s površin. To je prva in najpomembnejša stopnja.\n\n• **Razkuževanje**: Zmanjšanje števila mikroorganizmov na raven, ki ni škodljiva. Ne uničuje vseh mikroorganizmov in spor.\n\n• **Sterilizacija**: Popolno uničenje vseh oblik mikrobiološkega življenja, vključno z bakterijskimi sporami. To je najvišja raven zagotavljanja sterilnosti.\n\n**HIERARHIJA POSTOPKOV:**\n\n1. ČIŠČENJE (obvezno pred vsemi naslednjimi koraki)\n2. RAZKUŽEVANJE (za površine v kritičnih območjih)\n3. STERILIZACIJA (za kritične površine in opremo v neposrednem stiku z izdelkom)\n\n**METODE ČIŠČENJA:**\n\n**Fizikalno čiščenje:**\n• Mehanska odstranitev z brisanjem, drgnjenjem\n• Izpiranje s primernimi topili ali vodo\n• Uporaba ultrazvoka za težko dostopna mesta\n• Visokotlačno pršenje za večje površine\n\n**Kemijsko čiščenje:**\n• Detergenti za odstranjevanje maščob in olj\n• Alkalni čistilci za organske ostanke\n• Kisli čistilci za mineralne obloge\n• Encimski čistilci za proteine\n\n**SREDSTVA ZA RAZKUŽEVANJE:**\n\n**Alkoholi (70-odstotni izopropanol, etanol):**\n• Hitra delovanja (30 sekund do 5 minut)\n• Učinkoviti proti bakterijam in nekaterim virusom\n• Ne delujejo na bakterijske spore\n• Hitre izhlapevanje\n\n**Oksidirajoča sredstva (vodikovperoksid, prekisline):**\n• Širok spekter delovanja\n• Učinkoviti tudi proti sporam\n• Biorazgradljivi\n• Potreben daljši čas delovanja\n\n**Kvaternarne amonijeve spojine:**\n• Dobro delovanje proti gram-pozitivnim bakterijam\n• Ostajajo na površinah (rezidualni učinek)\n• Ne delujejo na spore\n• Združljivi z detergenti\n\n**Fenolne spojine:**\n• Širok spekter delovanja\n• Učinkoviti v prisotnosti organskih snovi\n• Daljši čas delovanja\n• Strupeni ostanki\n\n**ROTACIJA RAZKUŽIL:**\n\nIzjemno pomembno je redno menjavanje različnih vrst razkužil (običajno tedensko ali mesečno) za:\n• Preprečevanje razvoja odpornosti mikroorganizmov\n• Zagotavljanje učinkovitosti proti različnim vrstam\n• Odstranjevanje morebitnih ostankov prejšnjih razkužil\n• Pokrivanje celotnega spektra možnih kontaminantov\n\n**VALIDACIJA ČIŠČENJA:**\n\nVsak postopek čiščenja mora biti potrjen z dokazi, da:\n• Odstrani vse vidne nečistoče\n• Zmanjša mikrobiološko obremenitev pod sprejemljive meje\n• Ne pušča nedovoljenih ostankov\n• Je ponovljiv in zanesljiv\n\n**METODE VALIDACIJE:**\n• Vizualni pregled s pomočjo svetlobe\n• Brisalci za mikrobiološko vzorčenje\n• Merjenje ostankov čistilnih sredstev\n• Preskusi s sporami za sterilizacijo\n• Dokumentiranje rezultatov skozi čas",
+    "practicalChallenges": "**IZZIVI PRI IZVAJANJU POSTOPKOV:**\n\n1. **Dostopnost Vseh Površin**\n   - Zasnova opreme pogosto otežuje dostop do vseh kotičkov\n   - Mrtve cone, kjer se lahko nabirajo ostanki\n   - Potreba po demontaži za temeljito čiščenje\n   - Dokumentiranje težko dostopnih mest\n   - Uporaba posebnih orodij in tehnik\n\n2. **Združljivost Materialov s Čistilci**\n   - Nekateri materiali se poškodujejo z agresivnimi čistilci\n   - Korozija kovinskih površin\n   - Razbarvanje ali razpokanje plastičnih delov\n   - Potreba po preskušanju združljivosti\n   - Izbira primernih sredstev za vsak material\n\n3. **Čas Stika in Delovanja**\n   - Vsako razkužilo potrebuje določen čas za učinkovitost\n   - Prezgodnje brisanje zmanjša učinkovitost\n   - Prezgodnje izparevanje alkoholov\n   - Potreba po upoštevanju navodil proizvajalca\n   - Dokumentiranje časov v standardnih postopkih\n\n4. **Ostanki Čistilnih in Razkuževalnih Sredstev**\n   - Lahko povzročijo kontaminacijo izdelka\n   - Nekatera razkužila puščajo filme na površinah\n   - Potrebno temeljito izpiranje\n   - Validacija odstranitve ostankov\n   - Merjenje ravni ostankov\n\n5. **Usposabljanje in Nadzor Osebja**\n   - Pravilna tehnika čiščenja je ključna\n   - Uporaba pravilne količine sredstva\n   - Upoštevanje zaporedja korakov\n   - Redne kontrole pravilnosti izvajanja\n   - Dokumentiranje usposabljanj\n\n6. **Razvoj Odpornih Mikroorganizmov**\n   - Stalna uporaba istega razkužila spodbuja odpornost\n   - Nepopolno razkuževanje zaradi prenizkih koncentracij\n   - Potreba po mikrobiološkem spremljanju\n   - Raziskava nenavadnih izolatov\n   - Prilagajanje programa razkuževanja",
+    "improvementIdeas": "**SODOBNI PRISTOPI IN TEHNOLOGIJE:**\n\n→ Samodejni sistemi za čiščenje na mestu (CIP - Cleaning in Place)\n→ Uporaba parne sterilizacije za večje površine\n→ Razkuževanje z vodikovperoksidom v plinasti obliki za cele prostore\n→ Uporaba ultravijolične svetlobe za dodatno razkuževanje\n→ Robotski sistemi za konsistentno in ponavljajoče se čiščenje\n→ Elektronsko beleženje postopkov z brezžičnimi napravami\n→ Pametni dozirniki razkužil z avtomatskim nadzorom koncentracije\n→ Površine s samočistilnimi lastnostmi (nanotehnologija)\n→ Sistemi za nadzor v realnem času nad pravilnostjo izvajanja\n→ Digitalne kontrolne liste z vizualnimi navodili",
+    "visualComponent": "Diagram",
+    "quizQuestions": [
+      {
+        "question": "Kakšna je GLAVNA razlika med razkuževanjem in sterilizacijo?",
+        "options": [
+          "Razkuževanje je hitrejše",
+          "Razkuževanje zmanjša število mikroorganizmov, sterilizacija pa uniči vse oblike mikrobiološkega življenja",
+          "Sterilizacija ne deluje na bakterije",
+          "Razkuževanje je dražje"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Razkuževanje zmanjša število mikroorganizmov na varno raven, vendar ne uniči vseh oblik, zlasti ne bakterijskih spor. Sterilizacija pa popolnoma uniči vse oblike mikrobiološkega življenja, vključno z najbolj odpornimi bakterijskimi sporami."
+      },
+      {
+        "question": "Zakaj je ROTACIJA različnih razkužil pomembna?",
+        "options": [
+          "Za zmanjšanje stroškov",
+          "Za preprečevanje razvoja odpornosti mikroorganizmov",
+          "Za hitrejše čiščenje",
+          "Ni pomembna, lahko uporabljamo samo eno razkužilo"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Redna rotacija različnih vrst razkužil preprečuje razvoj odpornosti mikroorganizmov proti posameznim učinkovinam. Različna razkužila imajo različne mehanizme delovanja, kar zmanjšuje možnost, da bi mikroorganizmi razvili odpornost."
+      },
+      {
+        "question": "Kakšna je OPTIMALNA koncentracija alkohola za razkuževanje?",
+        "options": [
+          "100-odstotni čisti alkohol",
+          "70-odstotni alkohol",
+          "30-odstotni alkohol",
+          "10-odstotni alkohol"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "70-odstotna koncentracija alkohola (izopropanol ali etanol) je najbolj učinkovita za razkuževanje. Čisti 100-odstotni alkohol prehitro izhlapi in ne prodre dovolj globoko v celične strukture mikroorganizmov. Voda v 70-odstotni raztopini omogoča boljšo denaturacijo proteinov."
+      },
+      {
+        "question": "Kateri korak je OBVEZEN pred razkuževanjem ali sterilizacijo?",
+        "options": [
+          "Sušenje",
+          "Čiščenje",
+          "Hlajenje",
+          "Poliranje"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Čiščenje je absolutno obvezen prvi korak pred katerimkoli razkuževanjem ali sterilizacijo. Prisotnost organskih ostankov, maščob ali drugih nečistoč lahko zaščiti mikroorganizme in preprečuje učinkovito delovanje razkužil ali sterilizacijskih postopkov."
+      },
+      {
+        "question": "Katera metoda validacije čiščenja je najbolj neposredna za preverjanje mikrobiološke čistosti?",
+        "options": [
+          "Vizualni pregled",
+          "Merjenje pH vrednosti",
+          "Brisalci za mikrobiološko vzorčenje",
+          "Merjenje temperature"
+        ],
+        "correctAnswerIndex": 2,
+        "explanation": "Brisalci za mikrobiološko vzorčenje so najbolj neposredna metoda za preverjanje mikrobiološke čistosti površin. Z njimi odvzamemo vzorec s površine, ga gojimo na ustreznih gojiščih in preštejemo kolonijske enote, kar nam pove dejansko število preživelih mikroorganizmov."
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "title": "Osebna Higiena in Oblačenje Zaščitne Opreme",
+    "slug": "osebna-higiena",
+    "annexReference": "DPP Dodatek 1, Poglavje 6",
+    "developmentAndExplanation": "**OSEBNA HIGIENA IN PRAVILNO OBLAČENJE** sta ključna dejavnika za preprečevanje kontaminacije, saj osebje predstavlja glavni vir tveganja v aseptičnih območjih.\n\n**ZAHTEVE ZA OSEBNO HIGIENO:**\n\n**Pred vstopom v čista območja:**\n• Umivanje rok z ustreznim antibakterijskim milom\n• Čiščenje in razkuževanje rok\n• Odstranitev vseh nakita, ur in drugih predmetov\n• Pokrivanje ran ali odrgnin z vodoodpornim obližem\n• Odstranitev ličil (lahko vsebuje delce)\n\n**Zdravstvene omejitve:**\n• Osebe z okužbami dihal ne smejo vstopati\n• Osebe s kožnimi boleznimi potrebujejo oceno zdravnika\n• Osebe z odprtimi ranami ne smejo delati v aseptičnih conah\n• Redni zdravniški pregledi za osebje v kritičnih območjih\n• Cepljenje proti priporočenim boleznim\n\n**STOPNJE OBLAČENJA GLEDE NA RAZRED:**\n\n**Razred D:**\n• Zaščitna obleka (kombinezon ali plašč)\n• Pokrivalo za lase\n• Obutev za čiste prostore ali prevleke\n• Osnovni standard čistosti\n\n**Razred C:**\n• Pokrivalo za lase, ki popolnoma prekrije lase\n• Zaščitna obleka brez žepov ali z notranjimi žepi\n• Zaščitna obutev ali dezinfekcijske prevleke\n• Rokavice (po potrebi)\n• Maska za obraz (po oceni tveganja)\n\n**Razreda A in B:**\n• Popolnoma enodelni kombinezon z kapuco\n• Dodatna pokrivala za lase pod kapuco\n• Sterilne rokavice\n• Sterilni škornji ali prevleke za obutev\n• Maska za obraz in zaščita za oči\n• Vse robovi morajo biti zatesnjeni z lepilnimi trakovi\n\n**POSTOPEK OBLAČENJA ZA RAZRED A/B:**\n\n**1. Priprava (v garderobi):**\n- Odstranitev osebnih predmetov\n- Umivanje in razkuževanje rok\n- Oblačenje spodnje plasti oblačil\n\n**2. Prva zračna zapornica:**\n- Oblačenje pokrivala za lase\n- Oblačenje maske za obraz\n- Oblačenje škornjov ali prevlek\n- Razkuževanje rokavic\n\n**3. Druga zračna zapornica (kjer je predvidena):**\n- Oblačenje sterilnega kombinezna\n- Oblačenje sterilnih rokavic\n- Tesnenje vseh spojev z lepilnimi trakovi\n- Končna vizualna kontrola\n\n**4. Vstop v aseptično cono:**\n- Prehod skozi zračno zapornico s pravilno tehniko\n- Izogibanje dotikanju površin\n- Razkuževanje zunanjih rokavic\n\n**MATERIALI ZAŠČITNE OBLEKE:**\n\n• **Netkaninasti materiali**: Enkratna uporaba, dobra ovira za delce, udobni\n• **Poliestrska vlakna**: Večkratna uporaba, možnost pranja in sterilizacije\n• **Laminati**: Dodatna zaščita proti prodoru tekočin\n• **Pomembne lastnosti**: Nizko sproščanje delcev, udobje, prepustnost za zrak (v določeni meri)\n\n**KONTROLA PRAVILNOSTI:**\n\n• Vizualna kontrola pred vstopom (zrcala, sodelavci)\n• Dokumentiranje vsakega vstopa v kritične cone\n• Redno preverjanje tehnike z mikrobiološkim vzorčenjem (odtisi rokavic)\n• Video snemanje za analizo tehnike\n• Periodično ponovno usposabljanje (vsaj dvakrat letno)\n\n**DODATNI UKREPI:**\n\n• Omejitev gibanja v aseptičnih conah\n• Počasni in nadzorovani gibi\n• Izogibanje nepotrebnim dotikom površin\n• Pravilna tehnika manipulacije z materiali\n• Minimalno število oseb v kritičnih conah",
+    "practicalChallenges": "**IZZIVI PRI OSEBNI HIGIENI IN OBLAČENJU:**\n\n1. **Fizična in Psihična Obremenitev**\n   - Delo v popolni zaščitni opremi je naporno\n   - Visoka temperatura in vlažnost v obleki\n   - Omejena vidnost zaradi kapuce in zaščite za oči\n   - Otežkočena komunikacija\n   - Potreba po rednih odmorih\n   - Omejitev trajanja neprekinjenega dela (običajno največ 4 ure)\n\n2. **Zagotavljanje Pravilne Tehnike**\n   - Oblačenje zahteva natančno zaporedje korakov\n   - Vsaka napaka lahko povzroči kontaminacijo\n   - Potrebno je intenzivno začetno usposabljanje\n   - Nadzor nad pravilnostjo izvajanja\n   - Razvoj slabih navad skozi čas\n   - Rutina lahko vodi v malomarnost\n\n3. **Izbira Ustrezne Velikosti Obleke**\n   - Prevelika obleka povečuje sproščanje delcev pri gibanju\n   - Premajhna obleka je neudobna in se lahko strga\n   - Potreba po več velikostih za različne osebe\n   - Redno preverjanje stanja oblačil\n   - Zamenjava poškodovanih kosov\n\n4. **Stroški in Logistika**\n   - Visoki stroški sterilne enkratne opreme\n   - Potreba po velikih zalogah\n   - Zagotavljanje pravočasne sterilizacije večkratne opreme\n   - Upravljanje z odpadki kontaminirane opreme\n   - Sledljivost porabe\n\n5. **Nujni Primeri in Izhodi**\n   - Postopki za nujen izhod v primeru zdravstvenih težav\n   - Kako ravnati ob nesreči ali poškodbi\n   - Komunikacijski protokoli\n   - Evakuacijski načrti\n\n6. **Mikrobiološko Spremljanje**\n   - Redni odtisi prstnih blazinic po kritičnih opravilih\n   - Interpretacija rezultatov\n   - Korektivni ukrepi pri odstopanjih\n   - Povratne informacije osebju\n   - Dokumentiranje trendov",
+    "improvementIdeas": "**SODOBNE REŠITVE IN TEHNOLOGIJE:**\n\n→ Interaktivne aplikacije za učenje pravilne tehnike oblačenja\n→ Obogatena resničnost za vadbo brez dejanskega vstopa\n→ Video nadzor z umetno inteligenco za odkrivanje napak\n→ Pametna obleka z vgrajenimi senzorji za spremljanje gibov\n→ Izboljšani materiali z boljšo prepustnostjo za vlago\n→ Hlajenje z aktivnimi sistemi v obleki\n→ Elektronske kontrolne liste za vsak korak oblačenja\n→ Biometrični sistemi za sledenje vstopu in izhodom\n→ Personalizirane obleke po meri za boljšo udobnost\n→ Samodejni sistemi za razkuževanje opreme po uporabi",
+    "visualComponent": "Diagram",
+    "quizQuestions": [
+      {
+        "question": "Kateri je GLAVNI vir kontaminacije v aseptičnih območjih?",
+        "options": [
+          "Oprema",
+          "Zrak",
+          "Osebje (ljudje)",
+          "Surovine"
+        ],
+        "correctAnswerIndex": 2,
+        "explanation": "Številne študije nedvomno kažejo, da osebje predstavlja do 80 odstotkov vseh virov kontaminacije v aseptičnih območjih. Zato je pravilna osebna higiena in tehnika oblačenja najpomembnejši kontrolni ukrep."
+      },
+      {
+        "question": "Zakaj je pomembno, da je koncentracija alkohola 70-odstotna in ne 100-odstotna?",
+        "options": [
+          "100-odstotni alkohol je predrág",
+          "70-odstotni alkohol omogoča boljšo denaturacijo proteinov zaradi prisotnosti vode",
+          "100-odstotni alkohol je nevaren",
+          "Ni razlike"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Voda v 70-odstotni raztopini alkohola je ključna za denaturacijo proteinov v celicah mikroorganizmov. Čisti 100-odstotni alkohol prehitro izhlapi s površine in ne prodre dovolj globoko v celične strukture, kar zmanjša njegovo učinkovitost."
+      },
+      {
+        "question": "Kaj je NAJPOMEMBNEJŠE pred vstopom v aseptično območje razreda A?",
+        "options": [
+          "Hitro oblačenje",
+          "Stroga tehnika oblačenja v pravilnem zaporedju",
+          "Samo oblačenje rokavic",
+          "Oblačenje katerekoli obleke"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Stroga in pravilna tehnika oblačenja v določenem zaporedju je ključnega pomena. Vsaka napaka v postopku, vsak preskojen korak ali nepravilno zaporedje lahko vodi do kontaminacije. Zato je potrebno intenzivno usposabljanje in redno preverjanje pravilnosti tehnike."
+      },
+      {
+        "question": "Koliko časa običajno lahko oseba neprekinjeno dela v polni zaščitni opremi razreda A?",
+        "options": [
+          "Neomejeno",
+          "Približno 8 ur",
+          "Približno 4 ure",
+          "Približno 30 minut"
+        ],
+        "correctAnswerIndex": 2,
+        "explanation": "Delo v polni zaščitni opremi je fizično in psihično izjemno naporno. Priporočeno največje trajanje neprekinjenega dela je običajno okoli 4 ure, odvisno od temperature, vlažnosti in zahtevnosti dela. Daljše obdobje vodi do utrujenosti, ki povečuje tveganje za napake."
+      },
+      {
+        "question": "Katera metoda je najbolj učinkovita za preverjanje pravilnosti tehnike oblačenja?",
+        "options": [
+          "Samo samoocena",
+          "Vizualna kontrola s strani kolega",
+          "Mikrobiološko vzorčenje z odtisi rokavic po delu",
+          "Tehtanje obleke"
+        ],
+        "correctAnswerIndex": 2,
+        "explanation": "Mikrobiološko vzorčenje z odtisi prstnih blazinic in rokavic po kritičnih opravilih je najbolj objektivna metoda za preverjanje učinkovitosti tehnike oblačenja. Rezultati pokažejo, ali je prišlo do kontaminacije kljub zaščitni opremi, kar kaže na možne napake v tehniki."
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "title": "Kvalifikacija in Validacija Sistemov",
+    "slug": "kvalifikacija-validacija",
+    "annexReference": "DPP Dodatek 1, Točka 7",
+    "developmentAndExplanation": "**KVALIFIKACIJA IN VALIDACIJA** sta sistematična procesa dokazovanja, da objekti, sistemi, oprema in procesi delujejo pravilno in konsistentno dosegajo pričakovane rezultate.\n\n**TEMELJNE DEFINICIJE:**\n\n• **Kvalifikacija**: Dokumentiran dokaz, da objekt, sistem ali oprema deluje pravilno in daje pričakovane rezultate\n\n• **Validacija**: Dokumentiran dokaz, da proces konsistentno proizvaja izdelek, ki izpolnjuje vnaprej določene specifikacije in lastnosti kakovosti\n\n• **Razlika**: Kvalifikacija se nanaša na opremo in sisteme, validacija pa na procese in postopke\n\n**FAZE KVALIFIKACIJE:**\n\n**1. Kvalifikacija Zasnove (DQ - Design Qualification):**\n- Preverjanje, da je zasnova v skladu z zahtevami\n- Pregled specifikacij in načrtov\n- Potrditev primernosti za namen\n- Identifikacija kritičnih parametrov\n- Dokumentiranje projektnih zahtev\n\n**2. Kvalifikacija Namestitve (IQ - Installation Qualification):**\n- Preverjanje pravilne namestitve opreme\n- Kontrola priložene dokumentacije\n- Preverjanje kalibracijskih certifikatov\n- Kontrola materialov in komponent\n- Preskušanje varnostnih sistemov\n- Usposabljanje osebja za upravljanje\n\n**3. Kvalifikacija Delovanja (OQ - Operational Qualification):**\n- Preskušanje vseh funkcij opreme\n- Preverjanje delovanja v celotnem območju uporabe\n- Testiranje alarmov in varnostnih sistemov\n- Preverjanje odzivov na nenormalne pogoje\n- Dokumentiranje rezultatov preskusov\n\n**4. Kvalifikacija Učinkovitosti (PQ - Performance Qualification):**\n- Preskušanje pod dejanskimi proizvodnimi pogoji\n- Uporaba pravih materialov in procesov\n- Izvajanje skozi daljše obdobje\n- Potrditev konsistentnosti rezultatov\n- Dokaz zmogljivosti sistema\n\n**VALIDACIJA PROCESOV:**\n\n**Aseptični proces - Validacija z Gojišči:**\n- Simulacija celotnega procesa z uporabo mikrobiološkega gojišča\n- Najmanj trije zaporedni uspešni testi\n- Stopnja kontaminacije mora biti <0,1 odstotka\n- Izvajanje pod najslabšimi predvidenimi pogoji\n- Vključevanje vseh kritičnih korakov\n\n**Validacija Čiščenja:**\n- Dokaz, da postopek čiščenja odstrani ostanke\n- Določitev sprejemljivih mej ostankov\n- Razvoj in validacija analitskih metod\n- Preskušanje najslabših primerov (težko čistljive snovi)\n- Določitev časovnih intervalov med uporabo in čiščenjem\n\n**Validacija Analitskih Metod:**\n- Specifičnost in selektivnost\n- Točnost in natančnost\n- Območje delovanja in linearnost\n- Meja zaznave in meja določanja\n- Robustnost in ponovljivost\n\n**KONCEPT ŽIVLJENJSKEGA CIKLA VALIDACIJE:**\n\n**1. Načrtovanje (Planning):**\n- Opredelitev obsega validacije\n- Določitev sprejemljivih kriterijev\n- Izdelava protokolov\n- Dodelitev odgovornosti\n\n**2. Izvajanje (Execution):**\n- Izvajanje preskusov po protokolih\n- Dokumentiranje vseh podatkov\n- Upravljanje odstopanj\n- Objektivna analiza rezultatov\n\n**3. Poročanje (Reporting):**\n- Pripravljanje poročil o validaciji\n- Zaključki o ustreznosti\n- Priporočila za izboljšave\n- Odobritev s strani pristojnih oseb\n\n**4. Vzdrževanje Stanja Validiranosti:**\n- Redno spremljanje performanse\n- Revalidacija po spremembah\n- Periodično ponovno preverjanje\n- Obvladovanje sprememb\n\n**OBVLADOVANJE SPREMEMB:**\n\nVsaka sprememba v validiranem sistemu ali procesu zahteva:\n• Oceno vpliva na stanje validiranosti\n• Dokumentiran postopek odobravanja\n• Določitev potrebe po revalidaciji\n• Izvedbo potrebnih preskusov\n• Posodobitev dokumentacije",
+    "practicalChallenges": "**IZZIVI PRI KVALIFIKACIJI IN VALIDACIJI:**\n\n1. **Določanje Sprejemljivih Kriterijev**\n   - Kriterijes morajo biti znanstveno utemeljeni\n   - Ne preveč strogi (nepotrebni stroški)\n   - Ne preveč ohlapni (tveganje za kakovost)\n   - Upoštevanje statističnih načel\n   - Dokumentiranje utemeljitev\n\n2. **Časovna in Finančna Zahtevnost**\n   - Kvalifikacija in validacija zahtevata veliko časa\n   - Visoki stroški materialov in osebja\n   - Zamude pri začetku proizvodnje\n   - Potreba po natančnem načrtovanju\n   - Optimizacija brez ogrožanja kakovosti\n\n3. **Kompleksnost Avtomatiziranih Sistemov**\n   - Moderni sistemi so izjemno kompleksni\n   - Validacija programske opreme zahteva posebne pristope\n   - Integracija različnih sistemov\n   - Upravljanje z elektronskimi podatki\n   - Zagotavljanje integritete podatkov\n\n4. **Obvladovanje Odstopanj**\n   - Nepričakovani rezultati med validacijo\n   - Raziskava vzrokov\n   - Določanje pomena odstopanj\n   - Korektivni ukrepi\n   - Dokumentiranje in odobravanje\n\n5. **Vzdrževanje Stanja Validiranosti**\n   - Redno spremljanje performanse\n   - Periodična revalidacija\n   - Obvladovanje sprememb\n   - Usposabljanje novega osebja\n   - Posodabljanje dokumentacije\n\n6. **Multidisciplinarni Tim**\n   - Potrebna sodelovanje različnih strokovnjakov\n   - Inženirji, mikrobiologi, kemiki, statistiki\n   - Usklajevanje različnih pogledov\n   - Jasna komunikacija\n   - Dokumentiranje odločitev",
+    "improvementIdeas": "**SODOBNI PRISTOPI:**\n\n→ Uporaba statističnega načrtovanja poskusov za učinkovitejšo validacijo\n→ Validacija v realnem času z neprekinjenim spremljanjem\n→ Uporaba simulacij in modeliranja za napovedovanje vedenja\n→ Elektronski sistemi za obvladovanje dokumentacije validacije\n→ Uporaba umetne inteligence za analizo podatkov validacije\n→ Samodejno generiranje poročil iz podatkov\n→ Platforme za sodelovanje multidisciplinarnih timov\n→ Oblačne rešitve za centralno upravljanje validacijskih dokumentov\n→ Pristop življenjskega cikla za kontinuirano verifikacijo\n→ Integrirani sistemi kvalitete za spremljanje statusa validacije",
+    "visualComponent": "Diagram",
+    "quizQuestions": [
+      {
+        "question": "Kakšna je GLAVNA razlika med kvalifikacijo in validacijo?",
+        "options": [
+          "Ni razlike, sta ista stvar",
+          "Kvalifikacija se nanaša na opremo in sisteme, validacija pa na procese",
+          "Validacija je cenejša",
+          "Kvalifikacija je potrebna samo enkrat"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Kvalifikacija dokazuje, da oprema, objekti in sistemi delujejo pravilno in so primerni za uporabo. Validacija pa dokazuje, da celoten proces konsistentno proizvaja izdelek, ki izpolnjuje vse zahteve kakovosti. Gre za dva različna, a povezana koncepta."
+      },
+      {
+        "question": "Katere so štiri glavne faze kvalifikacije v pravilnem zaporedju?",
+        "options": [
+          "IQ, OQ, PQ, DQ",
+          "DQ, IQ, OQ, PQ",
+          "PQ, OQ, IQ, DQ",
+          "OQ, IQ, DQ, PQ"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Pravilno zaporedje je: DQ (Design Qualification - kvalifikacija zasnove), IQ (Installation Qualification - kvalifikacija namestitve), OQ (Operational Qualification - kvalifikacija delovanja), PQ (Performance Qualification - kvalifikacija učinkovitosti). To zaporedje je logično in gradi od načrtovanja do dejanske uporabe."
+      },
+      {
+        "question": "Koliko zaporednih uspešnih simulacij procesa z gojišči je potrebnih za validacijo aseptičnega procesa?",
+        "options": [
+          "Ena uspešna simulacija",
+          "Dve uspešni simulaciji",
+          "Tri uspešne simulacije",
+          "Pet uspešnih simulacij"
+        ],
+        "correctAnswerIndex": 2,
+        "explanation": "Za validacijo aseptičnega procesa je potrebnih najmanj tri zaporedne uspešne simulacije procesa z mikrobiološkim gojiščem, pri čemer mora biti stopnja kontaminacije v vseh treh primerih nižja od 0,1 odstotka. To zagotavlja statistično zanesljivost in konsistentnost procesa."
+      },
+      {
+        "question": "Kaj pomeni 'vzdrževanje stanja validiranosti'?",
+        "options": [
+          "Enkratno preverjanje po validaciji",
+          "Redno spremljanje, periodična revalidacija in obvladovanje sprememb",
+          "Samo arhiviranje dokumentov",
+          "Ni potrebno ničesar početi"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Vzdrževanje stanja validiranosti je kontinuiran proces, ki vključuje redno spremljanje performanse sistema ali procesa, periodično revalidacijo (običajno letno ali po določenem številu serij), obvladovanje vseh sprememb in zagotavljanje, da sistem ali proces še vedno deluje v skladu z validiranimi parametri."
+      },
+      {
+        "question": "Katera faza kvalifikacije preskuša opremo pod dejanskimi proizvodnimi pogoji?",
+        "options": [
+          "DQ - Kvalifikacija zasnove",
+          "IQ - Kvalifikacija namestitve",
+          "OQ - Kvalifikacija delovanja",
+          "PQ - Kvalifikacija učinkovitosti"
+        ],
+        "correctAnswerIndex": 3,
+        "explanation": "PQ (Performance Qualification - kvalifikacija učinkovitosti) preskuša opremo in sistem pod dejanskimi proizvodnimi pogoji z uporabo pravih materialov in procesov. To je zadnja in najpomembnejša faza, ki dokazuje, da sistem deluje pravilno v realnih pogojih proizvodnje in konsistentno dosega zahtevane rezultate."
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "title": "Nadzor nad Surovimi in Pakirnimi Materiali",
+    "slug": "nadzor-materialov",
+    "annexReference": "DPP Dodatek 1, Točka 8",
+    "developmentAndExplanation": "**NADZOR NAD MATERIALI** je ključen za zagotavljanje, da vsi materiali, ki pridejo v stik s sterilnim izdelkom, izpolnjujejo najstrožje zahteve kakovosti.\n\n**VRSTE MATERIALOV:**\n\n**Surovine:**\n• Aktivne farmacevtske učinkovine\n• Pomožne snovi (raztopila, stabilizatorji)\n• Voda za injiciranje (WFI - Water for Injection)\n• Plini (dušik, kisik)\n\n**Primarni pakirni materiali:**\n• Viale (stekleničke) iz borosilikatnega stekla\n• Ampule\n• Zamaški iz gume ali elastomernih materialov\n• Aluminijaste kapice\n• Prepolnjene brizgalke\n\n**Sekundarni pakirni materiali:**\n• Kartonske škatle\n• Navodila za uporabo\n• Етикете\n\n**ZAHTEVE ZA PRIMARNE PAKIRNE MATERIALE:**\n\n**Čistost:**\n• Ne smejo sproščati delcev\n• Ne smejo vsebovati pirogenih snovi (endotoksini)\n• Morajo biti sterilizirani ali sterilni\n• Ne smejo vsebovati toksičnih snovi, ki bi migrirale v izdelek\n\n**Združljivost:**\n• Kemijska združljivost z izdelkom\n• Fizikalna stabilnost\n• Odpornost na sterilizacijske postopke\n• Tesnjenje brez uhajanja\n\n**PRANJE IN PRIPRAVA VIAL:**\n\n**1. Predhodno Čiščenje:**\n- Odstranitev grobih nečistoč\n- Kontrola na vidne napake in razpoke\n- Izločitev poškodovanih kosov\n\n**2. Strojno Pranje:**\n- Izpiranje z deionzirano vodo\n- Pranje z detergentom\n- Ponovno izpiranje z vodo za injiciranje\n- Sušenje s filtiranim zrakom ali dušikom\n\n**3. Depirogenizacija:**\n- Segrevanje na visoke temperature (običajno 250-300°C)\n- Trajanje vsaj 30 minut pri najvišji temperaturi\n- Uničenje endotoksinov\n- Dokumentiranje temperaturnih profilov\n\n**4. Kontrola Čistosti:**\n- Vizualna inspekcija pod močno osvetlitvijo\n- Preskus na delce z merjenjem\n- Preskus na endotoksine\n- Mikrobiološka kontrola\n\n**STERILIZACIJA ZAMAŠKIH:**\n\nZamaški iz gume zahtevajo posebno obravnavo:\n• Pranje za odstranitev proizvodnih ostankov\n• Izpiranje z vodo za injiciranje\n• Sterilizacija z avtoklaviranjem (običajno 121°C, 15 minut)\n• Ali sterilizacija s paro v ciklusih\n• Skladiščenje v sterilnih posodah\n• Roki uporabe po sterilizaciji\n\n**OBVLADOVANJE TVEGANJ:**\n\n**Delci:**\n- Steklenice lahko sproščajo drobne delce stekla\n- Zamaški lahko sproščajo gumene delce\n- Vizualna inspekcija 100-odstotna za odkrivanje\n- Avtomatski sistemi za odkrivanje delcev\n\n**Endotoksini:**\n- Bakterijske endotoksine ni mogoče odstraniti s sterilizacijo\n- Potrebna je depirogenizacija pri visokih temperaturah\n- Preskušanje s testom LAL (Limulus Amebocyte Lysate)\n- Meje običajno <0,25 EU/ml za parenteralne izdelke\n\n**Združljivost Zamaška:**\n- Gumeni zamaški lahko sproščajo snovi v izdelek\n- Ekstraktabilne snovi morajo biti preverjene\n- Stabilnostne študije z dejanskim pakirnim sistemom\n- Izzivi pri občutljivih bioloških zdravilih\n\n**SLEDLJIVOST:**\n\nVsaka serija materialov mora imeti:\n• Enolično identifikacijsko številko serije\n• Dokumentacijo o dobavitelju\n• Certifikate o analizi\n• Zgodovino prevzemnih kontrol\n• Beleženje, v katerih serijah izdelka je bila uporabljena\n• Omogočanje popolne sledljivosti v primeru težav\n\n**PREVZEMNA KONTROLA:**\n\nPred uporabo vsake serije materialov:\n• Pregled certifikatov dobavitelja\n• Identifikacijska kontrola\n• Vizualna kontrola na poškodbe embalaže\n• Izvajanje lastnih preskusov (po oceni tveganja)\n• Mikrobiološka kontrola kritičnih materialov\n• Sprostitev z odobritvijo pristojne osebe",
+    "practicalChallenges": "**IZZIVI PRI NADZORU MATERIALOV:**\n\n1. **Zagotavljanje Zanesljivih Dobaviteljev**\n   - Ocena in izbira kvalificiranih dobaviteljev\n   - Redni avditi dobaviteljev\n   - Obvladovanje sprememb pri dobaviteljih\n   - Rezervni dobavitelji za kritične materiale\n   - Dolgoročni dogovori o kakovosti\n\n2. **Obvladovanje Velikega Števila Specifikacij**\n   - Vsak material ima podrobne specifikacije\n   - Posodabljanje ob spremembah\n   - Zagotavljanje dostopanosti dokumentacije\n   - Elektronski sistemi za obvladovanje\n\n3. **Skladiščenje Sterilnih Materialov**\n   - Zaščita pred kontaminacijo\n   - Nadzor temperature in vlažnosti\n   - Kontrola rokov uporabe\n   - Rotacija zalog (FEFO - First Expired First Out)\n   - Ločevanje sproščenih in nesproščenih materialov\n\n4. **Visoki Stroški Testiranja**\n   - Endotoksinski testi so dragi\n   - Mikrobiološke analize časovno zahtevne\n   - Potreba po optimizaciji testiranja\n   - Uporaba certifikatov dobaviteljev kjer je mogoče\n\n5. **Obvladovanje Odstopanj pri Materialih**\n   - Odkrivanje neskladnosti\n   - Ocena vpliva na izdelek\n   - Odločitve o uporabi ali zavrnitvi\n   - Komunikacija z dobavitelji\n   - Korektivni ukrepi\n\n6. **Prehod na Nove Materiale**\n   - Validacija novih virov\n   - Študije združljivosti\n   - Stabilnostne študije\n   - Pridobivanje regulatornih odobritev\n   - Postopno uvajanje",
+    "improvementIdeas": "**SODOBNE REŠITVE:**\n\n→ Blokovne verige za sledljivost materialov od proizvajalca do končnega izdelka\n→ Sistemi z umetno inteligenco za napovedovanje težav z materiali\n→ Hitre metode testiranja endotoksinov\n→ Avtomatizirani sistemi vizualne inspekcije z visoko ločljivostjo\n→ Elektronske platforme za izmenjavo certifikatov z dobavitelji\n→ RFID tehnologija za sledenje materialov v objektu\n→ Облачne baze podatkov o kvalifikaciji dobaviteljev\n→ Inteligentni sistemi skladiščenja z avtomatskim nadzorom pogojev\n→ Napredne metode analize združljivosti materialov\n→ Digitalni dvojčki pakirnih sistemov za predvidevanje vedenja",
+    "visualComponent": "Diagram",
+    "quizQuestions": [
+      {
+        "question": "Kaj je depirogenizacija in zakaj je potrebna?",
+        "options": [
+          "Čiščenje z detergentom",
+          "Segrevanje na visoke temperature (250-300°C) za uničenje endotoksinov",
+          "Hlajena z ledeno vodo",
+          "Poliranje površine"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Depirogenizacija je postopek segrevanja na zelo visoke temperature (običajno 250-300°C) za najmanj 30 minut. Ta postopek uniči bakterijske endotoksine, ki jih običajna sterilizacija ne more odstraniti. Endotoksini so pirogene snovi, ki lahko povzročijo nevarne reakcije pri pacientih."
+      },
+      {
+        "question": "Kateri material zahteva POSEBNO pozornost glede sproščanja ekstraktabilnih snovi?",
+        "options": [
+          "Steklene viale",
+          "Kartonske škatle",
+          "Gumeni zamaški",
+          "Papirne етikете"
+        ],
+        "correctAnswerIndex": 2,
+        "explanation": "Gumeni zamaški zahtevajo posebno pozornost, ker lahko sproščajo različne kemijske snovi v raztopino zdravila. Te ekstraktabilne snovi lahko vplivajo na stabilnost in varnost izdelka, zlasti pri občutljivih bioloških zdravilih. Zato so potrebne obsežne študije združljivosti."
+      },
+      {
+        "question": "Kakšna je OBIČAJNA meja endotoksinov za parenteralne izdelke?",
+        "options": [
+          "Manj kot 10 EU/ml",
+          "Manj kot 5 EU/ml",
+          "Manj kot 0,25 EU/ml",
+          "Manj kot 0,01 EU/ml"
+        ],
+        "correctAnswerIndex": 2,
+        "explanation": "Običajna meja endotoksinov za parenteralne (injicibilne) izdelke je manj kot 0,25 EU (endotoksinskih enot) na mililiter. To je izjemno nizka vrednost, ki zagotavlja varnost za paciente. Točna meja je odvisna od vrste izdelka in načina uporabe."
+      },
+      {
+        "question": "Kateri test se uporablja za odkrivanje bakterijskih endotoksinov?",
+        "options": [
+          "LAL test (Limulus Amebocyte Lysate)",
+          "PCR test",
+          "pH test",
+          "Turbidimetrični test"
+        ],
+        "correctAnswerIndex": 0,
+        "explanation": "LAL test (Limulus Amebocyte Lysate test) je standardna metoda za odkrivanje in kvantifikacijo bakterijskih endotoksinov. Temelji na reakciji lizata amebocitov podkove (morskega živali) z endotoksini, kar povzroči geliranje ali razvoj barve, odvisno od tipa testa."
+      },
+      {
+        "question": "Zakaj je popolna sledljivost materialov pomembna?",
+        "options": [
+          "Samo za računovodske namene",
+          "Za omogočanje umika izdelkov in raziskavo težav",
+          "Ni pomembna",
+          "Samo za statistične analize"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Popolna sledljivost materialov omogoča hitro identifikacijo vseh serij izdelkov, v katerih je bil uporabljen določeni material, če se pojavi težava. To je ključno za učinkovit umik izdelkov s trga in zaščito pacientov. Prav tako omogoča natančno raziskavo vzrokov težav."
+      }
+    ]
+  }
+]

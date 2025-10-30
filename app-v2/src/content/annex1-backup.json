@@ -1,0 +1,86 @@
+[
+  {
+    "id": 101,
+    "title": "Filtracija Zraka in Koncept Kaskade",
+    "slug": "filtracija-kaskada",
+    "annexReference": "GxP Annex 1, 4.3",
+    "developmentAndExplanation": "HEPA (High Efficiency Particulate Air) filtracija je nujna za doseganje klas A/B. Annex 1 zahteva jasno 'kaskado' zračnega tlaka, kjer se zrak vedno pretaka iz območij višje čistoče v območja nižje čistoče, da se prepreči kontaminacija.",
+    "practicalChallenges": "Izziv: Preverjanje integritete filtra (PAO test) na delovišču. To je kritična točka, kjer napaka v penetraciji takoj zniža klaso prostora.",
+    "improvementIdeas": "Uporaba neprekinjenega (Continuous) monitoringa diferenčnega tlaka in avtomatskega AI-sistema, ki predvideva napake filtra na podlagi povišanja Dp.",
+    "visualComponent": "3D-Airflow",
+    "quizQuestions": [
+      {
+        "question": "Kateri test je nujen za preverjanje integritete HEPA filtra?",
+        "options": ["PAO Test", "Recovery Test", "Test Nasičenja"],
+        "correctAnswerIndex": 0,
+        "explanation": "PAO (Poly-Alpha-Olefin) test je obvezen za potrditev, da filter nima mikrorazpok in ustreza zahtevani učinkovitosti (npr. 99.995%)."
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "title": "Določanje Klasifikacije Prostorov",
+    "slug": "dolo%C4%8Danje-klasifikacije-prostorov",
+    "annexReference": "GxP Annex 1, 4.1, 4.2",
+    "developmentAndExplanation": "Prostori se klasificirajo glede na število delcev (0.5µm in 5.0µm) pri dveh stanjih: 'At Rest' (v mirovanju) in 'In Operation' (v delovanju). Annex 1 postavlja strožje zahteve za 5.0µm delce v klasah A in B.",
+    "practicalChallenges": "Izziv: Omejitev delcev 5.0µm je težko dosegljiva. Meritev mora biti izvedena na določenih mestih in v določenem volumnu, kar zahteva natančen izračun časa vzorčenja.",
+    "improvementIdeas": "Vgrajena simulacija, ki na 3D modelu prikaže, kje so najverjetnejša 'mrtva območja' s slabim pretokom, kar pomaga določiti optimalne merilne točke.",
+    "visualComponent": "Simulation",
+    "quizQuestions": [
+      {
+        "question": "Kateri pogoj (stanje) postavlja najstrožje zahteve za število delcev 5.0µm v Klasah A/B?",
+        "options": ["At Rest (V mirovanju)", "In Operation (V delovanju)", "Oboje sta enako stroga"],
+        "correctAnswerIndex": 1,
+        "explanation": "V delovanju so zahteve strožje, saj vključujejo emisije operaterjev, ki so glavni viri kontaminacije."
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "title": "Tlačne Razlike in Kaskada Tlaka (10-15 Pa)",
+    "slug": "tlacne-razlike-kaskada",
+    "annexReference": "GxP Annex 1, 4.3",
+    "developmentAndExplanation": "Annex 1 zahteva minimalno tlačno razliko (diferenčni tlak) vsaj 10 Pa med prostori različnih klas, razen če gre za vrata (airlocks) ali drugače kritično območje, kjer se priporoča 15 Pa. Tlak mora biti vedno pozitivno kaskaden: iz čistih območij (npr. Klasa B) v manj čista (Klasa C). Ta razlika mora biti stalno nadzorovana.",
+    "practicalChallenges": "Izziv: Vzdrževanje stabilnega tlaka med pogostim odpiranjem vrat in aktivnostjo operaterjev. To zahteva dinamično (hitro odzivno) regulacijo zraka, ki kompenzira spremembe. Merilne točke (senzori) morajo biti izbrane tako, da merijo dejanski tlak, ki vpliva na kritično območje.",
+    "improvementIdeas": "Integracija AI v sistem Building Management System (BMS), ki predvideva obremenitve sistema (npr. odpiranje vrat) in proaktivno prilagaja damperje in hitrost ventilatorjev, da se tlak ohrani znotraj zahtevanih meja (Dynamic Pressure Control). To se lahko simulira z vizualizacijo v 3D.",
+    "visualComponent": "Simulation",
+    "quizQuestions": [
+      {
+        "question": "Katera je minimalna zahtevana tlačna razlika med dvema čistinma klasama po Annex 1?",
+        "options": ["vsaj 5 Pa", "vsaj 10 Pa", "vsaj 20 Pa"],
+        "correctAnswerIndex": 1,
+        "explanation": "Zahtevana minimalna tlačna razlika med sosednjimi prostori različnih klas je vsaj 10 Pa, kar služi kot fizična bariera proti kontaminaciji."
+      },
+      {
+        "question": "Kaj je glavni namen 'kaskade tlaka' v čisti sobi?",
+        "options": ["Povečanje pretoka zraka skozi filtre.", "Preprečevanje toka zraka iz manj čistih v čistejša območja.", "Zmanjšanje porabe energije."],
+        "correctAnswerIndex": 1,
+        "explanation": "Kaskada zagotavlja, da se zrak vedno premika od najčistejšega območja (najvišji tlak) proti manj čistim območjem (nižji tlak), s čimer se prepreči prenos delcev."
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Izmenjava Zraka na Uro (ACH) in Volumen Zraka",
+    "slug": "izmenjava-zraka-ACH",
+    "annexReference": "GxP Annex 1, 4.4",
+    "developmentAndExplanation": "Annex 1 zahteva, da se število izmenjav zraka (ACH) določi na podlagi študije tveganja, ki upošteva klaso prostora, število oseb, opremo in emisije delcev. Čeprav standard ne določa univerzalnega ACH (npr. '20x na uro'), je to splošna industrijska praksa. Pomembna je hitrost odstranjevanja kontaminacije (recovery rate), ki mora biti validirana. Formula: Volumen zraka (m³/h) = ACH × Volumen prostora (m³).",
+    "practicalChallenges": "Izziv: Dokazovanje hitrosti rekuperacije (Recovery Time). Ko se v prostor sprosti kontaminant, mora sistem potrditi, da je delce uspel znižati pod kritično mejo v validiranem časovnem okviru (običajno 15-20 minut). To zahteva natančen izračun vseh virov in ponorov (sinkov) zraka.",
+    "improvementIdeas": "Izdelava digitalnega orodja za izračun zahtevanega ACH na podlagi vnosa 'Recovery Time' (npr. z uporabo prve diferencialne enačbe za razpad koncentracije). Simulacija s Chart.js, ki prikaže krivuljo zmanjšanja delcev.",
+    "visualComponent": "Diagram",
+    "quizQuestions": [
+      {
+        "question": "Kateri je ključki validacijski test, ki dokazuje, da je število ACH ustrezno?",
+        "options": ["Test Tlačne Razlike.", "Test Rekuperacije (Recovery Test).", "Test integritete filtra (PAO)."],
+        "correctAnswerIndex": 1,
+        "explanation": "Recovery Test potrjuje, da je sistem sposoben v validiranem času po motnji vrniti prostor v zahtevano čisto klaso."
+      },
+      {
+        "question": "Kaj Annex 1 poudarja bolj kot fiksno ACH številko?",
+        "options": ["Uporabo samo H14 filtrov.", "Validiran 'Recovery Rate' na podlagi študije tveganja.", "Minimalni volumen zraka 500 m³/h."],
+        "correctAnswerIndex": 1,
+        "explanation": "Sodobni Annex 1 se osredotoča na 'Validiran Recovery Rate' (tj. kako hitro se kontaminacija odstrani), ne pa na fiksno ACH številko, čeprav je visoka ACH številka pogosto sredstvo za dosego hitre rekuperacije."
+      }
+    ]
+  }
+]
