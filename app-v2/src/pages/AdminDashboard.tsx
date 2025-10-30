@@ -27,6 +27,7 @@ export default function AdminDashboard() {
   const [attempts, setAttempts] = React.useState<any[]>([])
   const [requests, setRequests] = React.useState(listRequests())
   const [users, setUsers] = React.useState<any[]>([])
+  const [editUser, setEditUser] = React.useState<null | any>(null)
   const [lessons, setLessons] = React.useState<any[]>([])
   const [certs, setCerts] = React.useState(listCertificates())
   const [previewCert, setPreviewCert] = React.useState<null | { fullName: string; code: string }>(null)
@@ -494,6 +495,13 @@ export default function AdminDashboard() {
       {activeTab==='users' && (
         <div className="card">
           <h3>Registrirani uporabniki</h3>
+          <div style={{display:'flex', gap:8, margin:'8px 0 12px 0'}}>
+            <button className="button" onClick={()=>{
+              // Ustvari novega uporabnika (modal)
+              setEditUser({ id: '', username:'', email:'', role:'student', firstName:'', lastName:'', company:'', purpose:'', aiApiKey:'', unlockedLessons:[] })
+            }}>➕ Dodaj uporabnika</button>
+            <button className="button" onClick={()=> setUsers(JSON.parse(localStorage.getItem('hvac_registered_users')||'[]')) }>Osveži</button>
+          </div>
           <table>
             <thead><tr><th>Ime</th><th>Priimek</th><th>Uporabniško ime</th><th>Email</th><th>Vloga</th><th>AI API Ključ</th><th>Podjetje</th><th>Namen</th><th>Akcije</th></tr></thead>
             <tbody>
@@ -546,12 +554,115 @@ export default function AdminDashboard() {
                 </tr>
               ))}
             </tbody>
+                          <button className="button" onClick={()=> setEditUser(u)}>✏️ Uredi</button>
+                          <button className="button" onClick={()=>{
+                            if (!confirm(`Izbrišem uporabnika ${u.username}?`)) return
+                            const arr = JSON.parse(localStorage.getItem('hvac_registered_users')||'[]')
+                            const next = arr.filter((x:any)=> x.id !== u.id)
+                            localStorage.setItem('hvac_registered_users', JSON.stringify(next))
+                            setUsers(next)
+                            // počisti poskuse tega uporabnika
+                            try {
+                              const attempts = JSON.parse(localStorage.getItem('mock_attempts')||'[]')
+                              const rest = attempts.filter((a:any)=> (a.userId!==u.id) && (a.user!==u.username))
+                              localStorage.setItem('mock_attempts', JSON.stringify(rest))
+                            } catch {}
+                            // če brišemo prijavljenega, ga odjavimo
+                            if (currentUser?.id === u.id) {
+                              alert('Izbrisal si svoj račun. Seja bo prekinjena.')
+                              localStorage.removeItem('hvac_auth_token'); localStorage.removeItem('hvac_user'); window.location.href='/login'
+                            }
+                          }}>🗑️ Izbriši</button>
+                          <button className="button" onClick={()=>{
+                            if (!confirm(`Ponastavim račun ${u.username}? To bo odstranilo AI ključ, odklenjene lekcije in poskuse.`)) return
+                            const arr = JSON.parse(localStorage.getItem('hvac_registered_users')||'[]')
+                            const idx = arr.findIndex((x:any)=> x.id === u.id)
+                            if (idx>=0) {
+                              arr[idx] = { ...arr[idx], aiApiKey:'', unlockedLessons:[] }
+                              localStorage.setItem('hvac_registered_users', JSON.stringify(arr))
+                              setUsers(arr)
+                            }
+                            try {
+                              const attempts = JSON.parse(localStorage.getItem('mock_attempts')||'[]')
+                              const rest = attempts.filter((a:any)=> (a.userId!==u.id) && (a.user!==u.username))
+                              localStorage.setItem('mock_attempts', JSON.stringify(rest))
+                            } catch {}
+                            alert('Račun ponastavljen.')
+                          }}>🔄 Ponastavi račun</button>
           </table>
           {drillUser && (
             <div style={{position:'fixed', inset:0, background:'rgba(0,0,0,0.7)', zIndex:1300, display:'flex', alignItems:'center', justifyContent:'center'}} onClick={()=>setDrillUser(null)}>
               <div onClick={(e)=>e.stopPropagation()} style={{background:'#0b1220', border:'1px solid rgba(124,58,237,0.4)', borderRadius:12, width:'min(900px, 95vw)', maxHeight:'90vh', overflow:'auto'}}>
                 <div style={{display:'flex', alignItems:'center', justifyContent:'space-between', padding:'16px 20px', borderBottom:'1px solid rgba(124,58,237,0.3)'}}>
                   <div>
+
+              {editUser && (
+                <div style={{position:'fixed', inset:0, background:'rgba(0,0,0,0.7)', zIndex:1400, display:'flex', alignItems:'center', justifyContent:'center'}} onClick={()=>setEditUser(null)}>
+                  <div onClick={(e)=>e.stopPropagation()} style={{background:'#0b1220', border:'1px solid rgba(124,58,237,0.4)', borderRadius:12, width:'min(700px, 95vw)'}}>
+                    <div style={{display:'flex', alignItems:'center', justifyContent:'space-between', padding:'14px 18px', borderBottom:'1px solid rgba(124,58,237,0.3)'}}>
+                      <div style={{fontWeight:700}}>Uredi uporabnika</div>
+                      <button className="button" onClick={()=>setEditUser(null)}>Zapri</button>
+                    </div>
+                    <div style={{padding:16, display:'grid', gap:10}}>
+                      <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:10}}>
+                        <label style={{display:'grid', gap:6}}>
+                          <span>Ime</span>
+                          <input value={editUser.firstName||''} onChange={(e)=> setEditUser({...editUser, firstName: e.target.value})} />
+                        </label>
+                        <label style={{display:'grid', gap:6}}>
+                          <span>Priimek</span>
+                          <input value={editUser.lastName||''} onChange={(e)=> setEditUser({...editUser, lastName: e.target.value})} />
+                        </label>
+                        <label style={{display:'grid', gap:6}}>
+                          <span>Uporabniško ime</span>
+                          <input value={editUser.username||''} onChange={(e)=> setEditUser({...editUser, username: e.target.value})} />
+                        </label>
+                        <label style={{display:'grid', gap:6}}>
+                          <span>Email</span>
+                          <input value={editUser.email||''} onChange={(e)=> setEditUser({...editUser, email: e.target.value})} />
+                        </label>
+                        <label style={{display:'grid', gap:6}}>
+                          <span>Podjetje</span>
+                          <input value={editUser.company||''} onChange={(e)=> setEditUser({...editUser, company: e.target.value})} />
+                        </label>
+                        <label style={{display:'grid', gap:6}}>
+                          <span>Namen</span>
+                          <input value={editUser.purpose||''} onChange={(e)=> setEditUser({...editUser, purpose: e.target.value})} />
+                        </label>
+                        <label style={{display:'grid', gap:6}}>
+                          <span>Vloga</span>
+                          <select value={editUser.role||'student'} onChange={(e)=> setEditUser({...editUser, role: e.target.value})}>
+                            <option value="student">student</option>
+                            <option value="admin">admin</option>
+                          </select>
+                        </label>
+                      </div>
+                      <div style={{display:'flex', gap:8, justifyContent:'flex-end', marginTop:6}}>
+                        <button className="button" onClick={()=>{
+                          // Shrani spremembe
+                          const arr = JSON.parse(localStorage.getItem('hvac_registered_users')||'[]')
+                          // Dodaj novega ali posodobi obstoječega
+                          if (!editUser.id) {
+                            editUser.id = Math.random().toString(36).substr(2,9)
+                            arr.push(editUser)
+                          } else {
+                            const idx = arr.findIndex((x:any)=> x.id === editUser.id)
+                            if (idx>=0) arr[idx] = { ...arr[idx], ...editUser }
+                          }
+                          localStorage.setItem('hvac_registered_users', JSON.stringify(arr))
+                          setUsers(arr)
+                          // če urejamo trenutnega uporabnika, osveži sejo
+                          if (currentUser?.id === editUser.id) {
+                            localStorage.setItem('hvac_user', JSON.stringify(editUser))
+                          }
+                          setEditUser(null)
+                        }}>💾 Shrani</button>
+                        <button className="button" onClick={()=> setEditUser(null)}>Prekliči</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
                     <div style={{fontSize:18, fontWeight:700}}>
                       {`${drillUser.firstName||''} ${drillUser.lastName||''}`.trim() || drillUser.username}
                     </div>
