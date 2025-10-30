@@ -1,0 +1,13 @@
+{
+  "collectionName": "quiz_attempts",
+  "info": { "singularName": "quiz-attempt", "pluralName": "quiz-attempts", "displayName": "QuizAttempt" },
+  "options": { "draftAndPublish": false },
+  "attributes": {
+    "user": { "type": "string" },
+    "lesson": { "type": "relation", "relation": "oneToOne", "target": "api::lesson.lesson" },
+    "answers": { "type": "json" },
+    "score": { "type": "integer" },
+    "startedAt": { "type": "datetime" },
+    "finishedAt": { "type": "datetime" }
+  }
+}

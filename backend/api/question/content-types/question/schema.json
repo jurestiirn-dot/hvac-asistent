@@ -1,0 +1,11 @@
+{
+  "collectionName": "questions",
+  "info": { "singularName": "question", "pluralName": "questions", "displayName": "Question" },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "questionText": { "type": "richtext" },
+    "options": { "type": "json" },
+    "correctIndex": { "type": "integer" },
+    "explanation": { "type": "text" }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "lessons",
+  "info": {
+    "singularName": "lesson",
+    "pluralName": "lessons",
+    "displayName": "Lesson",
+    "description": "Lesson content for Annex1"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": { "type": "string" },
+    "slug": { "type": "uid", "targetField": "title" },
+    "summary": { "type": "text" },
+    "content": { "type": "richtext" },
+    "annexReference": { "type": "string" },
+    "visualComponent": { "type": "enumeration", "enum": ["None","3D-Airflow","Diagram","Simulation"] },
+    "quiz": { "type": "relation", "relation": "oneToOne", "target": "api::quiz.quiz" }
+  }
+}

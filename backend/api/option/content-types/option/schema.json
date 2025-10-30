@@ -1,0 +1,8 @@
+{
+  "collectionName": "options",
+  "info": { "singularName": "option", "pluralName": "options", "displayName": "Option" },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "text": { "type": "string" }
+  }
+}

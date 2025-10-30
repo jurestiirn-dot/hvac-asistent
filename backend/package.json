@@ -1,0 +1,50 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "type": "module",
+  "scripts": {
+    "build": "strapi build",
+    "console": "strapi console",
+    "deploy": "strapi deploy",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry",
+    "proxy": "node proxy.js"
+  },
+  "dependencies": {
+    "@azure/cosmos": "^4.1.1",
+    "@google/generative-ai": "^0.24.1",
+    "@strapi/plugin-cloud": "5.29.0",
+    "@strapi/plugin-users-permissions": "5.29.0",
+    "@strapi/strapi": "5.29.0",
+    "axios": "^1.6.2",
+    "better-sqlite3": "11.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=22.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "6e403b35-8f54-44db-976a-89750080526d",
+    "installId": "58af63c39c58066f491707b459944c32d859ffce1d3f3faeeb42cb84c39154ec"
+  }
+}

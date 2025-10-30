@@ -1,0 +1,10 @@
+{
+  "collectionName": "quizzes",
+  "info": { "singularName": "quiz", "pluralName": "quizzes", "displayName": "Quiz" },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "title": { "type": "string" },
+    "lesson": { "type": "relation", "relation": "oneToOne", "target": "api::lesson.lesson" },
+    "questions": { "type": "relation", "relation": "oneToMany", "target": "api::question.question" }
+  }
+}
