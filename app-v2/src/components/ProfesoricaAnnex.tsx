@@ -2,8 +2,15 @@ import React from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import ProfessoricaAvatar from './Avatar/ProfessoricaAvatar'
 import { chatCompletion, isChatAvailable, setChatApiKey, type ChatMessage } from '../services/chat'
+import { useAuth } from '../context/AuthContext'
+
 
 export default function ProfesoricaAnnex(){
+  const { isAuthenticated } = useAuth()
+  
+  // Ne prikaži komponente, če uporabnik ni prijavljen
+  if (!isAuthenticated) return null
+
   const [open, setOpen] = React.useState(false)
   const [fullScreen, setFullScreen] = React.useState(false)
   const [chatAvailable, setChatAvailable] = React.useState(false)

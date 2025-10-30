@@ -11,6 +11,8 @@ import * as GmpCalc from '../services/gmpCalculator'
 import ProfessorAvatar from './Avatar/ProfessorAvatar'
 import { askGlobalKnowledge, askVectorKnowledge } from '../services/knowledge'
 import { chatCompletion, isChatAvailable, setChatApiKey, type ChatMessage } from '../services/chat'
+import { useAuth } from '../context/AuthContext'
+
 
 // Tools Panel Component
 function ToolsPanel({ toolTab, setToolTab, fullScreen }: { toolTab: 'templates'|'calculator', setToolTab: (t: 'templates'|'calculator') => void, fullScreen?: boolean }) {
@@ -939,6 +941,11 @@ function search(rows: { text: string }[], query: string) {
 
 
 export default function ProfessorAnnex() {
+  const { isAuthenticated } = useAuth()
+  
+  // Ne prikaži komponente, če uporabnik ni prijavljen
+  if (!isAuthenticated) return null
+
   const [open, setOpen] = React.useState(false)
   const [query, setQuery] = React.useState('')
   const [rows, setRows] = React.useState<Row[]>([])

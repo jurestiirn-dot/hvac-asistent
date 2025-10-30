@@ -90,7 +90,10 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         throw new Error('Uporabniško ime je že zasedeno.')
       }
 
-      const isFirstUser = users.length === 0
+      // Check if ANY user exists (including demo users) - only truly first user is admin
+      const allUsersJson = localStorage.getItem('hvac_users')
+      const allUsers = allUsersJson ? JSON.parse(allUsersJson) : []
+      const isFirstUser = users.length === 0 && allUsers.length === 0
 
       const newUser: User = {
         id: Math.random().toString(36).substr(2, 9),
